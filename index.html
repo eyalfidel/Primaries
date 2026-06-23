@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>פריימריז הדמוקרטים - גרסה 2.1</title>
+    <title>פריימריז הדמוקרטים - גרסה 3.0</title>
     <style>
         :root {
             --primary: #0033a0;
@@ -18,11 +18,9 @@
         /* Header */
         header { background: var(--primary); color: white; text-align: center; padding: 15px; position: relative; box-shadow: 0 2px 4px rgba(0,0,0,0.1); z-index: 10; }
         .header-title { font-weight: bold; font-size: 1.2rem; }
-        .progress { font-size: 0.9rem; margin-top: 5px; font-weight: normal; }
-        .progress.valid { color: #a8e6cf; font-weight: bold; }
         .btn-info { position: absolute; left: 15px; top: 15px; background: none; border: none; font-size: 1.5rem; color: white; cursor: pointer; }
 
-        main { flex: 1; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow-y: auto; padding-bottom: 70px; }
+        main { flex: 1; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; overflow-y: auto; padding-bottom: 70px; }
         
         /* Modals */
         .modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); z-index: 1000; display: none; justify-content: center; align-items: center; padding: 20px; }
@@ -37,14 +35,16 @@
         /* Card Design */
         .card { position: absolute; width: 100%; height: 100%; background: var(--card-bg); border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); display: flex; flex-direction: column; overflow: hidden; transition: transform 0.3s ease-out; cursor: grab; user-select: none; }
         .card.dragging { transition: none; cursor: grabbing; }
-        .card-img-wrapper { height: 55%; background: #e9ecef; display: flex; justify-content: center; align-items: center; overflow: hidden; }
+        .card-img-wrapper { height: 50%; background: #e9ecef; display: flex; justify-content: center; align-items: center; overflow: hidden; }
         .card-img-wrapper img { width: 100%; height: 100%; object-fit: cover; pointer-events: none; }
         .fallback-img { width: 100%; height: 100%; background: linear-gradient(135deg, #0033a0 0%, #0056b3 100%); color: white; display: flex; justify-content: center; align-items: center; font-size: 4rem; font-weight: bold; }
-        .card-content { padding: 15px; text-align: center; display: flex; flex-direction: column; height: 45%; }
+        .card-content { padding: 15px; text-align: center; display: flex; flex-direction: column; height: 50%; justify-content: space-between; }
+        .card-info-top { display: flex; flex-direction: column; align-items: center; }
         .card-name { font-size: 1.4rem; font-weight: bold; margin-bottom: 8px; color: #333; }
         .card-tags { display: flex; gap: 5px; flex-wrap: wrap; justify-content: center; margin-bottom: 10px; }
         .tag { background: #f1f3f5; border: 1px solid #dee2e6; color: #495057; padding: 3px 8px; border-radius: 20px; font-size: 0.75rem; }
-        .card-bio { font-size: 0.9rem; color: #555; line-height: 1.3; overflow-y: auto; }
+        .card-bio { font-size: 0.9rem; color: #555; line-height: 1.3; overflow-y: auto; margin-bottom: 10px;}
+        .btn-expand { background: #e9ecef; color: #333; border: none; padding: 6px 15px; border-radius: 20px; font-size: 0.85rem; cursor: pointer; align-self: center; }
 
         /* Buttons (Fixed RTL Order) */
         .action-buttons { display: flex; justify-content: center; gap: 20px; margin-top: 20px; width: 100%; direction: rtl; }
@@ -54,21 +54,27 @@
         .btn-unknown { background: var(--unknown); color: #333; }
         .btn-support { background: var(--support); }
 
+        /* Status Banner for Selection */
+        .selection-status { width: 100%; padding: 15px; text-align: center; font-weight: bold; color: white; background: var(--oppose); transition: background 0.3s; position: sticky; top: 0; z-index: 5; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .selection-status.valid { background: var(--support); }
+
         /* Lists Area */
-        .tab-content { display: none; width: 100%; max-width: 600px; padding: 20px; box-sizing: border-box; }
-        .list-section { background: white; border-radius: 10px; padding: 15px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
-        .list-section h3 { margin-top: 0; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        .tab-content { display: none; width: 100%; max-width: 600px; box-sizing: border-box; }
+        .list-section { background: white; padding: 15px; }
         .list-item { display: flex; flex-direction: column; padding: 12px 0; border-bottom: 1px solid #eee; }
-        .list-item:last-child { border-bottom: none; }
         .list-item-header { display: flex; justify-content: space-between; align-items: center; font-weight: bold; font-size: 1.1rem;}
-        .list-item-bio { font-size: 0.85rem; color: #666; margin-top: 5px; display: none; }
-        .list-item-actions { margin-top: 10px; display: flex; gap: 10px; }
+        .list-item-actions { margin-top: 10px; display: flex; gap: 10px; align-items: center; }
         .btn-small { background: #eee; border: none; padding: 6px 12px; border-radius: 5px; cursor: pointer; font-size: 0.8rem; }
-        .btn-add { background: var(--support); color: white; }
-        .btn-remove { background: var(--oppose); color: white; }
+        .btn-add { background: var(--primary); color: white; }
+        .btn-remove { background: #ffeeba; color: #856404; }
+        
+        /* Checkbox switch for Selection */
+        .select-toggle { display: flex; align-items: center; gap: 8px; cursor: pointer; font-size: 0.9rem; background: #e9ecef; padding: 6px 12px; border-radius: 5px; user-select: none; transition: 0.2s;}
+        .select-toggle.selected { background: var(--support); color: white; }
+        .select-toggle input { display: none; }
 
         /* Bottom Nav (3 Tabs) */
-        nav { position: fixed; bottom: 0; width: 100%; background: white; display: flex; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); direction: rtl; }
+        nav { position: fixed; bottom: 0; width: 100%; background: white; display: flex; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); direction: rtl; z-index: 20;}
         .nav-btn { flex: 1; padding: 15px 0; background: none; border: none; border-top: 3px solid transparent; font-size: 0.95rem; font-weight: bold; cursor: pointer; color: #777; transition: 0.2s; }
         .nav-btn.active { color: var(--primary); border-top-color: var(--primary); background: #f8f9fa; }
         
@@ -81,14 +87,15 @@
 <header>
     <button class="btn-info" onclick="openModal('info-modal')">ℹ️</button>
     <div class="header-title">פריימריז הדמוקרטים</div>
-    <div id="progress-text" class="progress">נבחרו: 0 (דרושים 6-8)</div>
 </header>
 
 <main>
-    <div id="tab-content-swipe" class="tab-content" style="display: flex;">
+    <!-- Tab 2: Swipe (Center/Default) -->
+    <div id="tab-content-swipe" class="tab-content" style="display: flex; padding: 20px;">
         <div id="swipe-section">
             <div id="swipe-container">
-                </div>
+                <!-- Cards injected here -->
+            </div>
             <div class="action-buttons" id="action-buttons">
                 <button class="btn-action btn-support" onclick="handleChoice('supported')">👍</button>
                 <button class="btn-action btn-unknown" onclick="handleChoice('unknown')">🤔</button>
@@ -101,18 +108,22 @@
         </div>
     </div>
 
+    <!-- Tab 1: Supported (Right) - WITH SELECTION MECHANISM -->
     <div id="tab-content-supported" class="tab-content">
+        <div id="selection-banner" class="selection-status">
+            בחירות סופיות: 0 מתוך 8 (דרושים 6-8)
+        </div>
         <div class="list-section">
-            <h3 style="color: var(--support)">הנבחרת שלי</h3>
-            <p style="font-size: 0.9rem; color: #666;">כדי שההצבעה תהיה חוקית, עליך לבחור בין 6 ל-8 מועמדים בטופס.</p>
+            <p style="font-size: 0.9rem; color: #666; margin-top:0;">כאן נמצאים כל מי שהחלקת ימינה (תומך). סמן אקטיבית את 6-8 המועמדים שייכנסו לטופס ההצבעה הסופי שלך.</p>
             <div id="list-supported-container"></div>
         </div>
     </div>
 
+    <!-- Tab 3: Others (Left) -->
     <div id="tab-content-others" class="tab-content">
         <div class="list-section">
-            <h3 style="color: var(--primary)">שאר המתמודדים</h3>
-            <p style="font-size: 0.9rem; color: #666;">מועמדים שלא הכרת או שהתנגדת אליהם. תוכל לקרוא עליהם ולהעביר אותם לנבחרת.</p>
+            <h3 style="color: var(--primary); margin-top:0;">שאר המתמודדים</h3>
+            <p style="font-size: 0.9rem; color: #666;">מועמדים שלא הכרת או שהתנגדת אליהם. תוכל לקרוא עליהם ולהעביר אותם לנבחרת המועדפים.</p>
             <div id="list-others-container"></div>
         </div>
     </div>
@@ -124,36 +135,38 @@
     <button class="nav-btn" onclick="switchTab('others')" id="nav-others">שאר המתמודדים</button>
 </nav>
 
-<div class="modal-overlay" id="info-modal">
+<!-- Bio Expansion Modal -->
+<div class="modal-overlay" id="bio-modal">
     <div class="modal">
-        <h2>מורה נבוכים</h2>
-        <p><strong>ריצ'רץ':</strong> הבטחת ייצוג מגדרי. הרשימה הסופית תיבנה בשיטת "זכר-נקבה" לסירוגין, כך שבכל עשירייה יהיו 5 נשים ו-5 גברים.</p>
-        <p><strong>שריוני מרצ:</strong> נציגי מרצ מקבלים הבטחת ייצוג. אם לא ייבחרו טבעית, הם יוקפצו למקומות משוריינים (1 בשישייה, 2 בשמינייה, וכו').</p>
-        <p><strong>מרחב כפרי ומיעוטים:</strong> קיימת הבטחת ייצוג לקיבוצים/מושבים ולחברה הערבית/דרוזית באזורים הריאליים ברשימה.</p>
-        <p><strong>תאריכים:</strong> התפקדות עד 12.7, הצבעה ב-20.7.</p>
-        
-        <hr style="border: 0; border-top: 1px solid #dee2e6; margin: 15px 0;">
-        
-        <h3 style="font-size: 1rem; margin-bottom: 5px; color: #495057;">הבהרה וקרדיטים</h3>
-        <p style="font-size: 0.85rem; color: #666; line-height: 1.4; margin-top: 0;">
-            פרויקט זה הינו פרויקט אזרחי, התנדבותי לחלוטין וללא שום מטרה מסחרית. <br>
-            האתר <strong>אינו קשור</strong> למפלגת "הדמוקרטים", למטה הבחירות הרשמי או לאיש מהמתמודדים בפריימריז.<br>
-            חלק גדול מהפרטים והתמונות בפרויקט נאספו ונעזרו בנתונים המוצגים באתר <a href="https://hagush.org.il" target="_blank" style="color: var(--primary); font-weight: bold; text-decoration: none;">HAGUSH</a>.
-        </p>
-        
-        <button class="btn-close-modal" onclick="closeModal('info-modal')">הבנתי, סגור</button>
+        <h2 id="bio-modal-name">שם המתמודד</h2>
+        <p id="bio-modal-text" style="font-size: 0.95rem; line-height: 1.5; color: #444; white-space: pre-line;"></p>
+        <button class="btn-close-modal" onclick="closeModal('bio-modal')">סגור</button>
     </div>
 </div>
 
+<!-- Info Modal -->
+<div class="modal-overlay" id="info-modal">
+    <div class="modal">
+        <h2>מורה נבוכים</h2>
+        <p><strong>ריצ'רץ':</strong> הבטחת ייצוג מגדרי. הרשימה הסופית תיבנה בשיטת "זכר-נקבה" לסירוגין.</p>
+        <p><strong>שריוני מרצ:</strong> נציגי מרצ מקבלים הבטחת ייצוג באזורים ריאליים.</p>
+        <p><strong>מרחב כפרי ומיעוטים:</strong> קיימת הבטחת ייצוג לקיבוצים/מושבים ולחברה הערבית/דרוזית.</p>
+        <hr style="border: 0; border-top: 1px solid #dee2e6; margin: 15px 0;">
+        <p style="font-size: 0.85rem; color: #666; line-height: 1.4; margin-top: 0;">פרויקט זה הינו התנדבותי ואינו קשור למפלגה או למי מהמתמודדים. המידע והתמונות באדיבות אתר HAGUSH.</p>
+        <button class="btn-close-modal" onclick="closeModal('info-modal')">הבנתי</button>
+    </div>
+</div>
+
+<!-- Onboarding Modal -->
 <div class="modal-overlay" id="onboarding-modal">
     <div class="modal" style="text-align: center;">
         <h2>ברוכים הבאים! 👋</h2>
         <p>כאן מרכיבים את נבחרת "הדמוקרטים".</p>
         <ul style="text-align: right; line-height: 1.6;">
-            <li>החלק <strong>ימינה</strong> (👍) למועמד שאתה תומך בו.</li>
-            <li>החלק <strong>שמאלה</strong> (👎) אם אתה מתנגד.</li>
-            <li>החלק <strong>למעלה</strong> (🤔) אם אתה לא מכיר או מתלבט.</li>
-            <li>חובה לבחור <strong>בין 6 ל-8</strong> מועמדים כדי להשפיע.</li>
+            <li>החלק <strong>ימינה</strong> (👍) כדי לשמור מועמד במועדפים.</li>
+            <li>החלק <strong>שמאלה</strong> (👎) למתנגד.</li>
+            <li>החלק <strong>למעלה</strong> (🤔) אם לא מכיר.</li>
+            <li>בסוף, תבחר <strong>6 עד 8</strong> מועמדים מתוך הרשימה הסופית שלך.</li>
         </ul>
         <button class="btn-close-modal" onclick="closeOnboarding()">יאללה, נתחיל!</button>
     </div>
@@ -161,69 +174,94 @@
 
 <script>
     let candidatesData = [];
-    let state = { remaining: [], supported: [], opposed: [], unknown: [] };
+    let state = { remaining: [], supported: [], opposed: [], unknown: [], finalSelection: [] };
     let currentCardElem = null;
 
     async function init() {
         try {
             const response = await fetch('data.json');
             const data = await response.json();
-            candidatesData = data.candidates.filter(c => c.id !== 'yair_golan');
+            candidatesData = data.candidates;
             
             loadState();
             
-            if (!localStorage.getItem('democrats_onboarding_seen')) {
+            if (!localStorage.getItem('democrats_onboarding_v3')) {
                 document.getElementById('onboarding-modal').style.display = 'flex';
             }
             
             renderNextCard();
-            updateProgress();
+            updateSelectionStatus();
             renderLists();
         } catch (error) {
-            document.getElementById('swipe-container').innerHTML = "<p class='text-center'>שגיאה בטעינת data.json.</p>";
+            document.getElementById('swipe-container').innerHTML = "<p class='text-center'>שגיאה בטעינת הנתונים.</p>";
         }
     }
 
     function loadState() {
-        const saved = localStorage.getItem('democrats_primary_v2');
+        const saved = localStorage.getItem('democrats_primary_v3');
         if (saved) {
             state = JSON.parse(saved);
+            if (!state.finalSelection) state.finalSelection = [];
             const allSavedIds = [...state.remaining, ...state.supported, ...state.opposed, ...state.unknown];
             candidatesData.forEach(c => {
                 if (!allSavedIds.includes(c.id)) state.remaining.push(c.id);
             });
         } else {
             state.remaining = candidatesData.map(c => c.id).sort(() => Math.random() - 0.5);
+            state.finalSelection = [];
         }
     }
 
     function saveState() {
-        localStorage.setItem('democrats_primary_v2', JSON.stringify(state));
-        updateProgress();
+        localStorage.setItem('democrats_primary_v3', JSON.stringify(state));
+        updateSelectionStatus();
         renderLists();
     }
 
     function closeOnboarding() {
-        localStorage.setItem('democrats_onboarding_seen', 'true');
+        localStorage.setItem('democrats_onboarding_v3', 'true');
         closeModal('onboarding-modal');
     }
 
     function openModal(id) { document.getElementById(id).style.display = 'flex'; }
     function closeModal(id) { document.getElementById(id).style.display = 'none'; }
 
-    function updateProgress() {
-        const count = state.supported.length;
-        const textElem = document.getElementById('progress-text');
-        textElem.innerText = `נבחרו: ${count} (דרושים 6-8)`;
-        textElem.className = (count >= 6 && count <= 8) ? 'progress valid' : 'progress';
+    function openBioModal(id) {
+        const c = getCandidateById(id);
+        if(!c) return;
+        document.getElementById('bio-modal-name').innerText = c.name;
+        document.getElementById('bio-modal-text').innerText = c.longBio || c.bio;
+        openModal('bio-modal');
     }
 
     function getCandidateById(id) { return candidatesData.find(c => c.id === id); }
-
     function getFallbackInitials(name) {
         const parts = name.split(' ');
         if(parts.length > 1) return parts[0][0] + parts[1][0];
         return name.substring(0, 2);
+    }
+
+    // Toggle final selection checkbox
+    function toggleSelection(id) {
+        const index = state.finalSelection.indexOf(id);
+        if (index > -1) {
+            state.finalSelection.splice(index, 1);
+        } else {
+            state.finalSelection.push(id);
+        }
+        saveState();
+    }
+
+    // Update Banner color and text
+    function updateSelectionStatus() {
+        const count = state.finalSelection.length;
+        const banner = document.getElementById('selection-banner');
+        banner.innerText = `בחירות סופיות: ${count} מתוך 8 (דרושים 6-8)`;
+        if (count >= 6 && count <= 8) {
+            banner.classList.add('valid');
+        } else {
+            banner.classList.remove('valid');
+        }
     }
 
     function renderNextCard() {
@@ -250,9 +288,12 @@
         card.innerHTML = `
             <div class="card-img-wrapper">${imageHTML}</div>
             <div class="card-content">
-                <div class="card-name">${candidate.name}</div>
-                <div class="card-tags">${candidate.tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>
-                <div class="card-bio">${candidate.bio}</div>
+                <div class="card-info-top">
+                    <div class="card-name">${candidate.name}</div>
+                    <div class="card-tags">${candidate.tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>
+                    <div class="card-bio">${candidate.bio}</div>
+                </div>
+                <button class="btn-expand" onclick="openBioModal('${candidate.id}')">להרחבה 📖</button>
             </div>
         `;
 
@@ -301,38 +342,48 @@
         }
 
         saveState();
-        setTimeout(renderNextCard, 300);
+        setTimeout(renderNextCard, 250);
     }
 
     function moveToList(id, fromList, toList) {
         state[fromList] = state[fromList].filter(c => c !== id);
         state[toList].push(id);
+        // If moving OUT of supported, also remove from final selection
+        if(fromList === 'supported') {
+            state.finalSelection = state.finalSelection.filter(c => c !== id);
+        }
         saveState();
     }
 
-    function toggleBio(id) {
-        const bio = document.getElementById(`bio-${id}`);
-        bio.style.display = bio.style.display === 'block' ? 'none' : 'block';
-    }
-
     function renderLists() {
+        // Render Supported (with active checkboxes)
         const contSupp = document.getElementById('list-supported-container');
         contSupp.innerHTML = '';
-        if(state.supported.length === 0) contSupp.innerHTML = '<p class="text-center">עדיין לא בחרת מועמדים.</p>';
+        if(state.supported.length === 0) contSupp.innerHTML = '<p class="text-center">עדיין לא בחרת מועמדים למועדפים.</p>';
+        
         state.supported.forEach(id => {
             const c = getCandidateById(id);
             if(!c) return;
+            const isSelected = state.finalSelection.includes(id);
+            const toggleClass = isSelected ? 'select-toggle selected' : 'select-toggle';
+            const toggleText = isSelected ? '✓ נבחר' : '+ בחר';
+            
             contSupp.innerHTML += `
                 <div class="list-item">
                     <div class="list-item-header">
-                        <span>${c.name}</span>
+                        <span style="font-weight: ${isSelected ? 'bold' : 'normal'};">${c.name}</span>
                         <div class="list-item-actions" style="margin-top:0;">
-                            <button class="btn-small btn-remove" onclick="moveToList('${id}', 'supported', 'opposed')">הסר</button>
+                            <label class="${toggleClass}">
+                                <input type="checkbox" onchange="toggleSelection('${id}')" ${isSelected ? 'checked' : ''}>
+                                ${toggleText}
+                            </label>
+                            <button class="btn-small btn-remove" onclick="moveToList('${id}', 'supported', 'opposed')">להסיר</button>
                         </div>
                     </div>
                 </div>`;
         });
 
+        // Render Others
         const contOthers = document.getElementById('list-others-container');
         contOthers.innerHTML = '';
         const others = [...state.unknown, ...state.opposed];
@@ -346,12 +397,9 @@
                     <div class="list-item-header">
                         <span>${c.name}</span>
                         <div class="list-item-actions" style="margin-top:0;">
-                            <button class="btn-small" onclick="toggleBio('${id}')">מידע</button>
-                            <button class="btn-small btn-add" onclick="moveToList('${id}', '${fromList}', 'supported')">+ הוסף לנבחרת</button>
+                            <button class="btn-small" onclick="openBioModal('${id}')">מידע</button>
+                            <button class="btn-small btn-add" onclick="moveToList('${id}', '${fromList}', 'supported')">למועדפים</button>
                         </div>
-                    </div>
-                    <div class="list-item-bio" id="bio-${id}">
-                        ${c.bio}<br><span style="color:#999; font-size:0.8rem;">(כרגע מוגדר כ: ${fromList === 'unknown' ? 'לא מכיר' : 'מתנגד'})</span>
                     </div>
                 </div>`;
         });
