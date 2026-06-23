@@ -1,52 +1,313 @@
 {
   "candidates": [
-    { "id": "naama_lazimi", "name": "נעמה לזימי", "tags": ["אישה"], "bio": "חברת כנסת מכהנת, יו\"ר ועדת הצעירים, חברת ועדות הכספים והחינוך. מובילה מאבקים חברתיים, עובדים וכלכליים.", "image": "images/naama_l-03.webp", "links": {} },
-    { "id": "gilad_kariv", "name": "גלעד קריב", "tags": ["גבר"], "bio": "חבר כנסת מכהן, יו״ר ועדת העלייה, הקליטה והתפוצות. רב ועורך דין, לשעבר מנכ״ל התנועה הרפורמית.", "image": "images/Gilad_K_03.webp", "links": {} },
-    { "id": "efrat_rayten", "name": "אפרת רייטן", "tags": ["אישה"], "bio": "חברת כנסת מכהנת, יו\"ר סיעת הדמוקרטים בכנסת. עורכת דין ואשת תקשורת לשעבר.", "image": "images/Efrat_r_03.webp", "links": {} },
-    { "id": "mossi_raz", "name": "מוסי רז", "tags": ["מרצ", "גבר"], "bio": "חבר כנסת לשעבר מטעם מרצ, רואה חשבון ופעיל בולט למען שלום, זכויות אדם, סביבה ואקלים.", "image": "images/mossir-03.webp", "links": {} },
-    { "id": "gaby_lasky", "name": "גבי לסקי", "tags": ["מרצ", "אישה"], "bio": "חברת כנסת לשעבר מטעם מרצ, עורכת דין מומחית לזכויות אדם ולשעבר מזכ\"לית שלום עכשיו.", "image": "images/Gaby_l_03.webp", "links": {} },
-    { "id": "michal_rozin", "name": "מיכל רוזין", "tags": ["מרצ", "אישה"], "bio": "חברת כנסת לשעבר ויו\"ר סיעת מרצ, כיהנה בעבר כמנכ\"לית שדולת הנשים בישראל.", "image": "images/Michal_r_03.webp", "links": {} },
-    { "id": "emily_moatti", "name": "אמילי מואטי", "tags": ["אישה"], "bio": "חברת כנסת לשעבר מטעם מפלגת העבודה, סופרת, אנליסטית ואשת תקשורת.", "image": "images/Emily_M_03.webp", "links": {} },
-    { "id": "moshe_radman", "name": "משה רדמן אבוטבול", "tags": ["גבר"], "bio": "יזם הייטק, פעיל מרכזי, אסטרטג וממובילי תנועות המחאה האזרחית בשנים האחרונות.", "image": "images/Moshe_r_03.webp", "links": {} },
-    { "id": "moran_zer", "name": "מורן זר קצנשטיין", "tags": ["אישה"], "bio": "מייסדת ומנכ\"לית תנועת \"בנות אלטרנטיבה\", מרצה, אשת שיווק וממובילות המחאה האזרחית.", "image": "images/Moran_Z_03.webp", "links": {} },
-    { "id": "tomer_avital", "name": "תומר אביטל", "tags": ["גבר"], "bio": "עיתונאי חוקר, ממייסדי עיתונות עצמאית (\"שקוף\") ומיזם \"לובי 99\", מרצה לחשיבה ביקורתית.", "image": "images/tomera-03.webp", "links": {} },
-    { "id": "yaya_fink", "name": "יאיא (יאיר) פינק", "tags": ["גבר"], "bio": "רס\"ן במיל', מייסד \"לובי 99\", מיזם המדיה \"דמוקרטTV\" ועלון השבת הליברלי. פעיל חברתי ופוליטי.", "image": "images/Yaya_f_03.webp", "links": {} },
-    { "id": "naor_narkis", "name": "נאור נרקיס", "tags": ["מרצ", "גבר"], "bio": "יזם, אקטיביסט חברתי, מייסד תנועת \"ישראל נאורה\" ותנועת \"חוזרים בתבונה\".", "image": "images/Naor_N_03.webp", "links": {} },
-    { "id": "yariv_oppenheimer", "name": "יריב אופנהיימר", "tags": ["מרצ", "גבר"], "bio": "איש תקשורת ופעיל חברתי, לשעבר מנכ\"ל ודובר תנועת שלום עכשיו, מרצה ופובליציסט.", "image": "images/Yariv_O_03.webp", "links": {} },
-    { "id": "avi_dabush", "name": "אבי דבוש", "tags": ["מרצ", "מרחב כפרי", "גבר"], "bio": "תושב קיבוץ נירים בעוטף עזה, מנכ\"ל \"קול רבני לזכויות אדם\", ממארגני מחאת הנגב.", "image": "images/avi_d_03.webp", "links": {} },
-    { "id": "katy_piasetsky", "name": "קטי פיאסצקי", "tags": ["מרצ", "אישה"], "bio": "חברת מועצת העיר ומשנה לראש העיר בת ים מטעם מרצ, פעילה חברתית ומגדרית בולטת.", "image": "images/Katy_P_03.webp", "links": {} },
-    { "id": "nava_rozoliyo", "name": "נאווה רוזוליו", "tags": ["אישה"], "bio": "ממובילות מחאת בלפור, המשמרת המשפטית ופעילת שטח בולטת במאבקים לשמירה על הדמוקרטיה.", "image": "images/Nava_R_03.webp", "links": {} },
-    { "id": "lee_hoffman", "name": "לי הופמן אגיב", "tags": ["אישה"], "bio": "אקטיביסטית חברתית ופוליטית, ממובילות מחאת ההייטק ומאבקי החברה האזרחית.", "image": "images/Lee_h_03.webp", "links": {} },
-    { "id": "rotem_sivan", "name": "רתם סיון-הופמן", "tags": ["אישה"], "bio": "ד\"ר, פעילה חברתית ואסטרטגית, ממובילות התארגנויות המחאה האזרחית ותושבת כפר ביאליק.", "image": "images/Rotem_S_03.webp", "links": {} },
-    { "id": "omri_ronen", "name": "עמרי רונן", "tags": ["גבר"], "bio": "עורך דין, פעיל סביבה, אקלים וחברה, ממובילי תנועות מחאה צעירות וממקימי עמותת \"יהב\".", "image": "images/ronen_03.webp", "links": {} },
-    { "id": "nimrod_sheffer", "name": "נמרוד שפר", "tags": ["גבר"], "bio": "אלוף במיל', כיהן כראש אגף התכנון בצה\"ל וראש מטה חיל האוויר, לשעבר מנכ\"ל התעשייה האווירית.", "image": "images/Nimrod_s_03.webp", "links": {} },
-    { "id": "nedal_masalha", "name": "נדאל מסאלחה", "tags": ["מיעוטים", "גבר"], "bio": "עורך דין וכלכלן, פעיל חברתי ופוליטי, נציג בולט מהחברה הערבית.", "image": "images/Nedal_M_03.webp", "links": {} },
-    { "id": "galeb_salamana", "name": "גאלב סלאמנה", "tags": ["מיעוטים", "גבר"], "bio": "עורך דין, פעיל מרכזי במערך \"עוטף עצורים\" המלווה משפטית עצורים בהפגנות ובמחאות אזרחיות.", "image": "images/Galeb_s_03.webp", "links": {} },
-    { "id": "somaya_bashir", "name": "סומיה בשיר", "tags": ["מיעוטים", "אישה"], "bio": "פעילה חברתית ומנהיגה אזרחית מג'ת, מובילת שותפות ערבית-יהודית ופעילה למען שוויון ודמוקרטיה.", "image": "images/Somaya_b_03.webp", "links": {} },
-    { "id": "eran_etzion", "name": "ערן עציון", "tags": ["גבר"], "bio": "דיפלומט בכיר לשעבר, כיהן כסגן ראש המועצה לביטחון לאומי (מל\"ל) וראש החטיבה לתכנון מדיני במשרד החוץ.", "image": "images/Eran_e_03.webp", "links": {} },
-    { "id": "dany_elgart", "name": "דני אלגרט", "tags": ["גבר"], "bio": "סנ\"צ בדימוס, משפטן ומזרחן. מראשי מאבק משפחות החטופים (אחיו של החטוף איציק אלגרט).", "image": "images/Dany_e_03.webp", "links": {} },
-    { "id": "renen_tzur", "name": "רנן צור", "tags": ["גבר"], "bio": "מעצב, אקטיביסט חברתי, ממובילי ומייסדי תנועת המחאה \"החזית הוורודה\".", "image": "images/renen_tzur.jpg", "links": {} },
-    { "id": "aeid_badir", "name": "עאיד בדיר", "tags": ["מרצ", "מיעוטים", "גבר"], "bio": "פעיל פוליטי וחברתי מכפר קאסם, כיהן בעבר כחבר הנהלת מרצ ומועמד מטעמה לכנסת.", "image": "images/Aeid_b_03.webp", "links": {} },
-    { "id": "moran_michel", "name": "מורן מישל", "tags": ["אישה"], "bio": "יזמת, מרצה ואקטיביסטית חברתית ופוליטית, ממובילות מחאת קפלן ולשעבר מנכ\"ל הסתדרות העצמאים.", "image": "images/Moran_M_03.webp", "links": {} },
-    { "id": "amir_khnifess", "name": "אמיר ח'ניפס", "tags": ["מיעוטים", "גבר"], "bio": "ד\"ר, יו\"ר המרכז הישראלי הדרוזי, מוביל מאבקים למען שוויון זכויות בעדה הדרוזית ומרצה לאקדמיה.", "image": "images/amirh-03.webp", "links": {} },
-    { "id": "ali_salalha", "name": "עלי סלאלחה", "tags": ["מרצ", "מיעוטים", "גבר"], "bio": "חבר כנסת לשעבר מטעם מרצ, איש חינוך ותיק ולשעבר מנהל בית הספר המקיף בבית ג'ן.", "image": "images/Eli_s_03.webp", "links": {} },
-    { "id": "yael_cohen_paran", "name": "יעל כהן פארן", "tags": ["אישה"], "bio": "חברת כנסת לשעבר, ממובילות התנועה הסביבתית והירוקה בישראל, חברת מועצת פרדס חנה-כרכור.", "image": "images/Yael_c_03.webp", "links": {} },
-    { "id": "itay_leshem", "name": "איתי לשם", "tags": ["גבר"], "bio": "פעיל מחאה בולט, פובליציסט, כותב ויזם המעורב במאבקים אזרחיים ומשפטיים.", "image": "images/itay_leshem.jpg", "links": {} },
-    { "id": "chen_arieli", "name": "חן אריאלי", "tags": ["מרצ", "אישה"], "bio": "סגנית ראש עיריית תל אביב-יפו, פעילה חברתית ומגדרית בולטת, לשעבר יו\"ר אגודת הלהט\"ב ויו\"ר איגי.", "image": "images/Chen_03.webp", "links": {} },
-    { "id": "amit_mizrahi", "name": "עמית מזרחי", "tags": ["גבר"], "bio": "פעיל חברתי ופוליטי בשטח, מעורב ביוזמות אזרחיות של מחנה השמאל-מרכז.", "image": "images/amit_mizrahi.jpg", "links": {} },
-    { "id": "ihab_shlayan", "name": "איהאב שליאן", "tags": ["מיעוטים", "גבר"], "bio": "סגן אלוף במילואים מנצרת, פעיל חברתי וציבורי הפועל לקידום אחדות לאומית וליברלית.", "image": "images/ihab_s_03.webp", "links": {} },
-    { "id": "inbar_bezek", "name": "ענבר בזק", "tags": ["אישה"], "bio": "חברת כנסת לשעבר, מנכ\"לית החברה הכלכלית לפיתוח הגליל העליון וממובילות מחאת תושבי הצפון.", "image": "images/inbar_b_03.webp", "links": {} },
-    { "id": "malek_bader", "name": "מאלק בדר", "tags": ["מיעוטים", "גבר"], "bio": "עורך דין, פעיל ציבורי וחברתי מחורפיש, נציג העדה הדרוזית והחברה הערבית.", "image": "images/Malek_b_03.webp", "links": {} },
-    { "id": "ram_shefa", "name": "רם שפע", "tags": ["מרחב כפרי", "גבר"], "bio": "חבר כנסת ויו\"ר ועדת החינוך לשעבר. תושב קיבוץ גבעת חיים איחוד.", "image": "images/Ram_s_03.webp", "links": {} },
-    { "id": "binyamin_minich", "name": "בנימין מיניץ'", "tags": ["גבר"], "bio": "רב קהילה ליברלית בכפר סבא, פעיל חברתי המקדם יהדות מתקדמת, זכויות אדם וסובלנות.", "image": "images/Binyamin_m_03.webp", "links": {} },
-    { "id": "hanan_zisu", "name": "חנן זיסו", "tags": ["גבר"], "bio": "יועץ אסטרטגיה ותקשורת, איש חינוך ותיק ופעיל חברתי וציבורי מקרית טבעון.", "image": "images/hanan_03.webp", "links": {} },
-    { "id": "ahsan_halaila", "name": "אחסן חלאילה", "tags": ["מיעוטים", "גבר"], "bio": "ד\"ר מסחנין, בעל ניסיון עשיר בניהול פרויקטים ופעילות ציבורית בחברה הערבית.", "image": "images/Achsan_H_03.webp", "links": {} },
-    { "id": "ayelet_saidof", "name": "איילת השחר סיידוף", "tags": ["אישה"], "bio": "עורכת דין, פעילה חברתית ומשפטית, מעורבת ביוזמות ציבוריות לשמירה על שלטון החוק.", "image": "images/Ayelet_s_03.webp", "links": {} },
-    { "id": "yair_rubinstein", "name": "יאיר רובינשטיין", "tags": ["גבר"], "bio": "מנהל ופעיל אזרחי מבנימינה-גבעת עדה, מעורב בהתארגנויות מקומיות וארציות.", "image": "images/Yair_r_03.webp", "links": {} },
-    { "id": "hadas_regolsky", "name": "הדס רגולסקי", "tags": ["אישה"], "bio": "עיתונאית, עורכת ואשת תקשורת, חברת מועצת עיריית תל אביב-יפו וממובילות המאבקים לשוויון מגדרי.", "image": "images/Hadas_r_03.webp", "links": {} },
-    { "id": "meheret_baruch", "name": "מהרטה ברוך רון", "tags": ["מרצ", "אישה"], "bio": "לשעבר סגנית ראש עיריית תל אביב-יפו מטעם מרצ, אשת תקשורת, שחקנית ופעילה חברתית בולטת.", "image": "images/meheretabr-03.webp", "links": {} },
-    { "id": "inbal_wortman", "name": "ענבל וורטמן שהם", "tags": ["מרחב כפרי", "אישה"], "bio": "מייסדת ומנכ\"לית עמותת \"אבני דרך לחיים\", פעילה ויזמת חברתית, תושבת כחל (מבואות חרמון).", "image": "images/inbal_03.webp", "links": {} },
-    { "id": "eran_nissan", "name": "ערן ניסן", "tags": ["מרצ", "גבר"], "bio": "מנכ\"ל תנועת \"מחזקים\", אקטיביסט ופעיל חברתי בולט לקידום ערכי השמאל, השוויון והדמוקרטיה.", "image": "images/eran_nissan.jpg", "links": {} }
+    { 
+      "id": "naama_lazimi", "name": "נעמה לזימי", "tags": ["אישה"], 
+      "bio": "חברת כנסת מכהנת, יו\"ר ועדת הצעירים, חברת ועדות הכספים והחינוך.", 
+      "longBio": "נעמה לזימי, בת 40, נשואה לאבי, מורה, סופר ודוקטורנט, ואמא לרונה-אסתר ואראל-ציון, חברת כנסת מטעם מפלגת הדמוקרטים, סוציאל-דמוקרטית, פמיניסטית, ציונית ושוחרת שלום. מכהנת כיו\"ר הוועדה המיוחדת לענייני צעירים וחברה בוועדות הכספים והחינוך.\nבפעילותי אני מובילה מאבקים פרלמנטריים וציבוריים למען שיקום וחיזוק מדינת הרווחה, חינוך ממלכתי ושוויוני, טיפול ביוקר המחיה ומשבר הדיור, שמירה והגנה על ישראל הדמוקרטית והליברלית.",
+      "image": "images/naama_l-03.webp", 
+      "links": { "facebook": "https://www.facebook.com/NaamaLazimiOfficial", "instagram": "https://www.instagram.com/naamalazimi/", "x": "https://x.com/naamalazimi", "tiktok": "https://www.tiktok.com/@naamalazimi?_r=1&_t=ZS-95JhpDYVayo", "homepage": "https://www.nlazimi.org/" } 
+    },
+    { 
+      "id": "gilad_kariv", "name": "גלעד קריב", "tags": ["גבר"], 
+      "bio": "חבר כנסת מכהן, יו״ר ועדת העלייה, הקליטה והתפוצות. רב ועורך דין.", 
+      "longBio": "מהקולות המרכזיים בשמאל הציוני ובמחנה הדמוקרטי, וממובילי המאבק נגד המהפכה המשטרית והפגיעה בשלטון החוק. הוא משמש כיו\"ר וועדת העליה, הקליטה והתפוצות. משפטן ורב רפורמי, ונחשב לאחד ממנהיגיה של היהדות הליברלית בישראל ובעולם היהודי. קריב פעיל בזירה הציבורית במשך שלושים שנים, בנושאי דת ומדינה, צדק חברתי, קידום פתרון שתי המדינות ומאבק בגזענות.",
+      "image": "images/Gilad_K_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/share/1D8apauDkP", "instagram": "https://www.instagram.com/gilad.kariv", "x": "https://x.com/karivgilad", "tiktok": "https://www.tiktok.com/@gilad_kariv", "homepage": "https://giladkariv.com/join/" } 
+    },
+    { 
+      "id": "efrat_rayten", "name": "אפרת רייטן", "tags": ["אישה"], 
+      "bio": "חברת כנסת מכהנת, יו\"ר סיעת הדמוקרטים בכנסת. עורכת דין ואשת תקשורת.", 
+      "longBio": "בכנסת ה-24 כיהנה כיו\"ר ועדת עבודה ורווחה והייתה חברה בוועדה לבחירת שופטים. עסקה בנושאים חברתיים ובין היתר למען זכויות העובדים כמו שמירה על שכר המינימום פיצויים נאותים, למען אוכלוסיות בסיכון ואנשים עם מוגבלויות. מובילה בשמירה על עצמאות מערכת המשפט, זכויות האזרח ודמוקרטיה ליברלית. כאן כדי להמשיך לפקח ולוודא שישראל תהיה תמיד מחוייבת לטובת הציבור.",
+      "image": "images/Efrat_r_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/share/1Gjj8ymD97/", "instagram": "https://www.instagram.com/efratrayten?igsh=em92anFoYnFpOHEx", "x": "https://x.com/Efratrayten1", "linkedin": "https://www.linkedin.com/in/efrat-rayten-0bb308387", "homepage": "https://www.efratrayten.com" } 
+    },
+    { 
+      "id": "mossi_raz", "name": "מוסי רז", "tags": ["מרצ", "גבר"], 
+      "bio": "חבר כנסת לשעבר מטעם מרצ, רואה חשבון ופעיל למען שלום וסביבה.", 
+      "longBio": "פעיל שלום וסביבה מאז ילדותי. מכיר את הכנסת 35 שנה מאז שהתחלתי לעבוד כמנהל סיעת רצ. נהלתי ארגונים בהם 'שלום עכשיו', מרצ ורדיו 'כל השלום'. הייתי יושב ראש של ארגונים כמו 'חיים וסביבה' ו'בזכות'. הייתי חבר כנסת 6 שנים בשלוש קדנציות שונות. בפריימריז האחרונים במרצ דירגו אותי ראשון ברשימה לאחר יושבת הראש זהבה גלאון.",
+      "image": "images/mossir-03.webp", 
+      "links": { "facebook": "https://www.facebook.com/mossi.raz.9", "linkedin": "https://www.linkedin.com/in/mossi-raz-22360317/", "instagram": "https://www.instagram.com/mossi_raz/", "x": "https://x.com/mossi_raz" } 
+    },
+    { 
+      "id": "gaby_lasky", "name": "גבי לסקי", "tags": ["מרצ", "אישה"], 
+      "bio": "חברת כנסת לשעבר מטעם מרצ, עורכת דין מומחית לזכויות אדם.", 
+      "longBio": "עו\"ד מתמחה בחופש הביטוי והמחאה. ממקימות מערך 'עוטף העצורים' המעניק תמיכה וייעוץ משפטי לפעילי ופעילות המחאה. חברת כנסת לשעבר מטעם מרצ ומזכ\"לית שלום עכשיו לשעבר. במשך שנים אני מתייצבת בקו ההגנה הראשון נגד האלימות המשטרתית, נגד מעצרי שווא ונגד פגיעה בזכויות מפגינים ומפגינות.",
+      "image": "images/Gaby_l_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/share/17px5Hj4gf/", "instagram": "https://www.instagram.com/gabylasky", "x": "https://x.com/gaby_lasky" } 
+    },
+    { 
+      "id": "michal_rozin", "name": "מיכל רוזין", "tags": ["מרצ", "אישה"], 
+      "bio": "חברת כנסת לשעבר ויו\"ר סיעת מרצ, לשעבר מנכ\"לית שדולת הנשים.", 
+      "longBio": "ח״כ ויו״ר סיעת מרצ, מנכ״לית מרכזי הסיוע לנפגעות תקיפה מינית לשעבר. יו״ר עמותת ׳אזרחים קטנים׳ לחינוך לדמוקרטיה בגיל הרך. יו״ר ועדת המנהיגות של פורום הדירקטוריות, מגשרת ומנחת תהליכי צדק מאחה.",
+      "image": "images/Michal_r_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/michal.rozin", "instagram": "https://www.instagram.com/michal_rozin", "x": "https://x.com/Michal_Rozin", "tiktok": "https://www.tiktok.com/@michal_rozin" } 
+    },
+    { 
+      "id": "emily_moatti", "name": "אמילי מואטי", "tags": ["אישה"], 
+      "bio": "חברת כנסת לשעבר, סופרת, אנליסטית ואשת תקשורת.", 
+      "longBio": "סגנית יו\"ר הכנסת ויו\"ר ועדת משנה חוץ בועדת חוץ וביטחון. סופרת וזוכת פרס ביכורים על הספר 'סימנים כחולים'.",
+      "image": "images/Emily_M_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/share/1DjrvuhJ5V/", "instagram": "https://www.instagram.com/emiliemoatti?igsh=MXBoNGt1NDBuczNkZA%3D%3D", "x": "https://x.com/EmilieMoatti", "tiktok": "https://www.tiktok.com/@emilie_moatti?_r=1&_t=ZS-96JhGg0W7mC", "homepage": "https://www.emiliemoatti.co.il/" } 
+    },
+    { 
+      "id": "moshe_radman", "name": "משה רדמן אבוטבול", "tags": ["גבר"], 
+      "bio": "יזם הייטק, פעיל מרכזי וממובילי תנועות המחאה האזרחית.", 
+      "longBio": "משה רדמן אבוטבול, יזם היי-טק, אסטרטג ופעיל חברתי המשלב בין עולמות החדשנות להובלת מאבקים אזרחיים. כקצין באמ\"ן לשעבר וכמי שייסד חברות טכנולוגיה והרצה באקדמיה, הוא רותם את כישוריו המקצועיים לבניית תשתיות הסברה ותוכן ליברליות רחבות לטובת המחנה וגוש השינוי. המוטו של רדמן היה ועודנו 'יד בונה ויד נאבקת'.",
+      "image": "images/Moshe_r_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/mosheradman/", "instagram": "https://www.instagram.com/radmanmoshe/", "x": "https://x.com/radmanmoshe?s=11&t=lZ-ocdLQf7Wk2uH54AGiig", "tiktok": "https://www.tiktok.com/discover/%D7%9E%D7%A9%D7%94%C2%A0%D7%A8%D7%93%D7%9E%D7%9F", "homepage": "https://radmandemocrats.com/" } 
+    },
+    { 
+      "id": "moran_zer", "name": "מורן זר קצנשטיין", "tags": ["אישה"], 
+      "bio": "מייסדת תנועת 'בנות אלטרנטיבה', אשת שיווק וממובילות המחאה.", 
+      "longBio": "יזמת עסקית, מייסדת בונות אלטרנטיבה וממנהיגות המחאה למען הדמוקרטיה בישראל. היא שירתה כקצינה בצה\"ל, עבדה בשב\"כ, וניהלה בחברות רב לאומיות כמו גוגל, לוריאל וקוקה-קולה. מביאה איתה שילוב של ניסיון מקצועי מגוון ויכולת להניע קהילות ומאבקים רחבי היקף.",
+      "image": "images/Moran_Z_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/moran.zer", "instagram": "https://www.instagram.com/moranzer/", "x": "https://x.com/zermoran?s=21", "linkedin": "https://www.linkedin.com/in/moran-zer-katzenstein-90b62a18/", "tiktok": "https://www.tiktok.com/@moran.zer?_r=1&_t=zs-9326fedr1ap", "homepage": "https://bit.ly/moranSite" } 
+    },
+    { 
+      "id": "tomer_avital", "name": "תומר אביטל", "tags": ["גבר"], 
+      "bio": "עיתונאי חוקר ('שקוף') ומייסד מיזם 'לובי 99'.", 
+      "longBio": "ממייסדי שקוף ולובי 99. נלחם בשבילכם מזה שני עשורים, חושף שחיתויות ומפרק עוולות. רץ לכנסת כדי להיות האיש שלכם סביב השולחן ולחולל למהפכה מבפנים. חולם להיות הח״כ השקוף בתולדות המדינה והסיוט של המושחתים.",
+      "image": "images/tomera-03.webp", 
+      "links": { "facebook": "https://www.facebook.com/tomer.avital1", "linkedin": "https://www.linkedin.com/in/tomer-avital-52795315/", "homepage": "https://tomeravital1.com/about/", "instagram": "https://www.instagram.com/tomeravital100/", "x": "https://www.twitter.com/TomerAvital1", "telegram": "https://www.t.me/tomeravital1", "youtube": "https://www.youtube.com/c/tomeravital" } 
+    },
+    { 
+      "id": "yaya_fink", "name": "יאיא פינק", "tags": ["גבר"], 
+      "bio": "רס\"ן במיל', מייסד 'לובי 99' ומיזם דמוקרטTV.", 
+      "longBio": "רב-סרן במילואים, דתי וממובילי המאבק נגד ההפיכה המשטרית וחוקי ההשתמטות. מייסד לובי 99, דמוקרטTV ועלון השבת הליברלי. מונה על ידי יו״ר המפלגה לראש המטה למאבק בטרור היהודי בכנסת הבאה. פועל להחזרת היהדות והציונות הדתית למקורות שלהן - קדושת חיים, שלום וצדק.",
+      "image": "images/Yaya_f_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/yayafink1", "instagram": "https://www.instagram.com/yayafink", "x": "https://x.com/yayafink", "tiktok": "https://www.tiktok.com/@yayafink", "homepage": "https://yayafink.co.il/join-me/" } 
+    },
+    { 
+      "id": "naor_narkis", "name": "נאור נרקיס", "tags": ["מרצ", "גבר"], 
+      "bio": "יזם, מייסד תנועת 'ישראל נאורה' ו'חוזרים בתבונה'.", 
+      "longBio": "מהקולות הבולטים בישראל לקידום חופש, חילוניות, שוויון אזרחי והפרדת דת ממדינה. בוגר תוכנית חבצלות של אמ”ן. בפעילותו הציבורית מוביל נאור מאבקים בנושאי גיוס שוויוני, לימודי ליבה, תחבורה ציבורית בשבת ונישואים אזרחיים. מאמין שציונות חילונית בלתי מתנצלת היא המפתח להצלת המדינה.",
+      "image": "images/Naor_N_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/naornarkis", "instagram": "https://www.instagram.com/naornarkis/", "x": "https://x.com/NaorNarkis", "linkedin": "https://www.linkedin.com/in/naornarkis/", "tiktok": "https://www.tiktok.com/@naor.narkis", "homepage": "https://naornarkis.org" } 
+    },
+    { 
+      "id": "yariv_oppenheimer", "name": "יריב אופנהיימר", "tags": ["מרצ", "גבר"], 
+      "bio": "איש תקשורת ופעיל חברתי, לשעבר מנכ\"ל שלום עכשיו.", 
+      "longBio": "התחלתי את הפעילות הציבורית שלי ב-1992. ניהלתי את אגף הנוער של מפלגת העבודה ולאחר מכן כיהנתי כמזכ״ל ודובר תנועת שלום עכשיו. בשבע השנים האחרונות אני עוסק במאבק יום יומי בטרור היהודי ובהתפשטות ההתנחלויות. מפעיל רשתות חברתיות המגיעות למיליוני חשיפות בחודש.",
+      "image": "images/Yariv_O_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/yarivyariv/", "instagram": "https://www.instagram.com/yarivop/", "x": "https://x.com/yarivop?s=21", "linkedin": "https://www.linkedin.com/in/yariv-oppenheimer-26569167", "tiktok": "https://www.tiktok.com/@yarivoppenheimer?_r=1&_t=ZS-96WLMIG5SCH" } 
+    },
+    { 
+      "id": "avi_dabush", "name": "אבי דבוש", "tags": ["מרצ", "מרחב כפרי", "גבר"], 
+      "bio": "מנכ\"ל 'קול רבני לזכויות אדם', ממארגני מחאת הנגב.", 
+      "longBio": "נולדתי וגדלתי באשקלון במשפחה דתית-ימנית-מזרחית. ייסדתי והובלתי תנועות וארגונים בחברה האזרחית, ביניהם את התנועה לעתיד הנגב המערבי ומועצת הנגב. מנכ\"ל ״קול רבני לזכויות אדם״. ניצלתי מטבח השבעה באוקטובר בקיבוץ נירים, וחזרתי לביתי רק אחרי 691 ימי לחימה.",
+      "image": "images/avi_d_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/DabushMeretz", "instagram": "https://www.instagram.com/dabushavi/", "x": "https://x.com/avidabush", "homepage": "https://www.avidabush.com/" } 
+    },
+    { 
+      "id": "katy_piasetsky", "name": "קטי פיאסצקי", "tags": ["מרצ", "אישה"], 
+      "bio": "חברת מועצת העיר ומשנה לראש העיר בת ים.", 
+      "longBio": "מכהנת כמשנה לראש עיריית בת ים, וחברת מועצת העיר מזה 13 שנים. מחזיקה בתיקי הרווחה, התחבורה, איכות הסביבה וקידום מעמד האישה. פעילה חברתית בנושאים של שוויון מגדרי, מלחמה באלימות כלפי נשים ומאבקים חברתיים לעידוד אופנה בת קיימא.",
+      "image": "images/Katy_P_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/share/1Gu7wSaGGh/", "instagram": "https://www.instagram.com/kati_piasecki?igsh=MXY4OHY0a3JxcDhzZA==", "x": "https://x.com/Kati_Piasecki", "linkedin": "https://www.linkedin.com/in/kati-piasecki-72b930119", "tiktok": "https://www.tiktok.com/@katipiasecki?_r=1&_t=ZS-94n1pwStAiy" } 
+    },
+    { 
+      "id": "nava_rozoliyo", "name": "נאווה רוזוליו", "tags": ["אישה"], 
+      "bio": "ממובילות מחאת בלפור והמשמרת המשפטית.", 
+      "longBio": "עורכת דין ורואת חשבון, ופעילה ציבורית בולטת הפועלת מאז שנת 2020 למען הדמוקרטיה. מייסדת תנועת 'משמרות הבושה'. נאווה שמה לה למטרה מאבק בשחיתות השלטונית, ביטול חוקי ההפיכה, ביצור הדמוקרטיה הליברלית, וחיזוק מוסדות המדינה.",
+      "image": "images/Nava_R_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/share/1VvFy5QJ2Z/?mibextid=wwXIfr", "instagram": "https://www.instagram.com/navarozolyo?igsh=MWI5ZWN2Y2tzZzZ5OA%3D%3D", "x": "https://x.com/rozolyo?s=11", "linkedin": "https://il.linkedin.com/in/nava-rozolyo-70abb072", "tiktok": "https://www.tiktok.com/@navarozolyo?_r=1&_t=ZS-96zrRnAEg0T", "homepage": "https://he.wikipedia.org/wiki/%D7%A0%D7%90%D7%95%D7%95%D7%94_%D7%A8%D7%95%D7%96%D7%95%D7%9C%D7%99%D7%95" } 
+    },
+    { 
+      "id": "lee_hoffman", "name": "לי הופמן אגיב", "tags": ["אישה"], 
+      "bio": "אקטיביסטית, ממובילות מחאת ההייטק ומאבקי החברה האזרחית.", 
+      "longBio": "צמחה מתוך השטח כלוחמת אקטיביסטית. היתה ממובילות ענף היין הישראלי ובמחאה נגד ההפיכה המשטרית בנתה את מערך השטח והקהילות של 'בונות אלטרנטיבה', שכלל 100,000 נשים. ממובילות המחאה.",
+      "image": "images/Lee_h_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/share/18DFcMhFGH/?mibextid=wwXIfr", "instagram": "https://www.instagram.com/leehoffmann_agiv", "x": "https://x.com/leehoffmannagiv?s=21&t=n0o5_IrKMzE3WltvgznBWA", "tiktok": "https://www.tiktok.com/@leehoffmannagiv?_r=1&_t=ZS-94k0Q0AgaNL" } 
+    },
+    { 
+      "id": "rotem_sivan", "name": "רתם סיון-הופמן", "tags": ["אישה"], 
+      "bio": "ד\"ר, פעילה חברתית, ממובילות התארגנויות המחאה.", 
+      "longBio": "רופאה, נוירורדיולוגית, מצנתרת מוח, ומנהלת מכון הדימות במרכז הרפואי מאיר. בשבעה באוקטובר הפכתי לאמא ערה ללוחם בקומנדו ומאז אני מובילה את תנועת אמא ערה בקריאה לקיום תהליך מדיני מלווה למלחמה וסיום המלחמה. כעת הגיע הזמן לתרגם את האקטיביזים לכוח פוליטי.",
+      "image": "images/Rotem_S_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/profile.php?id=61565019155720", "instagram": "https://www.instagram.com/rotemsivanhoffmann", "x": "https://x.com/drrotemsivan?s=21", "homepage": "https://rotemsivan.co.il/" } 
+    },
+    { 
+      "id": "omri_ronen", "name": "עמרי רונן", "tags": ["גבר"], 
+      "bio": "עורך דין, פעיל סביבה ואקלים, ממקימי עמותת 'יהב'.", 
+      "longBio": "נולדתי בכפר עזה, שירתתי כסמ\"פ ביחידת מגלן והשתתפתי במבצעים שובו אחים ובצוק איתן. במחלקה הכלכלית של פרקליטות המדינה רדפתי שחיתות שלטונית. ממובילי 'אחים לנשק' במאבק נגד ההפיכה המשטרית, מילואימניק שירד לעוטף בשבעה באוקטובר, וממקימי עמותת 'יהב - מחנכים לציונות'.",
+      "image": "images/ronen_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/Omri.ronen.77", "instagram": "https://www.instagram.com/omrironenn?igsh=enpxYnc5d3ZjNWw1", "x": "https://x.com/omrironen24", "tiktok": "https://www.tiktok.com/@omri.ronen", "homepage": "https://omri-ronen.com" } 
+    },
+    { 
+      "id": "nimrod_sheffer", "name": "נמרוד שפר", "tags": ["גבר"], 
+      "bio": "אלוף במיל', לשעבר ראש אגף התכנון בצה\"ל ומנכ\"ל התעשייה האווירית.", 
+      "longBio": "אחרי 40 שנים במערכת הבטחון וניהול התעשייה האווירית, המשכתי לעשייה אזרחית במגוון עמותות. בינואר 2023 התגייסתי שוב למחאה האזרחית. מאמין שיחד, במפלגת הדמוקרטים נוביל הנהגה אמיצה ערכית ואחראית שתשכיל לתרגם הכרעות בשדה הקרב להישגים מדיניים.",
+      "image": "images/Nimrod_s_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/share/1F9rHSRnW1/", "instagram": "https://www.instagram.com/nimrodsheffer_?igsh=aHM2cjJsYnRiZGZj", "x": "https://x.com/NimrodSheffer", "tiktok": "https://www.tiktok.com/@sheffernimrod?_r=1&_t=ZS-95B5L4rEHJM", "homepage": "https://nimrodsheffer@gmail.com" } 
+    },
+    { 
+      "id": "nedal_masalha", "name": "נדאל מסאלחה", "tags": ["מיעוטים", "גבר"], 
+      "bio": "עורך דין וכלכלן, פעיל חברתי ופוליטי.", 
+      "longBio": "אזרח ערבי שמאמין בשפיות, ביטחון אישי ושלטון החוק. כלכלן ועו״ד. 20 שנות נסיון בשירות הציבורי.",
+      "image": "images/Nedal_M_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/share/18R5qLdsgJ/?mibextid=wwXIfr", "x": "https://x.com/nmassalha70106/" } 
+    },
+    { 
+      "id": "galeb_salamana", "name": "גאלב סלאמנה", "tags": ["מיעוטים", "גבר"], 
+      "bio": "עורך דין, פעיל מרכזי במערך 'עוטף עצורים'.", 
+      "longBio": "ערבי־מוסלמי ישראלי, אב לארבעה מכעביה שבעמק יזרעאל. התנדב לשירות בצה״ל – מתוך אמונה עמוקה בשותפות גורל בין כלל אזרחי המדינה הישראלים. כיום פועל כעו״ד במערך עוטף עצורים ומלווה משפטית מפגינים ועצורים, מתוך מחויבות עמוקה לזכויות אדם.",
+      "image": "images/Galeb_s_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/share/1AmCHAToev/", "instagram": "https://www.instagram.com/slamna_ghaleb_adv?igsh=MWZpNjg4NTIxc3Nwaw==", "x": "https://x.com/LbMnh", "tiktok": "https://www.tiktok.com/@ghaleb.s?_r=1&_t=ZS-94b80bNkqKD" } 
+    },
+    { 
+      "id": "somaya_bashir", "name": "סומיה בשיר", "tags": ["מיעוטים", "אישה"], 
+      "bio": "פעילה חברתית מג'ת, מובילת שותפות ערבית-יהודית.", 
+      "longBio": "מנהיגה אזרחית ופעילה חברתית הפועלת בשנים האחרונות בלב המאבק על דמותה של ישראל כדמוקרטיה שוויונית. סומיה פועלת לחיזוק הביטחון האזרחי, למאבק באלימות ובהדרה, ולבניית הנהגה חדשה שמאמינה בשוויון, באחריות ובתקווה לעתיד משותף.",
+      "image": "images/Somaya_b_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/share/r/1B2hxN3t27/", "instagram": "https://www.instagram.com/bashirsomaya?igsh=cW5wbjhqazV5NTYx", "x": "https://x.com/bashsomaya", "linkedin": "https://www.linkedin.com/in/somaya-bashir-940b4125a", "tiktok": "https://www.tiktok.com/@humanity10.2022?_r=1&_t=ZS-94bELmSyPll", "homepage": "https://." } 
+    },
+    { 
+      "id": "eran_etzion", "name": "ערן עציון", "tags": ["גבר"], 
+      "bio": "דיפלומט בכיר לשעבר, כיהן כסגן ראש המל\"ל.", 
+      "longBio": "במשך עשרות שנים כיהנתי בתפקידים בכירים במערכת המדינית-בטחונית. עסקתי בגיבוש אסטרטגיות מדיניות, ניהול מגעים רגישים מול גורמים אזוריים ובינלאומיים. יזמתי את המשא ומתן החשאי לסימון הקו הימי מול לבנון והייתי חבר בצוותי המשא ומתן מול הפלסטינים. פועל לחיזוק ושמירה על הדמוקרטיה הישראלית.",
+      "image": "images/Eran_e_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/share/1FbB65fBiz/?mibextid=wwXIfr", "instagram": "https://www.instagram.com/eran.etzion", "x": "https://x.com/eranetzion?s=21", "homepage": "https://eranetzion.co.il/" } 
+    },
+    { 
+      "id": "dany_elgart", "name": "דני אלגרט", "tags": ["גבר"], 
+      "bio": "סנ\"צ בדימוס, משפטן ומראשי מאבק משפחות החטופים.", 
+      "longBio": "סגן ניצב בדימוס ומפקד תחנת אשדוד, קצין חבלה בכיר. מאז 7 באוקטובר אני נאבק ללא פשרות למען האמת, האחריות והשבת האמון בין המדינה לאזרחיה לאחר שאחיו וגיסו נחטפו הופקרו ונרצחו בידי החמאס. אני בא לפוליטיקה מתוך שליחות.",
+      "image": "images/Dany_e_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/elgarat.dany", "x": "https://x.com/elgarat_dani", "tiktok": "https://www.tiktok.com/@user6830107222467" } 
+    },
+    { 
+      "id": "aeid_badir", "name": "עאיד בדיר", "tags": ["מרצ", "מיעוטים", "גבר"], 
+      "bio": "פעיל פוליטי וחברתי מכפר קאסם.", 
+      "longBio": "בעל תואר שני במדיניות ציבורית, ניהלתי את המטה הערבי במרצ ולשעבר סגן ראש עיריית כפר קאסם. כיהנתי כיועצם של יו\"ר מרצ זהבה גלאון ושל השר עיסאווי פריג'. אני מייצג את היותה של מפלגה ישראלית, יהודית ערבית, ומביא עמי ניסיון ומחויבות לדרך השלום והשוויון.",
+      "image": "images/Aeid_b_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/aaed.bader", "instagram": "https://www.instagram.com/aaedbader/", "tiktok": "https://www.tiktok.com/@aaedbader1?_r=1&_t=ZS-952KFeiFwbk" } 
+    },
+    { 
+      "id": "moran_michel", "name": "מורן מישל", "tags": ["אישה"], 
+      "bio": "אקטיביסטית חברתית, ממובילות מחאת קפלן ולשעבר מנכ\"ל הסתדרות העצמאים.", 
+      "longBio": "אני עוסקת באקטיביזם כבר שלושה עשורים. הקמתי ומינכ״לתי את הסתדרות העצמאים במאבק על זכויות עצמאים ועצמאיות. במקביל הקמתי את תנועת 'עוגן לעתיד', המהווה תשתית של המחנה הליברלי. באפריל 25 החלטתי לקחת את הניסיון לזירה שבה אנחנו חייבות וחייבים לנצח - הכנסת.",
+      "image": "images/Moran_M_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/moran.michel", "instagram": "https://www.instagram.com/moranmichel", "x": "https://x.com/moranmichel3", "tiktok": "https://www.tiktok.com/@moran_michel", "homepage": "https://www.moranmichel.org/" } 
+    },
+    { 
+      "id": "amir_khnifess", "name": "אמיר ח'ניפס", "tags": ["מיעוטים", "גבר"], 
+      "bio": "ד\"ר, יו\"ר המרכז הישראלי הדרוזי.", 
+      "longBio": "בן העיר שפרעם, דוקטור למדעי המדינה ולוחם למען שוויון ודמוקרטיה. נקודת המפנה שלי הייתה חקיקת חוק הלאום. לא יכולתי לעמוד מנגד, וחזרתי לארץ כדי להוביל את המרכז הישראלי הדרוזי ואת התנועה הדרוזית לדמוקרטיה ושוויון. פועל להעמקת השותפות האמתית והאחווה בין העם היהודי לעדה הדרוזית.",
+      "image": "images/amirh-03.webp", 
+      "links": { "facebook": "https://www.facebook.com/AmirKhnifess/", "linkedin": "https://www.linkedin.com/in/amir-khnifess-38568123/", "homepage": "https://www.amirkhnifess.co.il/", "instagram": "https://www.instagram.com/amir_khnifess/", "x": "https://x.com/akhnifess" } 
+    },
+    { 
+      "id": "ali_salalha", "name": "עלי סלאלחה", "tags": ["מרצ", "מיעוטים", "גבר"], 
+      "bio": "חבר כנסת לשעבר מטעם מרצ, איש חינוך ותיק.", 
+      "longBio": "איש חינוך ומנהל בי״ס לשעבר, זוכה פרס החינוך על הובלת תיכון בית ג׳ן למקום ראשון בישראל בזכאות לבגרות. חבר כנסת לשעבר מטעם מרצ בממשלת השינוי וחבר ועדת הבריאות בכנסת, ראש השדולה הראשונה בכנסת למתן שוויון זכויות לעדה הדרוזית בישראל.",
+      "image": "images/Eli_s_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/ali4meretz/", "x": "https://x.com/alisalalha" } 
+    },
+    { 
+      "id": "yael_cohen_paran", "name": "יעל כהן פארן", "tags": ["אישה"], 
+      "bio": "חברת כנסת לשעבר, ממובילות התנועה הירוקה בישראל.", 
+      "longBio": "הייתי חברת כנסת בכנסת ה-20, ואני עוסקת כל חיי בקידום נושאי הסביבה. הייתי בין המייסדים והמנכ\"לית הראשונה של ארגון 'מגמה ירוקה' והקמתי וניהלתי את 'הפורום הישראלי לאנרגיה'. כשכיהנתי כחברת כנסת הובלתי מהכנסת החלטות אסטרטגיות כמו סגירת מיכל האמוניה במפרץ חיפה.",
+      "image": "images/Yael_c_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/YaelCohenParan/", "instagram": "https://www.instagram.com/yael_cohen_paran/", "x": "https://x.com/YaelCohenParan", "linkedin": "https://www.linkedin.com/in/yael-cohen-paran/", "homepage": "https://www.yaelparan.co.il" } 
+    },
+    { 
+      "id": "chen_arieli", "name": "חן אריאלי", "tags": ["מרצ", "אישה"], 
+      "bio": "סגנית ראש עיריית תל אביב-יפו, יו\"ר אגודת הלהט\"ב לשעבר.", 
+      "longBio": "סגנית ראש עיריית תל אביב-יפו ומחזיקה בתיק התרבות. מכהנת כיושבת ראש איגי - ארגון הנוער הגאה בישראל, ומייסדת מכון שיטה למדיניות מקומית. כיו\"ר האגודה למען הלהט\"ב הובלתי את המחאה הגדולה בתולדות הקהילה הגאה בישראל. פועלת לקידום מדיניות חברתית חדשנית עבור אוכלוסיות מוחלשות.",
+      "image": "images/Chen_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/share/1RRB4pAni8/?mibextid=wwXIfr", "instagram": "https://www.instagram.com/chenarieli?igsh=MWNhMGZyY3plc2Zkbg%3D%3D", "x": "https://x.com/ArieliChen", "tiktok": "https://www.tiktok.com/@chenarieli?_r=1&_t=ZS-972KbQyRgdI", "homepage": "https://www.chenarieli.co.il" } 
+    },
+    { 
+      "id": "ihab_shlayan", "name": "איהאב שליאן", "tags": ["מיעוטים", "גבר"], 
+      "bio": "סגן אלוף במילואים מנצרת, פעיל חברתי לקידום אחדות.", 
+      "longBio": "שירתתי 25 שנים בצה”ל במסלול המבצעי וכיום מכהן כסמנכ”ל בחברת סייבר. יו”ר עמותת 'הקול הנוצרי' במדינת ישראל, מאז 2012 אני פעיל ציבורית לקידום שילוב מיעוטים בצה”ל ובכוחות הביטחון, ולפעילות בזירה הבינלאומית לחיזוק התמיכה של העולם המערבי והנוצרי בישראל.",
+      "image": "images/ihab_s_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/share/1cHEhjDgpL/?mibextid=wwXIfr", "instagram": "https://www.instagram.com/israeli_christians", "x": "https://x.com/ihab_shlayan?s=21&t=fNleOA_W3VCiVTmIa7Slpw", "linkedin": "https://www.linkedin.com/in/ihab-shlayan-a862654b", "tiktok": "https://www.tiktok.com/@israel_christians_page", "homepage": "https://thebcards.com/ihab-shlayan/" } 
+    },
+    { 
+      "id": "inbar_bezek", "name": "ענבר בזק", "tags": ["אישה"], 
+      "bio": "חברת כנסת לשעבר, מנכ\"לית החברה הכלכלית לפיתוח הגליל העליון.", 
+      "longBio": "לאחר שהובלתי 5 שנים את מחאת העצמאים, ב-2021 נכנסתי לכנסת והובלתי את שדולת העסקים הקטנים והגליל. בין 2023-2026 כיהנתי כמנכ\"לית של החברה לפיתוח הגליל העליון שם ניהלתי תקציבים בהיקף של מעל 100 מיליון שקלים. במאי 2025 הצטרפתי לדמוקרטים לקחת על עצמי להקים את השטח במחוז הצפון.",
+      "image": "images/inbar_b_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/share/17zDZwJZsy/", "instagram": "https://www.instagram.com/inbar.bezek/", "x": "https://x.com/InbarBezek", "linkedin": "https://www.linkedin.com/in/inbarbezek", "tiktok": "https://www.tiktok.com/@inbarbezek?_r=1&_t=ZS-94bkgo5QlAW", "homepage": "https://inbarbezek.com" } 
+    },
+    { 
+      "id": "malek_bader", "name": "מאלק בדר", "tags": ["מיעוטים", "גבר"], 
+      "bio": "עורך דין מחורפיש, פעיל ציבורי במגזר הדרוזי והערבי.", 
+      "longBio": "שימשתי ראש מועצת חורפיש ויו\"ר פורום הרשויות הדרוזיות בארץ.",
+      "image": "images/Malek_b_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/share/v/18PzcZ6g4B/", "tiktok": "https://www.tiktok.com/@malekbader31", "homepage": "https://www.malek-bader.com" } 
+    },
+    { 
+      "id": "ram_shefa", "name": "רם שפע", "tags": ["מרחב כפרי", "גבר"], 
+      "bio": "חבר כנסת לשעבר ותושב קיבוץ גבעת חיים איחוד.", 
+      "longBio": "לשעבר יו\"ר ועדת החינוך, התרבות והספורט ויו\"ר סיעת העבודה בממשלת השינוי. כיום ראש צוות התנועה הקיבוצית לשיקום הנגב המערבי וקיבוצי העוטף לאחר טבח ה-7/10. בעברו היה יושב הראש של התאחדות הסטודנטים והסטודנטיות בישראל.",
+      "image": "images/Ram_s_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/RamShefaMK", "instagram": "https://www.instagram.com/ramshefa?igsh=MTdjN3lkY3RxbHdzcQ%3D%3D", "x": "https://x.com/ramshefa?s=21&t=73dG_DRGAQjSgvv0P3R6sA" } 
+    },
+    { 
+      "id": "binyamin_minich", "name": "בנימין מיניץ'", "tags": ["גבר"], 
+      "bio": "רב קהילה ליברלית בכפר סבא.", 
+      "longBio": "פעיל חברתי, רב רפורמי, יו״ר מועצת הרבנות הרפורמית בישראל.",
+      "image": "images/Binyamin_m_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/rabbibenny", "instagram": "https://Instagram.com/bennyminich/", "x": "https://X.com/bennyminich/" } 
+    },
+    { 
+      "id": "hanan_zisu", "name": "חנן זיסו", "tags": ["גבר"], 
+      "bio": "יועץ אסטרטגיה ותקשורת, איש חינוך ופעיל חברתי.", 
+      "longBio": "פעלתי במספר חזיתות ציבוריות: כחבר מועצה מקומית בקריית טבעון, כפעיל מרכזי במטה החטופים, וכחלק מהמאבק נגד הרפורמה המשפטית. אני יוזם ומעורב בפעילות תקשורתיות למען עמותות ומיזמים חברתיים. אחרי שנים רבות שואף להביא קול חדש ואמיץ גם לכנסת.",
+      "image": "images/hanan_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/hanan.ziso" } 
+    },
+    { 
+      "id": "ahsan_halaila", "name": "אחסן חלאילה", "tags": ["מיעוטים", "גבר"], 
+      "bio": "ד\"ר מסחנין, מנהל פרויקטים בחברה הערבית.", 
+      "longBio": "פעיל חברתי ואיש חינוך, צברתי ידע וניסיון בניהול פרויקטים מורכבים עתירי תקציב שנועדו לקדם את הדו-קיום בין יהודים לערבים. יוזם ומקים מכללת משגב לחינוך וספורט במטרה להנגיש חינוך מקצועי לספורט ויצירת מפגשים מתמשכים בין סטודנטים ומורים יהודים וערבים.",
+      "image": "images/Achsan_H_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/ehsan.khlaily", "instagram": "https://www.instagram.com/ehsankhlaily/", "x": "https://x.com/EhsanKhlaily" } 
+    },
+    { 
+      "id": "ayelet_saidof", "name": "איילת השחר סיידוף", "tags": ["אישה"], 
+      "bio": "עורכת דין ופעילה ציבורית לשמירה על שלטון החוק.", 
+      "longBio": "מובילה חברתית כבר למעלה משני עשורים. בשנת 2023 ייסדה את תנועת 'אימהות בחזית' והובילה את המאבק לשוויון בשירות אל לב הזירה הציבורית והפרלמנטרית. על שמה חתום התקדים המשמעותי לביטול הסדר תורתו אומנותו. פועלת בנחישות להפרדת דת ומדינה ולקידום חוק יסוד השוויון.",
+      "image": "images/Ayelet_s_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/share/1DPVpcXRj9/?mibextid=wwXIfr", "instagram": "https://www.instagram.com/ayelethshachr", "x": "https://x.com/ayeletahshahar/status/2040050957883433164" } 
+    },
+    { 
+      "id": "yair_rubinstein", "name": "יאיר רובינשטיין", "tags": ["גבר"], 
+      "bio": "מנהל ופעיל אזרחי מבנימינה-גבעת עדה.", 
+      "longBio": "ירושלמי במקור, מהנדס ומנהל בכיר בתחום האנרגיה. אסטרטג, מנוסה בהובלת שינויים. מנהל מטה דת ומדינה בדמוקרטים, שונא כל ביטוי של כפיה, הדרה, אפליה וגזענות.",
+      "image": "images/Yair_r_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/YairRubinstein26/", "instagram": "https://www.instagram.com/yair.rubinstein/", "x": "https://x.com/yairrubinstein", "homepage": "https://www.yairrubinstein.org" } 
+    },
+    { 
+      "id": "hadas_regolsky", "name": "הדס רגולסקי", "tags": ["אישה"], 
+      "bio": "עיתונאית, חברת מועצת עיריית תל אביב-יפו וממובילות מאבקי שוויון.", 
+      "longBio": "אחרי 30 שנים בתקשורת הישראלית, החלטתי שהגיע הזמן לשנות את המציאות. ממייסדות 'בונות אלטרנטיבה' ו-'עוגן לעתיד'. כמנכ\"לית 'חוזה חדש' הובלתי כניסה של 86 חברי מועצה. כיום, כראש מטה 'הדמוקרטיות', כתבתי יחד עם פעילות במטה את מצע המפלגה לקידום שוויון מגדרי.",
+      "image": "images/Hadas_r_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/share/1FJub5Diyv/?mibextid=wwXIfr", "instagram": "https://www.instagram.com/hadasragolsky?igsh=NDh3MDlmaXZ4OG82", "x": "https://x.com/hragolsky", "linkedin": "https://www.linkedin.com/in/hadas-ragolsky-0ab73491", "tiktok": "https://www.tiktok.com/@hragolsky?_r=1&_t=ZS-94YQhYxc3Sp", "homepage": "https://Hadasragolsky.com" } 
+    },
+    { 
+      "id": "meheret_baruch", "name": "מהרטה ברוך רון", "tags": ["מרצ", "אישה"], 
+      "bio": "לשעבר סגנית ראש עיריית תל אביב-יפו מטעם מרצ, שחקנית ופעילה חברתית.", 
+      "longBio": "פוליטיקאית, אשת תקשורת ומרצה. האישה הראשונה ממוצא אתיופי שנבחרה למועצת העיר תל אביב-יפו, והראשונה שכיהנה כסגנית ראש העיר. זוכת 'אות החלוצים' ונבחרה לאחת מ-100 המשפיעים של מגזין 'ליברל' המייצגת סיפור הצלחה אישי של השתלבות.",
+      "image": "images/meheretabr-03.webp", 
+      "links": { "facebook": "https://www.facebook.com/mehereta1", "linkedin": "https://www.linkedin.com/in/mehereta-baruch-ron-71bb4525a/", "instagram": "https://www.instagram.com/mehereta.baruch.ron/", "x": "https://x.com/Meheretabr" } 
+    },
+    { 
+      "id": "inbal_wortman", "name": "ענבל וורטמן שהם", "tags": ["מרחב כפרי", "אישה"], 
+      "bio": "מנכ\"לית עמותת 'אבני דרך לחיים', תושבת כחל.", 
+      "longBio": "פועלת שנים בתחומי הרווחה והשירותים החברתיים. כמייסדת ומנכ\"לית שותפה של עמותת 'אבני דרך לחיים', הובלתי פיתוח שירותים חברתיים חדשניים בתחומי הרווחה והמוגבלות שפעלו בשגרה ובחירום. בכנסת אפעל לחיזוק השירותים בקהילה ולצמצום פערים בחברה.",
+      "image": "images/inbal_03.webp", 
+      "links": { "facebook": "https://www.facebook.com/share/1ApEFH8uez/", "instagram": "https://www.instagram.com/inbal_shoham/", "homepage": "https://inbals.co.il/" } 
+    },
+    {
+      "id": "ronen_tzur", "name": "רונן צור", "tags": ["גבר"],
+      "bio": "אסטרטג, יועץ תקשורת ומנהל משברים.",
+      "longBio": "אסטרטג בכיר, יועץ תקשורת ומוביל מאבקים ציבוריים. ממובילי תנועות המחאה האזרחית.",
+      "image": "images/ronen_tzur.jpg",
+      "links": {}
+    }
   ],
   "polls": []
 }
