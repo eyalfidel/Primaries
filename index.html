@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>פריימריז הדמוקרטים - גרסה 2</title>
+    <title>פריימריז הדמוקרטים - גרסה 2.1</title>
     <style>
         :root {
             --primary: #0033a0;
@@ -26,7 +26,7 @@
         
         /* Modals */
         .modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); z-index: 1000; display: none; justify-content: center; align-items: center; padding: 20px; }
-        .modal { background: white; padding: 25px; border-radius: 15px; max-width: 400px; width: 100%; text-align: right; box-shadow: 0 5px 15px rgba(0,0,0,0.3); }
+        .modal { background: white; padding: 25px; border-radius: 15px; max-width: 400px; width: 100%; text-align: right; box-shadow: 0 5px 15px rgba(0,0,0,0.3); max-height: 85vh; overflow-y: auto; }
         .modal h2 { margin-top: 0; color: var(--primary); }
         .btn-close-modal { display: block; width: 100%; background: var(--primary); color: white; padding: 10px; border: none; border-radius: 8px; font-size: 1rem; margin-top: 20px; cursor: pointer; }
 
@@ -131,6 +131,16 @@
         <p><strong>שריוני מרצ:</strong> נציגי מרצ מקבלים הבטחת ייצוג. אם לא ייבחרו טבעית, הם יוקפצו למקומות משוריינים (1 בשישייה, 2 בשמינייה, וכו').</p>
         <p><strong>מרחב כפרי ומיעוטים:</strong> קיימת הבטחת ייצוג לקיבוצים/מושבים ולחברה הערבית/דרוזית באזורים הריאליים ברשימה.</p>
         <p><strong>תאריכים:</strong> התפקדות עד 12.7, הצבעה ב-20.7.</p>
+        
+        <hr style="border: 0; border-top: 1px solid #dee2e6; margin: 15px 0;">
+        
+        <h3 style="font-size: 1rem; margin-bottom: 5px; color: #495057;">הבהרה וקרדיטים</h3>
+        <p style="font-size: 0.85rem; color: #666; line-height: 1.4; margin-top: 0;">
+            פרויקט זה הינו פרויקט אזרחי, התנדבותי לחלוטין וללא שום מטרה מסחרית. <br>
+            האתר <strong>אינו קשור</strong> למפלגת "הדמוקרטים", למטה הבחירות הרשמי או לאיש מהמתמודדים בפריימריז.<br>
+            חלק גדול מהפרטים והתמונות בפרויקט נאספו ונעזרו בנתונים המוצגים באתר <a href="https://hagush.org.il" target="_blank" style="color: var(--primary); font-weight: bold; text-decoration: none;">HAGUSH</a>.
+        </p>
+        
         <button class="btn-close-modal" onclick="closeModal('info-modal')">הבנתי, סגור</button>
     </div>
 </div>
@@ -234,7 +244,6 @@
         const card = document.createElement('div');
         card.className = 'card';
         
-        // Image logic with fallback
         const initials = getFallbackInitials(candidate.name);
         const imageHTML = `<img src="${candidate.image}" onerror="this.onerror=null; this.outerHTML='<div class=\\'fallback-img\\'>${initials}</div>';">`;
 
@@ -258,10 +267,10 @@
         };
         const endDrag = () => {
             card.classList.remove('dragging');
-            if (currentX > threshold) handleChoice('supported'); // Right = Support
-            else if (currentX < -threshold) handleChoice('opposed'); // Left = Oppose
-            else if (currentY < -threshold) handleChoice('unknown'); // Up = Unknown
-            else card.style.transform = ''; // Reset
+            if (currentX > threshold) handleChoice('supported');
+            else if (currentX < -threshold) handleChoice('opposed');
+            else if (currentY < -threshold) handleChoice('unknown');
+            else card.style.transform = '';
             currentX = 0; currentY = 0;
         };
 
@@ -285,9 +294,9 @@
         
         if(currentCardElem) {
             currentCardElem.style.transition = 'transform 0.3s ease-out, opacity 0.3s';
-            if (listName === 'supported') currentCardElem.style.transform = 'translateX(100vw) rotate(30deg)'; // Right
-            else if (listName === 'opposed') currentCardElem.style.transform = 'translateX(-100vw) rotate(-30deg)'; // Left
-            else currentCardElem.style.transform = 'translateY(-100vh)'; // Up
+            if (listName === 'supported') currentCardElem.style.transform = 'translateX(100vw) rotate(30deg)';
+            else if (listName === 'opposed') currentCardElem.style.transform = 'translateX(-100vw) rotate(-30deg)';
+            else currentCardElem.style.transform = 'translateY(-100vh)';
             currentCardElem.style.opacity = '0';
         }
 
@@ -307,7 +316,6 @@
     }
 
     function renderLists() {
-        // Supported List
         const contSupp = document.getElementById('list-supported-container');
         contSupp.innerHTML = '';
         if(state.supported.length === 0) contSupp.innerHTML = '<p class="text-center">עדיין לא בחרת מועמדים.</p>';
@@ -325,7 +333,6 @@
                 </div>`;
         });
 
-        // Others List (Combines Unknown & Opposed)
         const contOthers = document.getElementById('list-others-container');
         contOthers.innerHTML = '';
         const others = [...state.unknown, ...state.opposed];
