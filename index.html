@@ -14,13 +14,13 @@
             --card-bg: #ffffff;
         }
         body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); margin: 0; padding: 0; overflow-x: hidden; display: flex; flex-direction: column; height: 100vh; touch-action: pan-y; }
-        
+
         header { background: var(--primary); color: white; text-align: center; padding: 15px; position: relative; box-shadow: 0 2px 4px rgba(0,0,0,0.1); z-index: 10; }
         .header-title { font-weight: bold; font-size: 1.2rem; }
         .btn-info { position: absolute; left: 15px; top: 15px; background: none; border: none; font-size: 1.5rem; color: white; cursor: pointer; }
 
         main { flex: 1; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; overflow-y: auto; padding-bottom: 70px; }
-        
+
         /* Modals */
         .modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); z-index: 1000; display: none; justify-content: center; align-items: center; padding: 20px; }
         .modal { background: white; padding: 25px; border-radius: 15px; max-width: 400px; width: 100%; text-align: right; box-shadow: 0 5px 15px rgba(0,0,0,0.3); max-height: 85vh; overflow-y: auto; }
@@ -30,7 +30,7 @@
         /* Swipe Area */
         #swipe-section { width: 100%; display: flex; flex-direction: column; align-items: center; height: 100%; justify-content: center; }
         #swipe-container { width: 90%; max-width: 360px; height: 60vh; max-height: 500px; position: relative; perspective: 1000px; }
-        
+
         /* Card Design */
         .card { position: absolute; width: 100%; height: 100%; background: var(--card-bg); border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); display: flex; flex-direction: column; overflow: hidden; transition: transform 0.3s ease-out; cursor: grab; user-select: none; }
         .card.dragging { transition: none; cursor: grabbing; }
@@ -53,7 +53,7 @@
         .btn-support { background: var(--support); }
 
         /* Social Links */
-        .social-links { display: flex; gap: 12px; justify-content: center; margin-top: 15px; border-top: 1px solid #eee; padding-top: 15px;}
+        .social-links { display: flex; gap: 12px; justify-content: center; margin-top: 15px; border-top: 1px solid #eee; padding-top: 15px; flex-wrap: wrap; }
         .social-btn { color: #555; text-decoration: none; display: flex; align-items: center; justify-content: center; transition: 0.2s; }
         .social-btn:hover { color: var(--primary); transform: scale(1.1); }
 
@@ -62,7 +62,7 @@
         .selection-status.valid { background: var(--support); }
         .selection-title { font-weight: bold; font-size: 1.1rem; }
         .selection-summary { font-size: 0.85rem; margin-top: 5px; opacity: 0.9; }
-        
+
         .btn-share { display: none; background: #fff; color: var(--support); border: none; padding: 8px 15px; border-radius: 20px; font-weight: bold; margin: 10px auto 0 auto; cursor: pointer; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
         .selection-status.valid .btn-share { display: block; }
 
@@ -79,7 +79,7 @@
         .btn-small { background: #eee; border: none; padding: 6px 12px; border-radius: 5px; cursor: pointer; font-size: 0.8rem; }
         .btn-add { background: var(--primary); color: white; }
         .btn-remove { background: #ffeeba; color: #856404; }
-        
+
         .select-toggle { display: flex; align-items: center; gap: 8px; cursor: pointer; font-size: 0.9rem; background: #e9ecef; padding: 6px 12px; border-radius: 5px; user-select: none; transition: 0.2s;}
         .select-toggle.selected { background: var(--support); color: white; }
         .select-toggle input { display: none; }
@@ -88,7 +88,7 @@
         nav { position: fixed; bottom: 0; width: 100%; background: white; display: flex; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); direction: rtl; z-index: 20;}
         .nav-btn { flex: 1; padding: 15px 0; background: none; border: none; border-top: 3px solid transparent; font-size: 0.95rem; font-weight: bold; cursor: pointer; color: #777; transition: 0.2s; }
         .nav-btn.active { color: var(--primary); border-top-color: var(--primary); background: #f8f9fa; }
-        
+
         .hidden { display: none !important; }
         .text-center { text-align: center; }
     </style>
@@ -133,12 +133,12 @@
     <!-- Tab 3: Others (Left) -->
     <div id="tab-content-others" class="tab-content" style="padding-top: 15px;">
         <h3 style="color: var(--primary); margin: 0 15px 15px 15px;">שאר המתמודדים</h3>
-        
+
         <div class="list-section">
             <h4 class="list-group-title">מתלבט / לא מכיר (🤔)</h4>
             <div id="list-unknown-container"></div>
         </div>
-        
+
         <div class="list-section">
             <h4 class="list-group-title">מתנגד (👎)</h4>
             <div id="list-opposed-container"></div>
@@ -194,6 +194,8 @@
     let candidatesData = [];
     let state = { remaining: [], supported: [], opposed: [], unknown: [], finalSelection: [] };
     let currentCardElem = null;
+    let isMouse = false;
+    let dragStartX = 0, dragStartY = 0, dragCurrentX = 0, dragCurrentY = 0;
 
     const icons = {
         homepage: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>`,
@@ -201,21 +203,43 @@
         instagram: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>`,
         x: `<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>`,
         tiktok: `<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/></svg>`,
-        linkedin: `<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>`
+        linkedin: `<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>`,
+        telegram: `<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>`,
+        youtube: `<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>`
     };
+
+    // Global mouse handlers — attached once to avoid accumulating listeners on every card render
+    document.addEventListener('mousemove', e => {
+        if (!isMouse || !currentCardElem) return;
+        dragCurrentX = e.clientX - dragStartX;
+        dragCurrentY = e.clientY - dragStartY;
+        currentCardElem.style.transform = `translate(${dragCurrentX}px, ${dragCurrentY}px) rotate(${dragCurrentX * 0.05}deg)`;
+    });
+
+    document.addEventListener('mouseup', () => {
+        if (!isMouse) return;
+        isMouse = false;
+        if (!currentCardElem) return;
+        currentCardElem.classList.remove('dragging');
+        if (dragCurrentX > 100) handleChoice('supported');
+        else if (dragCurrentX < -100) handleChoice('opposed');
+        else if (dragCurrentY < -100) handleChoice('unknown');
+        else currentCardElem.style.transform = '';
+        dragCurrentX = 0; dragCurrentY = 0;
+    });
 
     async function init() {
         try {
-            const response = await fetch('data.json');
+            const response = await fetch('data.json?v=2');
             const data = await response.json();
             candidatesData = data.candidates;
             loadState();
-            
+
             if (!localStorage.getItem('democrats_onboarding_v3_2')) {
                 document.getElementById('onboarding-modal').style.display = 'flex';
                 localStorage.setItem('democrats_onboarding_v3_2', 'true');
             }
-            
+
             renderNextCard();
             updateSelectionStatus();
             renderLists();
@@ -229,9 +253,19 @@
         if (saved) {
             state = JSON.parse(saved);
             if (!state.finalSelection) state.finalSelection = [];
-            const allSavedIds = [...state.remaining, ...state.supported, ...state.opposed, ...state.unknown];
+
+            // Remove candidates no longer in data (e.g. withdrew from race)
+            const validIds = new Set(candidatesData.map(c => c.id));
+            state.remaining = state.remaining.filter(id => validIds.has(id));
+            state.supported = state.supported.filter(id => validIds.has(id));
+            state.opposed = state.opposed.filter(id => validIds.has(id));
+            state.unknown = state.unknown.filter(id => validIds.has(id));
+            state.finalSelection = state.finalSelection.filter(id => validIds.has(id));
+
+            // Add any new candidates to the deck
+            const allSavedIds = new Set([...state.remaining, ...state.supported, ...state.opposed, ...state.unknown]);
             candidatesData.forEach(c => {
-                if (!allSavedIds.includes(c.id)) state.remaining.push(c.id);
+                if (!allSavedIds.has(c.id)) state.remaining.push(c.id);
             });
         } else {
             state.remaining = candidatesData.map(c => c.id).sort(() => Math.random() - 0.5);
@@ -250,20 +284,17 @@
     function closeOnboarding() { closeModal('onboarding-modal'); }
 
     function renderSocialLinks(linksObj) {
-        if(!linksObj || Object.keys(linksObj).length === 0) return '';
-        let html = '';
-        if(linksObj.homepage) html += `<a href="${linksObj.homepage}" target="_blank" class="social-btn">${icons.homepage}</a>`;
-        if(linksObj.facebook) html += `<a href="${linksObj.facebook}" target="_blank" class="social-btn">${icons.facebook}</a>`;
-        if(linksObj.instagram) html += `<a href="${linksObj.instagram}" target="_blank" class="social-btn">${icons.instagram}</a>`;
-        if(linksObj.x) html += `<a href="${linksObj.x}" target="_blank" class="social-btn">${icons.x}</a>`;
-        if(linksObj.tiktok) html += `<a href="${linksObj.tiktok}" target="_blank" class="social-btn">${icons.tiktok}</a>`;
-        if(linksObj.linkedin) html += `<a href="${linksObj.linkedin}" target="_blank" class="social-btn">${icons.linkedin}</a>`;
-        return html;
+        if (!linksObj || Object.keys(linksObj).length === 0) return '';
+        const order = ['homepage', 'facebook', 'instagram', 'x', 'tiktok', 'linkedin', 'telegram', 'youtube'];
+        return order
+            .filter(k => linksObj[k])
+            .map(k => `<a href="${linksObj[k]}" target="_blank" rel="noopener noreferrer" class="social-btn">${icons[k]}</a>`)
+            .join('');
     }
 
     function openBioModal(id) {
         const c = getCandidateById(id);
-        if(!c) return;
+        if (!c) return;
         document.getElementById('bio-modal-name').innerText = c.name;
         document.getElementById('bio-modal-text').innerText = c.longBio || c.bio;
         document.getElementById('bio-modal-links').innerHTML = renderSocialLinks(c.links);
@@ -271,11 +302,10 @@
     }
 
     function getCandidateById(id) { return candidatesData.find(c => c.id === id); }
-    
+
     function getFallbackInitials(name) {
         const parts = name.split(' ');
-        if(parts.length > 1) return parts[0][0] + parts[1][0];
-        return name.substring(0, 2);
+        return parts.length > 1 ? parts[0][0] + parts[1][0] : name.substring(0, 2);
     }
 
     function getLastName(name) {
@@ -286,7 +316,7 @@
     function sortByName(aId, bId) {
         const cA = getCandidateById(aId);
         const cB = getCandidateById(bId);
-        if(!cA || !cB) return 0;
+        if (!cA || !cB) return 0;
         return getLastName(cA.name).localeCompare(getLastName(cB.name), 'he');
     }
 
@@ -303,26 +333,28 @@
     function updateSelectionStatus() {
         const count = state.finalSelection.length;
         const banner = document.getElementById('selection-banner');
-        
-        let men=0, women=0, meretz=0, minorities=0, rural=0;
+
+        let men = 0, women = 0, meretz = 0, minorities = 0, rural = 0;
         state.finalSelection.forEach(id => {
-            const tags = getCandidateById(id).tags || [];
-            if(tags.includes("גבר")) men++;
-            if(tags.includes("אישה")) women++;
-            if(tags.includes("מרצ")) meretz++;
-            if(tags.includes("מיעוטים")) minorities++;
-            if(tags.includes("מרחב כפרי")) rural++;
+            const c = getCandidateById(id);
+            if (!c) return;
+            const tags = c.tags || [];
+            if (tags.includes('גבר')) men++;
+            if (tags.includes('אישה')) women++;
+            if (tags.includes('מרצ')) meretz++;
+            if (tags.includes('מיעוטים')) minorities++;
+            if (tags.includes('מרחב כפרי')) rural++;
         });
 
-        let summaryArr = [];
-        if(women>0) summaryArr.push(`${women} נשים`);
-        if(men>0) summaryArr.push(`${men} גברים`);
-        if(meretz>0) summaryArr.push(`${meretz} נציגי מרצ`);
-        if(minorities>0) summaryArr.push(`${minorities} מיעוטים`);
-        if(rural>0) summaryArr.push(`${rural} מרחב כפרי`);
+        const summaryParts = [];
+        if (women > 0) summaryParts.push(`${women} נשים`);
+        if (men > 0) summaryParts.push(`${men} גברים`);
+        if (meretz > 0) summaryParts.push(`${meretz} נציגי מרצ`);
+        if (minorities > 0) summaryParts.push(`${minorities} מיעוטים`);
+        if (rural > 0) summaryParts.push(`${rural} מרחב כפרי`);
 
         document.getElementById('selection-title-text').innerText = `בחירות סופיות: ${count} מתוך 8 (דרושים 6-8)`;
-        document.getElementById('selection-summary-text').innerText = count > 0 ? `בחרת: ${summaryArr.join(', ')}` : '';
+        document.getElementById('selection-summary-text').innerText = count > 0 ? `בחרת: ${summaryParts.join(', ')}` : '';
 
         if (count >= 6 && count <= 8) {
             banner.classList.add('valid');
@@ -332,21 +364,22 @@
     }
 
     function shareBallot() {
-        const names = state.finalSelection.map((id, i) => `${i+1}. ${getCandidateById(id).name}`).join('\n');
+        const names = state.finalSelection.map((id, i) => `${i + 1}. ${getCandidateById(id).name}`).join('\n');
         const text = `הנבחרת שלי לפריימריז הדמוקרטים:\n${names}\n\nהרכיבו גם אתם את הרשימה שלכם:\nhttps://primaries.eyalfidel.com`;
-        
+
         if (navigator.share) {
-            navigator.share({ title: 'הפתק שלי לדמוקרטים', text: text }).catch(console.error);
+            navigator.share({ title: 'הפתק שלי לדמוקרטים', text }).catch(console.error);
         } else {
-            navigator.clipboard.writeText(text);
-            alert('הפתק הועתק ללוח! עכשיו אפשר להדביק אותו בוואטסאפ או ברשתות.');
+            navigator.clipboard.writeText(text).then(() => {
+                alert('הפתק הועתק ללוח! עכשיו אפשר להדביק אותו בוואטסאפ או ברשתות.');
+            });
         }
     }
 
     function renderNextCard() {
         const container = document.getElementById('swipe-container');
         container.innerHTML = '';
-        
+
         if (state.remaining.length === 0) {
             document.getElementById('action-buttons').classList.add('hidden');
             document.getElementById('end-message').classList.remove('hidden');
@@ -356,52 +389,59 @@
         document.getElementById('action-buttons').classList.remove('hidden');
         document.getElementById('end-message').classList.add('hidden');
 
-        const currentId = state.remaining[0];
-        const candidate = getCandidateById(currentId);
+        const candidate = getCandidateById(state.remaining[0]);
+        if (!candidate) { state.remaining.shift(); renderNextCard(); return; }
+
         const card = document.createElement('div');
         card.className = 'card';
-        
+
         const initials = getFallbackInitials(candidate.name);
-        const imageHTML = `<img src="${candidate.image}" onerror="this.onerror=null; this.outerHTML='<div class=\\'fallback-img\\' onclick=\\'openBioModal(\\'${candidate.id}\\')\\'>${initials}</div>';">`;
+        const safeId = candidate.id;
+        const imageHTML = `<img src="${candidate.image}" onerror="this.onerror=null; this.outerHTML='<div class=\\'fallback-img\\' onclick=\\'openBioModal(\\'${safeId}\\')\\'>${initials}</div>';">`;
 
         card.innerHTML = `
-            <div class="card-img-wrapper" onclick="openBioModal('${candidate.id}')">${imageHTML}</div>
+            <div class="card-img-wrapper" onclick="openBioModal('${safeId}')">${imageHTML}</div>
             <div class="card-content">
-                <div class="card-info-clickable" onclick="openBioModal('${candidate.id}')">
+                <div class="card-info-clickable" onclick="openBioModal('${safeId}')">
                     <div class="card-name">${candidate.name}</div>
                     <div class="card-tags">${candidate.tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>
                     <div class="card-bio">${candidate.bio}</div>
                 </div>
-                <button class="btn-expand" onclick="openBioModal('${candidate.id}')">להרחבה 📖</button>
+                <button class="btn-expand" onclick="openBioModal('${safeId}')">להרחבה 📖</button>
             </div>
         `;
 
-        let startX = 0, startY = 0, currentX = 0, currentY = 0;
         const threshold = 100;
+        card.addEventListener('touchstart', e => {
+            dragStartX = e.touches[0].clientX;
+            dragStartY = e.touches[0].clientY;
+            dragCurrentX = 0; dragCurrentY = 0;
+            card.classList.add('dragging');
+        }, { passive: true });
 
-        const startDrag = (x, y) => { startX = x; startY = y; card.classList.add('dragging'); };
-        const moveDrag = (x, y) => {
-            if(!card.classList.contains('dragging')) return;
-            currentX = x - startX; currentY = y - startY;
-            card.style.transform = `translate(${currentX}px, ${currentY}px) rotate(${currentX * 0.05}deg)`;
-        };
-        const endDrag = () => {
+        card.addEventListener('touchmove', e => {
+            if (!card.classList.contains('dragging')) return;
+            dragCurrentX = e.touches[0].clientX - dragStartX;
+            dragCurrentY = e.touches[0].clientY - dragStartY;
+            card.style.transform = `translate(${dragCurrentX}px, ${dragCurrentY}px) rotate(${dragCurrentX * 0.05}deg)`;
+        }, { passive: true });
+
+        card.addEventListener('touchend', () => {
             card.classList.remove('dragging');
-            if (currentX > threshold) handleChoice('supported');
-            else if (currentX < -threshold) handleChoice('opposed');
-            else if (currentY < -threshold) handleChoice('unknown');
+            if (dragCurrentX > threshold) handleChoice('supported');
+            else if (dragCurrentX < -threshold) handleChoice('opposed');
+            else if (dragCurrentY < -threshold) handleChoice('unknown');
             else card.style.transform = '';
-            currentX = 0; currentY = 0;
-        };
+            dragCurrentX = 0; dragCurrentY = 0;
+        });
 
-        card.addEventListener('touchstart', e => startDrag(e.touches[0].clientX, e.touches[0].clientY), {passive: true});
-        card.addEventListener('touchmove', e => moveDrag(e.touches[0].clientX, e.touches[0].clientY), {passive: true});
-        card.addEventListener('touchend', endDrag);
-
-        let isMouse = false;
-        card.addEventListener('mousedown', e => { isMouse = true; startDrag(e.clientX, e.clientY); });
-        document.addEventListener('mousemove', e => { if(isMouse) moveDrag(e.clientX, e.clientY); });
-        document.addEventListener('mouseup', e => { if(isMouse) { isMouse = false; endDrag(); } });
+        card.addEventListener('mousedown', e => {
+            isMouse = true;
+            dragStartX = e.clientX;
+            dragStartY = e.clientY;
+            dragCurrentX = 0; dragCurrentY = 0;
+            card.classList.add('dragging');
+        });
 
         container.appendChild(card);
         currentCardElem = card;
@@ -411,8 +451,8 @@
         if (state.remaining.length === 0) return;
         const id = state.remaining.shift();
         state[listName].push(id);
-        
-        if(currentCardElem) {
+
+        if (currentCardElem) {
             currentCardElem.style.transition = 'transform 0.3s ease-out, opacity 0.3s';
             if (listName === 'supported') currentCardElem.style.transform = 'translateX(100vw) rotate(30deg)';
             else if (listName === 'opposed') currentCardElem.style.transform = 'translateX(-100vw) rotate(-30deg)';
@@ -427,19 +467,18 @@
     function moveToList(id, fromList, toList) {
         state[fromList] = state[fromList].filter(c => c !== id);
         state[toList].push(id);
-        if(fromList === 'supported') {
+        if (fromList === 'supported') {
             state.finalSelection = state.finalSelection.filter(c => c !== id);
         }
         saveState();
     }
 
     function generateListItems(list, fromListType) {
-        let html = '';
-        list.forEach(id => {
+        return list.map(id => {
             const c = getCandidateById(id);
-            if(!c) return;
+            if (!c) return '';
             const initials = getFallbackInitials(c.name);
-            html += `
+            return `
                 <div class="list-item">
                     <div class="list-item-header">
                         <div class="list-item-info" onclick="openBioModal('${id}')">
@@ -452,8 +491,7 @@
                         </div>
                     </div>
                 </div>`;
-        });
-        return html;
+        }).join('');
     }
 
     function renderLists() {
@@ -465,52 +503,51 @@
         });
 
         const contSupp = document.getElementById('list-supported-container');
-        contSupp.innerHTML = '';
-        if(supportedSorted.length === 0) contSupp.innerHTML = '<p class="text-center" style="color:#aaa;">עדיין לא בחרת מועמדים למועדפים.</p>';
-        
-        supportedSorted.forEach(id => {
-            const c = getCandidateById(id);
-            if(!c) return;
-            const isSelected = state.finalSelection.includes(id);
-            const toggleClass = isSelected ? 'select-toggle selected' : 'select-toggle';
-            const toggleText = isSelected ? '✓ נבחר' : '+ בחר';
-            const initials = getFallbackInitials(c.name);
-            
-            contSupp.innerHTML += `
-                <div class="list-item">
-                    <div class="list-item-header">
-                        <div class="list-item-info" onclick="openBioModal('${id}')">
-                            <img src="${c.image}" class="list-thumb" onclick="openBioModal('${id}')" onerror="this.onerror=null; this.outerHTML='<div class=\\'list-thumb\\' onclick=\\'openBioModal(\\'${id}\\')\\'>${initials}</div>';">
-                            <span style="font-weight: ${isSelected ? 'bold' : 'normal'};" onclick="openBioModal('${id}')">${c.name}</span>
+        if (supportedSorted.length === 0) {
+            contSupp.innerHTML = '<p class="text-center" style="color:#aaa;">עדיין לא בחרת מועמדים למועדפים.</p>';
+        } else {
+            contSupp.innerHTML = supportedSorted.map(id => {
+                const c = getCandidateById(id);
+                if (!c) return '';
+                const isSelected = state.finalSelection.includes(id);
+                const toggleClass = isSelected ? 'select-toggle selected' : 'select-toggle';
+                const toggleText = isSelected ? '✓ נבחר' : '+ בחר';
+                const initials = getFallbackInitials(c.name);
+                return `
+                    <div class="list-item">
+                        <div class="list-item-header">
+                            <div class="list-item-info" onclick="openBioModal('${id}')">
+                                <img src="${c.image}" class="list-thumb" onclick="openBioModal('${id}')" onerror="this.onerror=null; this.outerHTML='<div class=\\'list-thumb\\' onclick=\\'openBioModal(\\'${id}\\')\\'>${initials}</div>';">
+                                <span style="font-weight: ${isSelected ? 'bold' : 'normal'};" onclick="openBioModal('${id}')">${c.name}</span>
+                            </div>
+                            <div class="list-item-actions" style="margin-top:0;">
+                                <label class="${toggleClass}">
+                                    <input type="checkbox" onchange="toggleSelection('${id}')" ${isSelected ? 'checked' : ''}>
+                                    ${toggleText}
+                                </label>
+                                <button class="btn-small btn-remove" onclick="moveToList('${id}', 'supported', 'opposed')">הסר</button>
+                            </div>
                         </div>
-                        <div class="list-item-actions" style="margin-top:0;">
-                            <label class="${toggleClass}">
-                                <input type="checkbox" onchange="toggleSelection('${id}')" ${isSelected ? 'checked' : ''}>
-                                ${toggleText}
-                            </label>
-                            <button class="btn-small btn-remove" onclick="moveToList('${id}', 'supported', 'opposed')">להסיר</button>
-                        </div>
-                    </div>
-                </div>`;
-        });
+                    </div>`;
+            }).join('');
+        }
 
-        const contUnknown = document.getElementById('list-unknown-container');
         const unknownSorted = [...state.unknown].sort(sortByName);
-        contUnknown.innerHTML = unknownSorted.length > 0 
-            ? generateListItems(unknownSorted, 'unknown') 
+        const contUnknown = document.getElementById('list-unknown-container');
+        contUnknown.innerHTML = unknownSorted.length > 0
+            ? generateListItems(unknownSorted, 'unknown')
             : '<p class="text-center" style="font-size:0.9rem; color:#aaa;">אין מועמדים ברשימה זו.</p>';
 
-        const contOpposed = document.getElementById('list-opposed-container');
         const opposedSorted = [...state.opposed].sort(sortByName);
-        contOpposed.innerHTML = opposedSorted.length > 0 
-            ? generateListItems(opposedSorted, 'opposed') 
+        const contOpposed = document.getElementById('list-opposed-container');
+        contOpposed.innerHTML = opposedSorted.length > 0
+            ? generateListItems(opposedSorted, 'opposed')
             : '<p class="text-center" style="font-size:0.9rem; color:#aaa;">אין מועמדים ברשימה זו.</p>';
     }
 
     function switchTab(tabId) {
         document.querySelectorAll('.tab-content').forEach(el => el.style.display = 'none');
         document.querySelectorAll('.nav-btn').forEach(el => el.classList.remove('active'));
-        
         document.getElementById(`tab-content-${tabId}`).style.display = 'flex';
         document.getElementById(`tab-content-${tabId}`).style.flexDirection = 'column';
         document.getElementById(`nav-${tabId}`).classList.add('active');
