@@ -1,318 +1,890 @@
 {
   "candidates": [
     {
-      "id": "naama_lazimi", "name": "נעמה לזימי", "tags": ["אישה"],
-      "bio": "חברת כנסת מכהנת, יו\"ר ועדת הצעירים, חברת ועדות הכספים והחינוך.",
-      "longBio": "נעמה לזימי, בת 40, נשואה לאבי, מורה, סופר ודוקטורנט, ואמא לרונה-אסתר ואראל-ציון, חברת כנסת מטעם מפלגת הדמוקרטים, סוציאל-דמוקרטית, פמיניסטית, ציונית ושוחרת שלום. מכהנת כיו\"ר הוועדה המיוחדת לענייני צעירים וחברה בוועדות הכספים והחינוך.\nבפעילותי אני מובילה מאבקים פרלמנטריים וציבוריים למען שיקום וחיזוק מדינת הרווחה, חינוך ממלכתי ושוויוני, טיפול ביוקר המחיה ומשבר הדיור, שמירה והגנה על ישראל הדמוקרטית והליברלית.",
-      "image": "images/naama_l-03.webp",
-      "links": { "facebook": "https://www.facebook.com/NaamaLazimiOfficial", "instagram": "https://www.instagram.com/naamalazimi/", "x": "https://x.com/naamalazimi", "tiktok": "https://www.tiktok.com/@naamalazimi?_r=1&_t=ZS-95JhpDYVayo", "homepage": "https://www.nlazimi.org/" }
+      "id": "c29294",
+      "name": "סומיה בשיר",
+      "tags": [
+        "אישה"
+      ],
+      "bio": "בת 51 אמא לחמישה מטפלת רגשית ואשת חינוך 27 שנים ופעילה חברתית מייסדת אין לנו ארץ אחרת ממובילות המאבק בפשיעה ובקידום שותפות יהוד…",
+      "longBio": "בת 51 אמא לחמישה מטפלת רגשית ואשת חינוך 27 שנים ופעילה חברתית מייסדת אין לנו ארץ אחרת ממובילות המאבק בפשיעה ובקידום שותפות יהודית־ערבית מאמינה בשוויון אזרחי מלא ביטחון לכולם דמוקרטיה וסדר אזרחי חדש",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/26444687_סומיה_בשיר_candidatePhoto_20260622_083450_1000575283.jpg",
+      "links": {
+        "wikipedia": "https://he.wikipedia.org/wiki/%D7%A1%D7%95%D7%9E%D7%99%D7%94_%D7%91%D7%A9%D7%99%D7%A8",
+        "facebook": "https://www.facebook.com/share/1DAfjkL9gP/",
+        "instagram": "https://www.instagram.com/bashirsomaya?igsh=cW5wbjhqazV5NTYx",
+        "x": "https://x.com/bashsomaya",
+        "tiktok": "https://www.tiktok.com/@humanity10.2022?_r=1&_t=ZS-97PlATVdENo",
+        "whatsapp": "https://chat.whatsapp.com/CWLbVaI6uJKHZFYeopLtaf?s=cl&p=a&ilr=0",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/26444687_סומיה_בשיר_cv_20260622_082209_קורות_חיים_-_סומיה_בשיר_חדשים.pdf"
+      }
     },
     {
-      "id": "gilad_kariv", "name": "גלעד קריב", "tags": ["גבר"],
-      "bio": "חבר כנסת מכהן, יו\"ר ועדת העלייה, הקליטה והתפוצות. רב ועורך דין.",
-      "longBio": "מהקולות המרכזיים בשמאל הציוני ובמחנה הדמוקרטי, וממובילי המאבק נגד המהפכה המשטרית והפגיעה בשלטון החוק. הוא משמש כיו\"ר וועדת העליה, הקליטה והתפוצות. משפטן ורב רפורמי, ונחשב לאחד ממנהיגיה של היהדות הליברלית בישראל ובעולם היהודי. קריב פעיל בזירה הציבורית במשך שלושים שנים, בנושאי דת ומדינה, צדק חברתי, קידום פתרון שתי המדינות ומאבק בגזענות.",
-      "image": "images/Gilad_K_03.webp",
-      "links": { "facebook": "https://www.facebook.com/share/1D8apauDkP", "instagram": "https://www.instagram.com/gilad.kariv", "x": "https://x.com/karivgilad", "tiktok": "https://www.tiktok.com/@gilad_kariv", "homepage": "https://giladkariv.com/join/" }
+      "id": "c29280",
+      "name": "עו\"ד מאלכ בדר",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "ראש מועצת חורפיש ויו\"ר פורם הרשויות הדרוזיות בעבר .",
+      "longBio": "ראש מועצת חורפיש ויו\"ר פורם הרשויות הדרוזיות בעבר . פעיל חברתי מזה שנים רבות מאמין שמדינת ישראל חייבת להתחיל במסע שיקום לאחר ההרס שהותירה ממשלת ההסתה , ולייצב את מדינת ישראל , כפי שהכרנו אותה .",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/56302227_מאלכ_בדר_candidatePhoto_20260622_202606_260326.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/share/1H96TWaH4e/"
+      }
     },
     {
-      "id": "efrat_rayten", "name": "אפרת רייטן", "tags": ["אישה"],
-      "bio": "חברת כנסת מכהנת, יו\"ר סיעת הדמוקרטים בכנסת. עורכת דין ואשת תקשורת.",
-      "longBio": "בכנסת ה-24 כיהנה כיו\"ר ועדת עבודה ורווחה והייתה חברה בוועדה לבחירת שופטים. עסקה בנושאים חברתיים ובין היתר למען זכויות העובדים כמו שמירה על שכר המינימום פיצויים נאותים, למען אוכלוסיות בסיכון ואנשים עם מוגבלויות. מובילה בשמירה על עצמאות מערכת המשפט, זכויות האזרח ודמוקרטיה ליברלית. כאן כדי להמשיך לפקח ולוודא שישראל תהיה תמיד מחוייבת לטובת הציבור.",
-      "image": "images/Efrat_r_03.webp",
-      "links": { "facebook": "https://www.facebook.com/share/1Gjj8ymD97/", "instagram": "https://www.instagram.com/efratrayten?igsh=em92anFoYnFpOHEx", "x": "https://x.com/Efratrayten1", "linkedin": "https://www.linkedin.com/in/efrat-rayten-0bb308387", "homepage": "https://www.efratrayten.com" }
+      "id": "c29309",
+      "name": "יאיר רובינשטיין",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "בין סבא רב וסבא כומר, זה אני, יאיר רובינשטיין, המועמד שלכם בפריימריז ומנהל מטה דת ומדינה במפלגה.",
+      "longBio": "בין סבא רב וסבא כומר, זה אני, יאיר רובינשטיין, המועמד שלכם בפריימריז ומנהל מטה דת ומדינה במפלגה. נולדתי בירושלים ביום פרוץ מלחמת יום כיפור, ובגיל 50 חמאס פלש. לחמתי כקצין בגולני ואחר כך כמ\"פ במילואים. רעייתי ואני מגדלים שלושה ילדים בגבעת עדה, אחד מהם לוחם קרבי. ניהלתי חברות בארץ ובעולם, התבססתי כלכלית. עזבתי הכל כדי להצטרף ולהוביל את שיקום המדינה. אביא את ניסיוני כמנהל, כאסטרטג, כשותף, אתמקד בהפרדת הדת מן המדינה, באנרגיה ואקלים ובייצוג בנימינה וגבעת עדה, ובכל מה שצריך. הנני כאן לשרותכם!",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/25544222_יאיר_רובינשטיין_candidatePhoto_20260623_175243.jpeg",
+      "links": {
+        "homepage": "https://yairrubinstein.org/",
+        "facebook": "https://www.facebook.com/YairRubinstein26%20",
+        "instagram": "https://www.instagram.com/yair.rubinstein/",
+        "x": "https://x.com/YairRubinstein",
+        "whatsapp": "https://chat.whatsapp.com/Gwb5zU49uWN1OaAV05cyOP",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/25544222_יאיר_רובינשטיין_cv_20260623_175049_קורות_חיים_למועמדות_יאיר_רובינשטיין.pdf"
+      }
     },
     {
-      "id": "mossi_raz", "name": "מוסי רז", "tags": ["מרצ", "גבר"],
-      "bio": "חבר כנסת לשעבר מטעם מרצ, רואה חשבון ופעיל למען שלום וסביבה.",
-      "longBio": "פעיל שלום וסביבה מאז ילדותי. מכיר את הכנסת 35 שנה מאז שהתחלתי לעבוד כמנהל סיעת רצ. נהלתי ארגונים בהם 'שלום עכשיו', מרצ ורדיו 'כל השלום'. הייתי יושב ראש של ארגונים כמו 'חיים וסביבה' ו'בזכות'. הייתי חבר כנסת 6 שנים בשלוש קדנציות שונות. בפריימריז האחרונים במרצ דירגו אותי ראשון ברשימה לאחר יושבת הראש זהבה גלאון.",
-      "image": "images/mossir-03.webp",
-      "links": { "facebook": "https://www.facebook.com/mossi.raz.9", "linkedin": "https://www.linkedin.com/in/mossi-raz-22360317/", "instagram": "https://www.instagram.com/mossi_raz/", "x": "https://x.com/mossi_raz" }
+      "id": "c29271",
+      "name": "מהרטה ברוך רון",
+      "tags": [
+        "אישה"
+      ],
+      "bio": "לשעבר סגנית רה״ע ת״א-יפו, מחזיקת תיק מנהל השירותים החברתיים, מ״מ בתיק תרבות.",
+      "longBio": "לשעבר סגנית רה״ע ת״א-יפו, מחזיקת תיק מנהל השירותים החברתיים, מ״מ בתיק תרבות. מילדת פנימיות, הפכתי לנבחרת ציבור ולאשה הראשונה שנבחרה למועצת עיריית ת״א-יפו. כאימא ואישה אני מאמינה שלישראל ולאזרחיה מגיע עתיד טוב יותר. המסע שלי התחיל בכפר קטן באתיופיה, המשיך דרך מחנות הפליטים בסודן ועלייה לישראל במסגרת מבצע משה. את חיי הציבוריים הקדשתי למאבק בגזענות, לקידום שוויון הזדמנויות, לחיזוק הדמוקרטיה ושלטון החוק ולמאבק למען מי שקולם לא תמיד נשמע, אאבק להיות גשר שמחבר ומאפשר שיח במקום נתק.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/15916208_מהרטה_ברוך_רון_candidatePhoto_20260623_123319_IMG_0545.jpg",
+      "links": {
+        "homepage": "https://www.mehereta.com/",
+        "facebook": "https://www.facebook.com/mehereta1/",
+        "instagram": "https://www.instagram.com/mehereta.baruch.ron/",
+        "linkedin": "https://www.linkedin.com/in/mehereta-baruch-ron-71bb4525a/",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/15916208_מהרטה_ברוך_רון_cv_20260623_122259_‎מהרטה_ברוך_רון__2026.pdf"
+      }
     },
     {
-      "id": "gaby_lasky", "name": "גבי לסקי", "tags": ["מרצ", "אישה"],
-      "bio": "חברת כנסת לשעבר מטעם מרצ, עורכת דין מומחית לזכויות אדם.",
-      "longBio": "עו\"ד מתמחה בחופש הביטוי והמחאה. ממקימות מערך 'עוטף העצורים' המעניק תמיכה וייעוץ משפטי לפעילי ופעילות המחאה. חברת כנסת לשעבר מטעם מרצ ומזכ\"לית שלום עכשיו לשעבר. במשך שנים אני מתייצבת בקו ההגנה הראשון נגד האלימות המשטרתית, נגד מעצרי שווא ונגד פגיעה בזכויות מפגינים ומפגינות.",
-      "image": "images/Gaby_l_03.webp",
-      "links": { "facebook": "https://www.facebook.com/share/17px5Hj4gf/", "instagram": "https://www.instagram.com/gabylasky", "x": "https://x.com/gaby_lasky" }
+      "id": "c29714",
+      "name": "דימה שפירא",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "דימה שפירא Дима Шапира איש של אמת מלא מרצ למה אני מתמודד ?",
+      "longBio": "דימה שפירא Дима Шапира איש של אמת מלא מרצ למה אני מתמודד ? האם כדי לסדר ג'ובים לחברי מפלגה ולהיות קבלן קולות ? 😐 שתי הסיבות הן שתי מילים נפלאות בשפה העברית: אמא ואבא, שמגלמות אחריות עצומה. כל הפרטים לגבי העשייה והחזון שלי בקורות החיים הצביעו לדימה שפירא – בהצבעה אחת תקבלו ייצוג לשטח המפלגתי, קול לחיזוק השמאל והצפון וקול עם זיקה לקהילה הרוסית חזקו ואמצו 🙏 Большое спасибо",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/16341042_דימה_שפירא_candidatePhoto_20260624_234741_DSC_3708_DxO.jpg",
+      "links": {
+        "homepage": "https://www.newmeretz.co.il/dima",
+        "facebook": "https://www.facebook.com/share/1JDMxaxerW/",
+        "instagram": "https://www.instagram.com/dima.shapira.9",
+        "x": "https://x.com/ShapiraDima",
+        "tiktok": "https://www.tiktok.com/@dimashapira7",
+        "whatsapp": "https://chat.whatsapp.com/IVpb4u7X3nnA3ANhBTNKdS",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/16341042_דימה_שפירא_cv_20260624_231805_דימה_שפירא_-_קורות_חיים_לתפקיד_חבר_כנסת_מטעם_הדמוקרטים_ג4_240626.pdf"
+      }
     },
     {
-      "id": "michal_rozin", "name": "מיכל רוזין", "tags": ["מרצ", "אישה"],
-      "bio": "חברת כנסת לשעבר ויו\"ר סיעת מרצ, לשעבר מנכ\"לית שדולת הנשים.",
-      "longBio": "ח״כ ויו״ר סיעת מרצ, מנכ״לית מרכזי הסיוע לנפגעות תקיפה מינית לשעבר. יו״ר עמותת ׳אזרחים קטנים׳ לחינוך לדמוקרטיה בגיל הרך. יו״ר ועדת המנהיגות של פורום הדירקטוריות, מגשרת ומנחת תהליכי צדק מאחה.",
-      "image": "images/Michal_r_03.webp",
-      "links": { "facebook": "https://www.facebook.com/michal.rozin", "instagram": "https://www.instagram.com/michal_rozin", "x": "https://x.com/Michal_Rozin", "tiktok": "https://www.tiktok.com/@michal_rozin" }
+      "id": "c29480",
+      "name": "עו\"ד אליס גולדמן",
+      "tags": [
+        "אישה"
+      ],
+      "bio": "תושבי חיפה והצפון זקוקים לקול משלהם בכנסת: עו\"ד אליס גולדמן, מהפעילות החברתיות והסביבתיות הבולטות באזור.",
+      "longBio": "תושבי חיפה והצפון זקוקים לקול משלהם בכנסת: עו\"ד אליס גולדמן, מהפעילות החברתיות והסביבתיות הבולטות באזור. גולדמן, תושבת נשר, מזוהה זה שנים עם מאבקים ציבוריים משמעותיים למען בריאות הציבור, איכות הסביבה, תכנון אחראי ופיתוח בר-קיימא במטרופולין חיפה והצפון. כעת היא מבקשת להעביר את העשייה הציבורית ארוכת השנים שלה לזירה הלאומית ולהוביל סדר יום המחבר בין צדק חברתי, שמירה על הסביבה ופיתוח כלכלי של הצפון.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/13277959_אליס_גולדמן_candidatePhoto_20260624_100852_IMG-20260620-WA0046_1.jpg",
+      "links": {
+        "wikipedia": "https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%99%D7%A1_%D7%92%D7%95%D7%9C%D7%93%D7%9E%D7%9F",
+        "facebook": "https://www.facebook.com/elis.goldman",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/13277959_אליס_גולדמן_cv_20260624_100523_פרופיל_לאתר_המפלגה.pdf"
+      }
     },
     {
-      "id": "emily_moatti", "name": "אמילי מואטי", "tags": ["אישה"],
-      "bio": "חברת כנסת לשעבר, סופרת, אנליסטית ואשת תקשורת.",
-      "longBio": "סגנית יו\"ר הכנסת ויו\"ר ועדת משנה חוץ בועדת חוץ וביטחון. סופרת וזוכת פרס ביכורים על הספר 'סימנים כחולים'.",
-      "image": "images/Emily_M_03.webp",
-      "links": { "facebook": "https://www.facebook.com/share/1DjrvuhJ5V/", "instagram": "https://www.instagram.com/emiliemoatti?igsh=MXBoNGt1NDBuczNkZA%3D%3D", "x": "https://x.com/EmilieMoatti", "tiktok": "https://www.tiktok.com/@emilie_moatti?_r=1&_t=ZS-96JhGg0W7mC", "homepage": "https://www.emiliemoatti.co.il/" }
+      "id": "c29462",
+      "name": "עו\"ד נאווה רוזוליו",
+      "tags": [
+        "אישה"
+      ],
+      "bio": "עורכת דין, רואת חשבון, פעילה חברתית ודמות בולטת בעשייה הציבורית בישראל.",
+      "longBio": "עורכת דין, רואת חשבון, פעילה חברתית ודמות בולטת בעשייה הציבורית בישראל. לאחר שלקחתי חלק מרכזי בגלי המחאה בשנים האחרונות – מבלפור דרך הבימה וקפלן ושוב לרחוב עזה, ועד מאות שעות בוועדות הכנסת (בייחוד ועדת חוקה) והכרת העבודה הפרלמנטרית מבפנים, כיום אני מבקשת להביא לכנסת את הניסיון והידע שצברתי, את אותם ערכים ורוח קרב, כדי להשפיע מהמקום בו מתקבלות ההחלטות, לביצור הדמוקרטיה, שינוי סדר העדיפויות הכלכלי-חברתי, קידום שותפות יהודית-ערבית, חתירה לשלום, והחזרת ישראל למסלולה כדמוקרטיה ליברלית משגשת.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/21926159_נאווה_רוזוליו_candidatePhoto_20260624_134745_תמונה.jpeg",
+      "links": {
+        "linktree": "https://linktr.ee/navarozolyo",
+        "facebook": "https://www.facebook.com/profile.php?id=61590401466687",
+        "instagram": "https://www.instagram.com/navarozolyo",
+        "x": "https://x.com/rozolyo",
+        "tiktok": "https://www.tiktok.com/@navarozolyo",
+        "linkedin": "https://www.linkedin.com/in/nava-rozolyo-70abb072",
+        "whatsapp": "https://chat.whatsapp.com/BhQMsp21LvrEc05ASTW2iX",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/21926159_נאווה_רוזוליו_cv_20260624_134251_קורות_חיים_נאווה_רוזוליו.pdf"
+      }
     },
     {
-      "id": "moshe_radman", "name": "משה רדמן אבוטבול", "tags": ["גבר"],
-      "bio": "יזם הייטק, פעיל מרכזי וממובילי תנועות המחאה האזרחית.",
-      "longBio": "משה רדמן אבוטבול, יזם היי-טק, אסטרטג ופעיל חברתי המשלב בין עולמות החדשנות להובלת מאבקים אזרחיים. כקצין באמ\"ן לשעבר וכמי שייסד חברות טכנולוגיה והרצה באקדמיה, הוא רותם את כישוריו המקצועיים לבניית תשתיות הסברה ותוכן ליברליות רחבות לטובת המחנה וגוש השינוי. המוטו של רדמן היה ועודנו 'יד בונה ויד נאבקת'.",
-      "image": "images/Moshe_r_03.webp",
-      "links": { "facebook": "https://www.facebook.com/mosheradman/", "instagram": "https://www.instagram.com/radmanmoshe/", "x": "https://x.com/radmanmoshe?s=11&t=lZ-ocdLQf7Wk2uH54AGiig", "tiktok": "https://www.tiktok.com/discover/%D7%9E%D7%A9%D7%94%C2%A0%D7%A8%D7%93%D7%9E%D7%9F", "homepage": "https://radmandemocrats.com/" }
+      "id": "c29324",
+      "name": "מיכל רוזין",
+      "tags": [
+        "אישה"
+      ],
+      "bio": "למה אני מבקשת את אמונכםן – כי החלפת השלטון לא תספיק אם הקואליציה תתפרק שוב על מזבח האגו והלחצים.",
+      "longBio": "למה אני מבקשת את אמונכםן – כי החלפת השלטון לא תספיק אם הקואליציה תתפרק שוב על מזבח האגו והלחצים. אני מביאה איתי עשייה ציבורית רחבת היקף. ממנכ\"לית איגוד מרכזי הסיוע, דרך ח\"כית מצטיינת עם למעלה מ 70 חוקים ויו\"ר סיעת מרצ, ועד הקמת עמותת \"אזרחים קטנים, חזון גדול\" לחינוך לדמוקרטיה. הובלתי מאבקים לשוויון והגנה על נשים, ובחנתי מדיניות בוועדת חוץ וביטחון. אעמוד כחומה מול הלחצים ואבטיח חקיקה שתגן על הדמוקרטיה וערכי הליברליזם. חייבים להבטיח יציבות שלטונית – המשימה שלנו גדולה מכל כבוד או שררה!",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/24426256_מיכל_רוזין_candidatePhoto_20260623_193652_מיכל_רוזין_צילום_אלעד_מלכה.jpg",
+      "links": {
+        "homepage": "https://michalrozin.co.il/",
+        "facebook": "http://facebook.com/michal.rozin",
+        "instagram": "http://instagram.com/michal_rozin",
+        "x": "https://x.com/Michal_Rozin",
+        "tiktok": "https://www.tiktok.com/@michal_rozin",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/24426256_מיכל_רוזין_cv_20260623_192014_קורות_חיים_מיכל_רוזין.pdf"
+      }
     },
     {
-      "id": "moran_zer", "name": "מורן זר קצנשטיין", "tags": ["אישה"],
-      "bio": "מייסדת תנועת 'בנות אלטרנטיבה', אשת שיווק וממובילות המחאה.",
-      "longBio": "יזמת עסקית, מייסדת בונות אלטרנטיבה וממנהיגות המחאה למען הדמוקרטיה בישראל. היא שירתה כקצינה בצה\"ל, עבדה בשב\"כ, וניהלה בחברות רב לאומיות כמו גוגל, לוריאל וקוקה-קולה. מביאה איתה שילוב של ניסיון מקצועי מגוון ויכולת להניע קהילות ומאבקים רחבי היקף.",
-      "image": "images/Moran_Z_03.webp",
-      "links": { "facebook": "https://www.facebook.com/moran.zer", "instagram": "https://www.instagram.com/moranzer/", "x": "https://x.com/zermoran?s=21", "linkedin": "https://www.linkedin.com/in/moran-zer-katzenstein-90b62a18/", "tiktok": "https://www.tiktok.com/@moran.zer?_r=1&_t=zs-9326fedr1ap", "homepage": "https://bit.ly/moranSite" }
+      "id": "c29471",
+      "name": "יעל כהן פארן",
+      "tags": [
+        "אישה"
+      ],
+      "bio": "חברת כנסת לשעבר, חברת מועצת פרדס חנה-כרכור, מנהיגה סביבתית ויזמית חברתית.",
+      "longBio": "חברת כנסת לשעבר, חברת מועצת פרדס חנה-כרכור, מנהיגה סביבתית ויזמית חברתית. 30 שנה נלחמת למען הסביבה, החברה והעתיד של כולנו. שירתתי כקצינת מודיעין ב-8200, ייסדתי את מגמה ירוקה, הקמתי את הפורום הישראלי לאנרגיה וקידמתי מהלכים פורצי דרך בתחום האנרגיה המתחדשת. מהכנסת הובלתי להחלטות על סגירת מיכל האמוניה ותחנות הכוח המזהמות בחדרה. להגנת הסביבה קשר ישיר לביטחון, לקידום השלום ולשמירה על הדמוקרטיה. בכנסת ובממשלה הבאה אוביל מהפכה סביבתית בישראל, מעבר מהיר לאנרגיות מתחדשות, ואלחם להגנה על הדמוקרטיה",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/25700717_יעל_כהן_פארן_candidatePhoto_20260624_111340_WhatsApp_Image_2026-06-24_at_11.06.51.jpeg",
+      "links": {
+        "homepage": "https://yaelparan.co.il/",
+        "facebook": "https://www.facebook.com/YaelCohenParan/",
+        "instagram": "https://www.instagram.com/yael_cohen_paran/",
+        "x": "https://x.com/YaelCohenParan",
+        "linkedin": "https://www.linkedin.com/in/yael-cohen-paran/",
+        "whatsapp": "https://chat.whatsapp.com/KOxA0N5lFYYArn8RyuMMwF",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/25700717_יעל_כהן_פארן_cv_20260624_110443_יעל_כהן_פארן_-_קורות_חיים_לדמוקרטים.pdf"
+      }
     },
     {
-      "id": "tomer_avital", "name": "תומר אביטל", "tags": ["גבר"],
-      "bio": "עיתונאי חוקר ('שקוף') ומייסד מיזם 'לובי 99'.",
-      "longBio": "ממייסדי שקוף ולובי 99. נלחם בשבילכם מזה שני עשורים, חושף שחיתויות ומפרק עוולות. רץ לכנסת כדי להיות האיש שלכם סביב השולחן ולחולל למהפכה מבפנים. חולם להיות הח״כ השקוף בתולדות המדינה והסיוט של המושחתים.",
-      "image": "images/tomera-03.webp",
-      "links": { "facebook": "https://www.facebook.com/tomer.avital1", "linkedin": "https://www.linkedin.com/in/tomer-avital-52795315/", "homepage": "https://tomeravital1.com/about/", "instagram": "https://www.instagram.com/tomeravital100/", "x": "https://www.twitter.com/TomerAvital1", "telegram": "https://www.t.me/tomeravital1", "youtube": "https://www.youtube.com/c/tomeravital" }
+      "id": "c29717",
+      "name": "עלי סלאלחה",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "עלי סלאלחה מהכפר בית ג׳ן שבצפון.",
+      "longBio": "עלי סלאלחה מהכפר בית ג׳ן שבצפון. נשוי באושר לתייסיר, אבא ל-5 ילדים וסבא ל-6 נכדים. את כל חיי הקדשתי לחינוך ולמאבק למען שוויון הזדמנויות לכל ילד וילדה בישראל. כמחנך ומנהל ביה״ס המצטיין בבית ג’ן, זכיתי לראות כיצד השקעה בחינוך משנה חיים – מצמצמת פערים, מחזקת את החברה ובונה עתיד טוב יותר לכולנו. גם בכנסת המשכתי באותה תפיסת עולם. נאבקתי נגד חוק הלאום, פעלתי לצמצום פערי הבריאות בין המרכז לפריפריה, מכשור רפואי מציל חיים בצפון, הכנסת תרופה נדירה לילדים לסל התרופות, להקמת תחנת מד״א אזורית בצפון ועוד.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/50766757_עלי__סלאלחה_candidatePhoto_20260625_140458_עלי_סלאלחה_תמונה.jpeg",
+      "links": {
+        "homepage": "https://6976983f7e1ee.site123.me/",
+        "facebook": "https://www.facebook.com/ali4meretz",
+        "instagram": "https://www.instagram.com/alidemocrats/",
+        "x": "https://x.com/AliSalalha",
+        "whatsapp": "https://chat.whatsapp.com/IWtcHJnPQx83zyUb5FDTAJ?s=cl&p=i&mlu=1"
+      }
     },
     {
-      "id": "yaya_fink", "name": "יאיא פינק", "tags": ["גבר"],
-      "bio": "רס\"ן במיל', מייסד 'לובי 99' ומיזם דמוקרטTV.",
-      "longBio": "רב-סרן במילואים, דתי וממובילי המאבק נגד ההפיכה המשטרית וחוקי ההשתמטות. מייסד לובי 99, דמוקרטTV ועלון השבת הליברלי. מונה על ידי יו״ר המפלגה לראש המטה למאבק בטרור היהודי בכנסת הבאה. פועל להחזרת היהדות והציונות הדתית למקורות שלהן - קדושת חיים, שלום וצדק.",
-      "image": "images/Yaya_f_03.webp",
-      "links": { "facebook": "https://www.facebook.com/yayafink1", "instagram": "https://www.instagram.com/yayafink", "x": "https://x.com/yayafink", "tiktok": "https://www.tiktok.com/@yayafink", "homepage": "https://yayafink.co.il/join-me/" }
+      "id": "c29327",
+      "name": "ענבל וורטמן שהם",
+      "tags": [
+        "אישה"
+      ],
+      "bio": "תושבת כחל, אם לשלושה, אחד לוחם והשני תיכף.",
+      "longBio": "תושבת כחל, אם לשלושה, אחד לוחם והשני תיכף. בגיל 29 ייסדתי את עמותת אבני דרך לחיים למען עצמאות ואוטונומיה לאנשים עם מוגבלות. העמותה קמה בקריית שמונה, צמחה לכל הארץ וזכתה בהוקרה באו\"ם. כתבתי תכנית מקיפה לפיתוח השירותים החברתיים. הובלתי את הפינוי הגדול ביותר לאנשים עם מוגבלות. בעת שחלקים מהצפון הושבתו כולל מערכת החינוך הגברתי שירות. אקדם מערכת חינוך יציבה בחירום. אני מתנדבת בנוכחות מגינה ומאמינה ששלום והסכמים הם האופק היחיד לאזורנו. אני רצה למען הצפון, הפריפריה, החברה האזרחית, ושותפות ערבית-יהודית.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/34991950_ענבל_וורטמן_שהם_candidatePhoto_20260622_232811_תמונה_לאתר.jpg",
+      "links": {
+        "homepage": "https://inbals.co.il/",
+        "facebook": "https://www.facebook.com/share/18gPTbAQNS/",
+        "instagram": "https://www.instagram.com/inbal_shoham",
+        "x": "https://x.com/inbalshohamv",
+        "whatsapp": "https://chat.whatsapp.com/CU3PrUpnTmt96lNcmHwMZP",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/34991950_ענבל_וורטמן_שהם_cv_20260622_225446_ענבל_וורטמן_-_שהם_קוח_22.6.26.pdf"
+      }
     },
     {
-      "id": "naor_narkis", "name": "נאור נרקיס", "tags": ["מרצ", "גבר"],
-      "bio": "יזם, מייסד תנועת 'ישראל נאורה' ו'חוזרים בתבונה'.",
-      "longBio": "מהקולות הבולטים בישראל לקידום חופש, חילוניות, שוויון אזרחי והפרדת דת ממדינה. בוגר תוכנית חבצלות של אמ״ן. בפעילותו הציבורית מוביל נאור מאבקים בנושאי גיוס שוויוני, לימודי ליבה, תחבורה ציבורית בשבת ונישואים אזרחיים. מאמין שציונות חילונית בלתי מתנצלת היא המפתח להצלת המדינה.",
-      "image": "images/Naor_N_03.webp",
-      "links": { "facebook": "https://www.facebook.com/naornarkis", "instagram": "https://www.instagram.com/naornarkis/", "x": "https://x.com/NaorNarkis", "linkedin": "https://www.linkedin.com/in/naornarkis/", "tiktok": "https://www.tiktok.com/@naor.narkis", "homepage": "https://naornarkis.org" }
+      "id": "c29285",
+      "name": "עו\"ד גאלב סלאמנה",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "גאלב סלאמנה, בן 32 מכעביה, עו\"ד, אבא לארבעה, ישראלי גאה, ערבי, מוסלמי ובדואי בכעביה שבגליל.",
+      "longBio": "גאלב סלאמנה, בן 32 מכעביה, עו\"ד, אבא לארבעה, ישראלי גאה, ערבי, מוסלמי ובדואי בכעביה שבגליל. התנדבתי לצה\"ל מתוך אמונה בשותפות ובאחריות משותפת, והתנדבתי במערך \"עוטף עצורים\" כדי להגן על זכויות אדם ועל הדמוקרטיה. אני מאמין בשינוי דרך השפעה מבפנים, בשותפות יהודית־ערבית אמיצה ובפוליטיקה של אחריות. מי שייבחר בי יקבל נציג שלא יברח מהצבעות כמו מקרה עבר, שלא יחפש כותרות, ושיעמוד גם בכנסת לצד המחנה הדמוקרטי ליברלי גם ברגעים הקשים. אני מבקש את תמיכתכם כדי להביא קהל חדש, קול צעיר, מחבר ואמיץ לכנסת.,",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/312312440_גאלב_סלאמנה_candidatePhoto_20260623_001001_גאלב_סלאמנה_תמונה.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/share/1BHqvwQPiz/",
+        "instagram": "https://www.instagram.com/slamna_ghaleb_adv",
+        "x": "https://x.com/Ghaleb_salamna",
+        "tiktok": "https://www.tiktok.com/@ghaleb.salamna?_r=1&_t=ZS-97QJaVizzqG%20",
+        "whatsapp": "https://chat.whatsapp.com/CQjaoPq8uPzJGgYeZwI9ZB?s=sh&p=a&mlu=3%20",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/312312440_גאלב_סלאמנה_cv_20260622_235932_קורות_חיים_לפריימריז.pdf"
+      }
     },
     {
-      "id": "yariv_oppenheimer", "name": "יריב אופנהיימר", "tags": ["מרצ", "גבר"],
-      "bio": "איש תקשורת ופעיל חברתי, לשעבר מנכ\"ל שלום עכשיו.",
-      "longBio": "התחלתי את הפעילות הציבורית שלי ב-1992. ניהלתי את אגף הנוער של מפלגת העבודה ולאחר מכן כיהנתי כמזכ״ל ודובר תנועת שלום עכשיו. בשבע השנים האחרונות אני עוסק במאבק יום יומי בטרור היהודי ובהתפשטות ההתנחלויות. מפעיל רשתות חברתיות המגיעות למיליוני חשיפות בחודש.",
-      "image": "images/Yariv_O_03.webp",
-      "links": { "facebook": "https://www.facebook.com/yarivyariv/", "instagram": "https://www.instagram.com/yarivop/", "x": "https://x.com/yarivop?s=21", "linkedin": "https://www.linkedin.com/in/yariv-oppenheimer-26569167", "tiktok": "https://www.tiktok.com/@yarivoppenheimer?_r=1&_t=ZS-96WLMIG5SCH" }
+      "id": "c29706",
+      "name": "נעמה לזימי",
+      "tags": [
+        "אישה"
+      ],
+      "bio": "נלחמנו יחד על המדינה ברחובות ובכנסת: העברנו חוקים היסטוריים – מחוק האיזוק האלקטרוני ועד חוק המכת\"זיות.",
+      "longBio": "נלחמנו יחד על המדינה ברחובות ובכנסת: העברנו חוקים היסטוריים – מחוק האיזוק האלקטרוני ועד חוק המכת\"זיות. נאבקנו במשטרה הפוליטית ברחובות ובלמנו בבג\"ץ שוחד פוליטי וביזה למען שקיפות ומנהל תקין. בוועדת הצעירים בראשותי הבאנו הישגים לשורדי המסיבות, לצעירים בסיכון, לצעירי העוטף ולאוכלוסיות מודרות. המאבק החברתי והדמוקרטי שלנו הוא לא סיסמה – הוא משימת חיי. אני צריכה אתכם איתי כדי להפוך את הערכים שלנו למציאות. הקול שלכם הכרחי כדי להמשיך להילחם, לשקם את המדינה ולהביא יחד את השינוי. התקווה תנצח.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/34763862_נעמה_לזימי_candidatePhoto_20260625_072427_IMG_7521.jpeg",
+      "links": {
+        "homepage": "https://www.nlazimi.org/",
+        "facebook": "https://www.facebook.com/share/192VuUoTC1/",
+        "instagram": "https://www.instagram.com/naamalazimi",
+        "x": "https://x.com/naamalazimi?s=20",
+        "tiktok": "https://www.tiktok.com/@naamalazimi",
+        "whatsapp": "https://chat.whatsapp.com/LIHb0epuuzoDMtBMxBpQIl",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/34763862_נעמה_לזימי_cv_20260625_072139_קורות_חיים_חכ_נעמה_לזימי.pdf"
+      }
     },
     {
-      "id": "avi_dabush", "name": "אבי דבוש", "tags": ["מרצ", "מרחב כפרי", "גבר"],
-      "bio": "מנכ\"ל 'קול רבני לזכויות אדם', ממארגני מחאת הנגב.",
-      "longBio": "נולדתי וגדלתי באשקלון במשפחה דתית-ימנית-מזרחית. ייסדתי והובלתי תנועות וארגונים בחברה האזרחית, ביניהם את התנועה לעתיד הנגב המערבי ומועצת הנגב. מנכ\"ל ״קול רבני לזכויות אדם״. ניצלתי מטבח השבעה באוקטובר בקיבוץ נירים, וחזרתי לביתי רק אחרי 691 ימי לחימה.",
-      "image": "images/avi_d_03.webp",
-      "links": { "facebook": "https://www.facebook.com/DabushMeretz", "instagram": "https://www.instagram.com/dabushavi/", "x": "https://x.com/avidabush", "homepage": "https://www.avidabush.com/" }
+      "id": "c25370",
+      "name": "חן אריאלי",
+      "tags": [
+        "אישה"
+      ],
+      "bio": "אני חן אריאלי, סגנית ראש עיריית תל אביב-יפו ומחזיקת תיק התרבות, המכהנת בקדנציה השנייה שלי.",
+      "longBio": "אני חן אריאלי, סגנית ראש עיריית תל אביב-יפו ומחזיקת תיק התרבות, המכהנת בקדנציה השנייה שלי. כבר יותר מ־20 שנה אני פועלת לקידום שוויון, דמוקרטיה וזכויות אדם. כיו\"ר האגודה למען הלהט\"ב בישראל הובלתי את השביתה הלאומית הגדולה בתולדות הקהילה הגאה, והייתי ממובילות מחאת הנשים ב־2018. כיום אני מכהנת כיו\"ר איגי וכיו\"ר המייסדת של מכון שיטה, ופועלת לקידום חברה משותפת, חיזוק השלטון המקומי וישראל חופשית, שוויונית ודמוקרטית יותר.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/33065285_חן_אריאלי_candidatePhoto_20260623_073538_Screenshot_20260623_073509_Gallery.jpg",
+      "links": {
+        "homepage": "https://chenarieli.co.il/",
+        "facebook": "https://www.facebook.com/share/1H7uKkUrTp/",
+        "instagram": "https://www.instagram.com/chenarieli?utm_source=qr&igsh=MWNhMGZyY3plc2Zkbg==",
+        "x": "https://x.com/ArieliChen",
+        "whatsapp": "https://chat.whatsapp.com/Jc4ozBbPgd1BXzmJinUJXM?s=cl&p=a&ilr=2",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/33065285_חן_אריאלי_cv_20260623_073208_קורות.pdf"
+      }
     },
     {
-      "id": "katy_piasetsky", "name": "קטי פיאסצקי", "tags": ["מרצ", "אישה"],
-      "bio": "חברת מועצת העיר ומשנה לראש העיר בת ים.",
-      "longBio": "מכהנת כמשנה לראש עיריית בת ים, וחברת מועצת העיר מזה 13 שנים. מחזיקה בתיקי הרווחה, התחבורה, איכות הסביבה וקידום מעמד האישה. פעילה חברתית בנושאים של שוויון מגדרי, מלחמה באלימות כלפי נשים ומאבקים חברתיים לעידוד אופנה בת קיימא.",
-      "image": "images/Katy_P_03.webp",
-      "links": { "facebook": "https://www.facebook.com/share/1Gu7wSaGGh/", "instagram": "https://www.instagram.com/kati_piasecki?igsh=MXY4OHY0a3JxcDhzZA==", "x": "https://x.com/Kati_Piasecki", "linkedin": "https://www.linkedin.com/in/kati-piasecki-72b930119", "tiktok": "https://www.tiktok.com/@katipiasecki?_r=1&_t=ZS-94n1pwStAiy" }
+      "id": "c25371",
+      "name": "אמיר ח'ניפס",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "אני אקטיביסט חברתי ואיש אקדמיה, הפועל מתוך תחושת שליחות ציבורית.",
+      "longBio": "אני אקטיביסט חברתי ואיש אקדמיה, הפועל מתוך תחושת שליחות ציבורית. את דרכי התחלתי כיועץ פרלמנטרי, ולאחר לימודים מתקדמים ב־LSE ופוסט־דוקטורט ב־Georgetown הקמתי את המרכז הישראלי־הדרוזי. לאורך השנים הובלתי יוזמות חברתיות וחינוכיות, ומאבקים ציבוריים למען הדמוקרטיה, השוויון ושלטון החוק. אני מאמין שמנהיגות נבחנת בעשייה, ביושרה, באחריות ובמחויבות בלתי מתפשרת לציבור ולמדינת ישראל.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/25974965_אמיר_חניפס_candidatePhoto_20260623_023810_תמונה_אמיר_חניפס_.jpeg",
+      "links": {
+        "homepage": "https://www.amirkhnifess.co.il/",
+        "whatsapp": "https://chat.whatsapp.com/G29DARH13QP3F1Mv8eRys1?mode=gi_c",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/25974965_אמיר_חניפס_cv_20260623_023720_קורות_חיים_אמיר_חניפס.pdf"
+      }
     },
     {
-      "id": "nava_rozoliyo", "name": "נאווה רוזוליו", "tags": ["אישה"],
-      "bio": "ממובילות מחאת בלפור והמשמרת המשפטית.",
-      "longBio": "עורכת דין ורואת חשבון, ופעילה ציבורית בולטת הפועלת מאז שנת 2020 למען הדמוקרטיה. מייסדת תנועת 'משמרות הבושה'. נאווה שמה לה למטרה מאבק בשחיתות השלטונית, ביטול חוקי ההפיכה, ביצור הדמוקרטיה הליברלית, וחיזוק מוסדות המדינה.",
-      "image": "images/Nava_R_03.webp",
-      "links": { "facebook": "https://www.facebook.com/share/1VvFy5QJ2Z/?mibextid=wwXIfr", "instagram": "https://www.instagram.com/navarozolyo?igsh=MWI5ZWN2Y2tzZzZ5OA%3D%3D", "x": "https://x.com/rozolyo?s=11", "linkedin": "https://il.linkedin.com/in/nava-rozolyo-70abb072", "tiktok": "https://www.tiktok.com/@navarozolyo?_r=1&_t=ZS-96zrRnAEg0T", "homepage": "https://he.wikipedia.org/wiki/%D7%A0%D7%90%D7%95%D7%95%D7%94_%D7%A8%D7%95%D7%96%D7%95%D7%9C%D7%99%D7%95" }
+      "id": "c29315",
+      "name": "ערן עציון",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "ערן עציון – מדינאי, דיפלומט, יזם מדיני ופוליטי.נשוי ואב לשלושה.שירתתי כסגן ראש המועצה לביטחון לאומי, כראש החטיבה לתכנון מדיני ב…",
+      "longBio": "ערן עציון – מדינאי, דיפלומט, יזם מדיני ופוליטי.נשוי ואב לשלושה.שירתתי כסגן ראש המועצה לביטחון לאומי, כראש החטיבה לתכנון מדיני במשרד החוץ וכקונסול בסן פרנסיסקו. שלושה עשורים של עיצוב מדיניות חוץ ובטחון אחראית, ניהול משא ומתן מדיני מול הפלסטינים, וביצור ביטחון ישראל לדורות.אני מביא את הבחירה המדינית הערכית, האמיצה והנחושה לכנסת: כינוס ועידת ריאד להסדר אזורי כולל, סיום הסכסוך הישראלי-פלסטיני והישראלי-ערבי, בלימת האיום האיראני,שיקום מלא של הברית האסטרטגית עם ארצות הברית, וחיבור ישראל לגוש הדמוקרטי.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/22796957_ערן_עציון_candidatePhoto_20260622_225300_507772.jpg",
+      "links": {
+        "homepage": "https://eranetzion.co.il/",
+        "facebook": "https://www.facebook.com/share/1CtD9uzL54/",
+        "instagram": "https://www.instagram.com/eran.etzion",
+        "x": "https://x.com/eranetzion",
+        "linkedin": "https://www.linkedin.com/in/eran-ערן-etzion-עציון-2843a822",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/22796957_ערן_עציון_cv_20260622_223947_קורות_חיים_יוני_26.pdf"
+      }
     },
     {
-      "id": "lee_hoffman", "name": "לי הופמן אגיב", "tags": ["אישה"],
-      "bio": "אקטיביסטית, ממובילות מחאת ההייטק ומאבקי החברה האזרחית.",
-      "longBio": "צמחה מתוך השטח כלוחמת אקטיביסטית. היתה ממובילות ענף היין הישראלי ובמחאה נגד ההפיכה המשטרית בנתה את מערך השטח והקהילות של 'בונות אלטרנטיבה', שכלל 100,000 נשים. ממובילות המחאה.",
-      "image": "images/Lee_h_03.webp",
-      "links": { "facebook": "https://www.facebook.com/share/18DFcMhFGH/?mibextid=wwXIfr", "instagram": "https://www.instagram.com/leehoffmann_agiv", "x": "https://x.com/leehoffmannagiv?s=21&t=n0o5_IrKMzE3WltvgznBWA", "tiktok": "https://www.tiktok.com/@leehoffmannagiv?_r=1&_t=ZS-94k0Q0AgaNL" }
+      "id": "c29474",
+      "name": "מורן זר קצנשטיין",
+      "tags": [
+        "אישה"
+      ],
+      "bio": "בת 43 מחולון, אמא ל-4 בנים.",
+      "longBio": "בת 43 מחולון, אמא ל-4 בנים. ב-2020 ייסדתי את \"בונות אלטרנטיבה\" וב2023 הובלתי את מחאת השפחות שניצבה בחזית המאבק על הדמוקרטיה. ב-7 באוקטובר הקמנו מערכי סיוע ארציים ומטה בינלאומי למאבק בפשעי המין של חמאס, ונלחמנו להשבת החטופים. כששמחה רוטמן זלזל בפחדים שלנו, הבנתי שהגיע הזמן להיכנס לפוליטיקה. כקצינה, יוצאת שב\"כ, יזמית ומנהלת בגוגל ובקוקה-קולה, אני מביאה איתי ניסיון וקבלות. אני מתמודדת בפריימריז כדי להבטיח ישראל ליברלית ושוויונית. בניתי כוח בשטח, נלחמתי בכנסת, עכשיו הגיע הזמן לצעד הבא. רק התחלנו!",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/62865415_מורן_זר_קצנשטיין_candidatePhoto_20260624_104703_תמונה_למערכת_הבחירות_2מג.jpg",
+      "links": {
+        "homepage": "http://www.moranzer.co.il/",
+        "facebook": "https://www.facebook.com/moran.zer",
+        "instagram": "https://www.instagram.com/moranzer/",
+        "x": "https://x.com/zermoran",
+        "tiktok": "https://www.tiktok.com/@moran.zer",
+        "linkedin": "https://www.linkedin.com/in/moran-zer-katzenstein-90b62a18",
+        "whatsapp": "https://chat.whatsapp.com/HrFDUvl7NnMC5Y4x4V5VMh",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/62865415_מורן_זר_קצנשטיין_cv_20260624_104201_מורן_זר_קוח_2026.pdf"
+      }
     },
     {
-      "id": "rotem_sivan", "name": "רתם סיון-הופמן", "tags": ["אישה"],
-      "bio": "ד\"ר, פעילה חברתית, ממובילות התארגנויות המחאה.",
-      "longBio": "רופאה, נוירורדיולוגית, מצנתרת מוח, ומנהלת מכון הדימות במרכז הרפואי מאיר. בשבעה באוקטובר הפכתי לאמא ערה ללוחם בקומנדו ומאז אני מובילה את תנועת אמא ערה בקריאה לקיום תהליך מדיני מלווה למלחמה וסיום המלחמה. כעת הגיע הזמן לתרגם את האקטיביזים לכוח פוליטי.",
-      "image": "images/Rotem_S_03.webp",
-      "links": { "facebook": "https://www.facebook.com/profile.php?id=61565019155720", "instagram": "https://www.instagram.com/rotemsivanhoffmann", "x": "https://x.com/drrotemsivan?s=21", "homepage": "https://rotemsivan.co.il/" }
+      "id": "c29459",
+      "name": "אוליביה עמנואל דה לם",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "אוליביה עמנואל דה לם, שונא שנאה קחו בחשבון: יש הרבה מועמדים/ות טובים/ות; ובטוח יותר ממני.",
+      "longBio": "אוליביה עמנואל דה לם, שונא שנאה קחו בחשבון: יש הרבה מועמדים/ות טובים/ות; ובטוח יותר ממני. אתם מוזמנים להצביע להם. כשאני מתבונן בראי העתיד, איני רואה את עצמי כחבר כנסת. לא הניצחון חשוב אלא ההשתתפות (פייר דה קוברטן) اوليڤيه عمانوئيل ده لم, كارِهُ إلى كراهية خذوا بالحسبان: يوجد الكثير من المرشحين؛ من هم أفضلُ منّي بالتأكيد. بإمكانكم التصويت لهم. عندما انظر إلى مرآة المستقبل، لا أرى نفسي عضواً في الكنيسيت. \"الفوز ليس مهما، المهم هو المشاركة\" – پيير ده كوبرتان",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/311892749_אוליביה_עמנואל_דה_לם_candidatePhoto_20260624_142532_ViolonPerroquet.jpg",
+      "links": {
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/311892749_אוליביה_עמנואל_דה_לם_cv_20260624_141504_Resume.pdf"
+      }
     },
     {
-      "id": "omri_ronen", "name": "עמרי רונן", "tags": ["גבר"],
-      "bio": "עורך דין, פעיל סביבה ואקלים, ממקימי עמותת 'יהב'.",
-      "longBio": "נולדתי בכפר עזה, שירתתי כסמ\"פ ביחידת מגלן והשתתפתי במבצעים שובו אחים ובצוק איתן. במחלקה הכלכלית של פרקליטות המדינה רדפתי שחיתות שלטונית. ממובילי 'אחים לנשק' במאבק נגד ההפיכה המשטרית, מילואימניק שירד לעוטף בשבעה באוקטובר, וממקימי עמותת 'יהב - מחנכים לציונות'.",
-      "image": "images/ronen_03.webp",
-      "links": { "facebook": "https://www.facebook.com/Omri.ronen.77", "instagram": "https://www.instagram.com/omrironenn?igsh=enpxYnc5d3ZjNWw1", "x": "https://x.com/omrironen24", "tiktok": "https://www.tiktok.com/@omri.ronen", "homepage": "https://omri-ronen.com" }
+      "id": "c29318",
+      "name": "מוסי רז",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "אני מוביל כל חיי את המאבק לשלום ונגד הכיבוש.",
+      "longBio": "אני מוביל כל חיי את המאבק לשלום ונגד הכיבוש. היום, ברור שאין דמוקרטיה אמיתית עם כיבוש. אחרי ה-7.10, אין דבר חשוב יותר מאשר החתירה לשלום. לרבים נדמה שכיהנתי בכנסת שנים רבות, אבל בפועל היו אלה 6 שנים במצטבר, בהן פעלתי עם החברה האזרחית, עם נציגי כל המפלגות, וקידמנו מהלכים משותפים במגוון תחומים. לא במקרה \"שקוף\" קבעו שהייתי הח״כ החרוץ ביותר, ולא במקרה נבחרתי ראשון בפריימריז של מרצ. בכנסת הבאה חייבים לתקן את ישראל כמה שיותר מהר. צריך מחוייבות אידאולוגית משולבת בנסיון מוכח.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/22106165_מוס_רז_candidatePhoto_20260622_114224_מוסי_תמונה.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/MossiRaz",
+        "instagram": "https://www.instagram.com/mossi_raz",
+        "x": "https://x.com/mossi_raz",
+        "whatsapp": "https://chat.whatsapp.com/JIXxVG2mYZV5YTb1npLvVn?s=cl&p=a&mlu=1",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/22106165_מוס_רז_cv_20260622_113304_קורות_חיים_מוסי_רז.pdf"
+      }
     },
     {
-      "id": "nimrod_sheffer", "name": "נמרוד שפר", "tags": ["גבר"],
-      "bio": "אלוף במיל', לשעבר ראש אגף התכנון בצה\"ל ומנכ\"ל התעשייה האווירית.",
-      "longBio": "אחרי 40 שנים במערכת הבטחון וניהול התעשייה האווירית, המשכתי לעשייה אזרחית במגוון עמותות. בינואר 2023 התגייסתי שוב למחאה האזרחית. מאמין שיחד, במפלגת הדמוקרטים נוביל הנהגה אמיצה ערכית ואחראית שתשכיל לתרגם הכרעות בשדה הקרב להישגים מדיניים.",
-      "image": "images/Nimrod_s_03.webp",
-      "links": { "facebook": "https://www.facebook.com/share/1F9rHSRnW1/", "instagram": "https://www.instagram.com/nimrodsheffer_?igsh=aHM2cjJsYnRiZGZj", "x": "https://x.com/NimrodSheffer", "tiktok": "https://www.tiktok.com/@sheffernimrod?_r=1&_t=ZS-95B5L4rEHJM" }
+      "id": "c29483",
+      "name": "עו\"ד גבי לסקי",
+      "tags": [
+        "אישה"
+      ],
+      "bio": "עו\"ד לזכויות אדם ואזרח, ממקימות מערך עוטף העצורים שנותן גב משפטי לכל מי שיצא להפגין למען הדמוקרטיה והחזרת החטופים הביתה וסיום ה…",
+      "longBio": "עו\"ד לזכויות אדם ואזרח, ממקימות מערך עוטף העצורים שנותן גב משפטי לכל מי שיצא להפגין למען הדמוקרטיה והחזרת החטופים הביתה וסיום המלחמה. חכ\"לית מטעם מרצ, לשעבר חברת מועצת העיר ת\"א. הייתי מזכלית שלום עכשיו. עולה וותיקה ממקסיקו. בזוגיות שלא ברבנות אמא לתאומים שעולים לכיתה יב",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/17904095_גבי_לסקי_candidatePhoto_20260624_094712_IMG-20220803-WA0052.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/gaby.lasky",
+        "instagram": "https://www.instagram.com/gabylasky/",
+        "x": "https://x.com/gaby_lasky",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/17904095_גבי_לסקי_cv_20260624_095221_DOC-20260624-WA0003.pdf"
+      }
     },
     {
-      "id": "nedal_masalha", "name": "נדאל מסאלחה", "tags": ["מיעוטים", "גבר"],
-      "bio": "עורך דין וכלכלן, פעיל חברתי ופוליטי.",
-      "longBio": "אזרח ערבי שמאמין בשפיות, ביטחון אישי ושלטון החוק. כלכלן ועו״ד. 20 שנות נסיון בשירות הציבורי.",
-      "image": "images/Nedal_M_03.webp",
-      "links": { "facebook": "https://www.facebook.com/share/18R5qLdsgJ/?mibextid=wwXIfr", "x": "https://x.com/nmassalha70106/" }
+      "id": "c29703",
+      "name": "רם שפע",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "רם שפע, ח״כ לשעבר שימש בעבר כיו״ר התאחדות הסטודנטים הארצית.",
+      "longBio": "רם שפע, ח״כ לשעבר שימש בעבר כיו״ר התאחדות הסטודנטים הארצית. כיהן כיו״ר ועדת החינוך ויו״ר סיעת העבודה בממשלת השינוי. רם הוביל חקיקה לחיזוק מעמד המורה והגדלת שכר צוותי ההוראה, נאבק למען יישובי הגבול והוביל את ההתנגדות בקואליציה לרפורמה בחקלאות. מאז ה-7 באוקטובר כיהן כפרויקטור השיקום, מטעם התנועה הקיבוצית, עבור קיבוצי הנגב המערבי; בתפקיד זה הוביל מאבק עיקש ומוצלח מול רשויות המדינה ומשרד הדתות, שהביא להסדרת קבורה זמנית ולהתחייבות למימון העתקת הקברים עם שיקום החבל, זאת לצד הישגים נוספים.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/36715472_רם_שפע_candidatePhoto_20260625_101037_רם_תמונה_לפורטל_.jpg",
+      "links": {
+        "homepage": "https://www.ramshefa.com/",
+        "facebook": "https://www.facebook.com/share/14fsUJ69C7m/?mibextid=wwXIfr",
+        "instagram": "https://www.instagram.com/ramshefa?igsh=dXc4b3JwN2h2OHJj",
+        "x": "https://x.com/ramshefa",
+        "whatsapp": "https://chat.whatsapp.com/KD6m0r3q9qN7Ba755XZYgo?s=cl&p=i&mlu=2&amv=1%20",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/36715472_רם_שפע_cv_20260625_100423_קורות_חיים_רם_שפע_1.pdf"
+      }
     },
     {
-      "id": "galeb_salamana", "name": "גאלב סלאמנה", "tags": ["מיעוטים", "גבר"],
-      "bio": "עורך דין, פעיל מרכזי במערך 'עוטף עצורים'.",
-      "longBio": "ערבי־מוסלמי ישראלי, אב לארבעה מכעביה שבעמק יזרעאל. התנדב לשירות בצה״ל – מתוך אמונה עמוקה בשותפות גורל בין כלל אזרחי המדינה הישראלים. כיום פועל כעו״ד במערך עוטף עצורים ומלווה משפטית מפגינים ועצורים, מתוך מחויבות עמוקה לזכויות אדם.",
-      "image": "images/Galeb_s_03.webp",
-      "links": { "facebook": "https://www.facebook.com/share/1AmCHAToev/", "instagram": "https://www.instagram.com/slamna_ghaleb_adv?igsh=MWZpNjg4NTIxc3Nwaw==", "x": "https://x.com/LbMnh", "tiktok": "https://www.tiktok.com/@ghaleb.s?_r=1&_t=ZS-94b80bNkqKD" }
+      "id": "c29282",
+      "name": "יואב אגמי",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "שלום, קוראים לי יואב אגמי.",
+      "longBio": "שלום, קוראים לי יואב אגמי. סטודנט לתואר שני באוניברסיטה העברית, עובד בארגון חברתי שפועל למען ניקיון כפיים במגזר הציבורי ופעיל פוליטי אקטיבי של מפלגת הדמוקרטים. רודף שלום, ליברלי וסוציאל-דמוקרט. תומך גדול במדינת רווחה ובשלטון החוק. אשמח לקבל את קולכם על מנת שאוכל לפעול למען שמירה על ישראל כמדינה מתוקנת, דמוקרטית, שוויונית ופלורליסטית, במטרה להחזיר את מפלגת הדמוקרטים למקומה הטבעי והראוי – מפלגת שלטון אידיאולוגית וחזקה, החותרת להסדר מדיני ושלום עם הפלסטינים ואשר מאמינה בערבות הדדית ובאחדות.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/304975311_יואב_אגמי_candidatePhoto_20260622_124929_תמונת_פריימריס_2.png",
+      "links": {
+        "facebook": "https://www.facebook.com/yoav.agami1",
+        "whatsapp": "https://chat.whatsapp.com/EZX5jFzymr84zpmFlyNmw3?s=sh&p=a&mlu=2",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/304975311_יואב_אגמי_cv_20260622_123341_קורות_החיים.pdf"
+      }
     },
     {
-      "id": "somaya_bashir", "name": "סומיה בשיר", "tags": ["מיעוטים", "אישה"],
-      "bio": "פעילה חברתית מג'ת, מובילת שותפות ערבית-יהודית.",
-      "longBio": "מנהיגה אזרחית ופעילה חברתית הפועלת בשנים האחרונות בלב המאבק על דמותה של ישראל כדמוקרטיה שוויונית. סומיה פועלת לחיזוק הביטחון האזרחי, למאבק באלימות ובהדרה, ולבניית הנהגה חדשה שמאמינה בשוויון, באחריות ובתקווה לעתיד משותף.",
-      "image": "images/Somaya_b_03.webp",
-      "links": { "facebook": "https://www.facebook.com/share/r/1B2hxN3t27/", "instagram": "https://www.instagram.com/bashirsomaya?igsh=cW5wbjhqazV5NTYx", "x": "https://x.com/bashsomaya", "linkedin": "https://www.linkedin.com/in/somaya-bashir-940b4125a", "tiktok": "https://www.tiktok.com/@humanity10.2022?_r=1&_t=ZS-94bELmSyPll" }
+      "id": "c29477",
+      "name": "יריב אופנהיימר",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "מראשי מחנה השלום בישראל.",
+      "longBio": "מראשי מחנה השלום בישראל. אקטיביסט, פובליציסט, איש תקשורת, לשעבר מזכ״ל שלום עכשיו. הקול שלך בדמוקרטים למאבק באלימות המתנחלים, קידום פתרון מדיני, עצירת הסיפוח המשיחי והגנה עיקשת על זכויות אדם וערכי הדמוקרטיה. הלוחם שלך בכנסת ובממשלה בעד שוויון, זכויות אדם, צדק ושלום.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/33343492_יריב_אופנהיימר_candidatePhoto_20260624_080248_720086537_1648091299742632_11.jpeg",
+      "links": {
+        "homepage": "https://yariv.oppenheimer.co.il/",
+        "facebook": "https://www.facebook.com/yarivyariv",
+        "instagram": "https://www.instagram.com/yarivop/",
+        "x": "https://x.com/yarivop",
+        "tiktok": "https://www.tiktok.com/@yarivoppenheimer?lang=en",
+        "linkedin": "https://il.linkedin.com/in/yariv-oppenheimer-26569167",
+        "whatsapp": "https://chat.whatsapp.com/F34T3ejgREv2gTKmDTeGJx?brid=YWdncwH_Qv8VIrwrYlyKxXNcChgi",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/33343492_יריב_אופנהיימר_cv_20260624_080034_יריב_אופנהיימר_ביו.pdf"
+      }
     },
     {
-      "id": "eran_etzion", "name": "ערן עציון", "tags": ["גבר"],
-      "bio": "דיפלומט בכיר לשעבר, כיהן כסגן ראש המל\"ל.",
-      "longBio": "במשך עשרות שנים כיהנתי בתפקידים בכירים במערכת המדינית-בטחונית. עסקתי בגיבוש אסטרטגיות מדיניות, ניהול מגעים רגישים מול גורמים אזוריים ובינלאומיים. יזמתי את המשא ומתן החשאי לסימון הקו הימי מול לבנון והייתי חבר בצוותי המשא ומתן מול הפלסטינים. פועל לחיזוק ושמירה על הדמוקרטיה הישראלית.",
-      "image": "images/Eran_e_03.webp",
-      "links": { "facebook": "https://www.facebook.com/share/1FbB65fBiz/?mibextid=wwXIfr", "instagram": "https://www.instagram.com/eran.etzion", "x": "https://x.com/eranetzion?s=21", "homepage": "https://eranetzion.co.il/" }
+      "id": "c29291",
+      "name": "ערן ניסן",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "בן 35, גר ביפו, נשוי לשיר ואבא של אלה.",
+      "longBio": "בן 35, גר ביפו, נשוי לשיר ואבא של אלה. יותר מ-10 שנים שאני עושה פוליטיקה בלי להיות פוליטיקאי. אני מגיע לכנסת עם ניסיון מוכח בבניית כוח פוליטי אפקטיבי באמצעות קמפיינים, שותפויות רחבות ועבודה מול מקבלי החלטות. כמנכ\"ל מחזקים הובלתי מהלכים ציבוריים ופוליטיים שהשפיעו על סדר היום בנושאי דמוקרטיה, שוויון, זכויות אדם ושותפות יהודית־ערבית. אני מתמודד כי הגיע הזמן שהדור שלי יפסיק לחכות וייקח את מקומו בהובלת התיקון של המדינה. יש לנו אחריות לבנות ישראל שאפשר להיות גאים בה, ושכולנו חיים בה חיים טובים ובטוחים",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/305639338_ערן_ניסן_candidatePhoto_20260622_120612_1000634600.jpg",
+      "links": {
+        "homepage": "https://www.erannissan.co.il/",
+        "facebook": "https://www.facebook.com/eran.nissan.35/",
+        "instagram": "https://www.instagram.com/eran.nissan/",
+        "x": "https://x.com/eran_nissan",
+        "tiktok": "https://vt.tiktok.com/ZSC1Md6D3/",
+        "linkedin": "https://il.linkedin.com/in/eran-nissan-39b863188",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/305639338_ערן_ניסן_cv_20260622_120242_Eran_Nissan_-_C.V._2026.pdf"
+      }
     },
     {
-      "id": "dany_elgart", "name": "דני אלגרט", "tags": ["גבר"],
-      "bio": "סנ\"צ בדימוס, משפטן ומראשי מאבק משפחות החטופים.",
-      "longBio": "סגן ניצב בדימוס ומפקד תחנת אשדוד, קצין חבלה בכיר. מאז 7 באוקטובר אני נאבק ללא פשרות למען האמת, האחריות והשבת האמון בין המדינה לאזרחיה לאחר שאחיו וגיסו נחטפו הופקרו ונרצחו בידי החמאס. אני בא לפוליטיקה מתוך שליחות.",
-      "image": "images/Dany_e_03.webp",
-      "links": { "facebook": "https://www.facebook.com/elgarat.dany", "x": "https://x.com/elgarat_dani", "tiktok": "https://www.tiktok.com/@user6830107222467" }
+      "id": "c29312",
+      "name": "לי הופמן אגיב",
+      "tags": [
+        "אישה"
+      ],
+      "bio": "אני לי הופמן אגיב, בת 38 מהוד״ש, נשואה ואמא לשתיים.",
+      "longBio": "אני לי הופמן אגיב, בת 38 מהוד״ש, נשואה ואמא לשתיים. בעבר יזמית בתחום היין, ובשנים האחרונות עזבתי קריירה יציבה והקדשתי את חיי למאבקים ציבוריים, להובלת יוזמות שטח ולבניית קהילות פעילים למען הדמוקרטיה והחינוך. בניתי את תכנית 100 ימים ו-20 חוקים שלי כדי לעבוד מהרגע הראשון: אעביר את חוק השקיפות בחינוך, אלחם על חוק יסוד שוויון, הגבלת כהונת רוה\"מ, חוק הנאשם וביטול חוקי ההפיכה המשטרית. אני מגיעה עם ניסיון מהשטח ונכונות לעבוד קשה. עכשיו אני מבקשת את האמון והקול שלך בפריימריז של הדמוקרטים.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/300949492_לי_הופמן_אגיב_candidatePhoto_20260622_194753_עיצוב_ללא_שם.png",
+      "links": {
+        "homepage": "https://www.leehoffmannagiv.com/",
+        "facebook": "https://www.facebook.com/share/1Eavo9uFJW/",
+        "instagram": "https://www.instagram.com/leehoffmann_agiv",
+        "x": "https://x.com/leehoffmannagiv",
+        "tiktok": "https://www.tiktok.com/@leehoffmannagiv",
+        "linkedin": "https://www.linkedin.com/in/lee-hoffmann-agiv-8b046b195",
+        "whatsapp": "https://chat.whatsapp.com/LiGH9NTLizBBq2IMABaVQU?s=cl&p=i&mlu=4",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/300949492_לי_הופמן_אגיב_cv_20260622_194256_לי_הופמן_אגיב.pdf"
+      }
     },
     {
-      "id": "aeid_badir", "name": "עאיד בדיר", "tags": ["מרצ", "מיעוטים", "גבר"],
-      "bio": "פעיל פוליטי וחברתי מכפר קאסם.",
-      "longBio": "בעל תואר שני במדיניות ציבורית, ניהלתי את המטה הערבי במרצ ולשעבר סגן ראש עיריית כפר קאסם. כיהנתי כיועצם של יו\"ר מרצ זהבה גלאון ושל השר עיסאווי פריג'. אני מייצג את היותה של מפלגה ישראלית, יהודית ערבית, ומביא עמי ניסיון ומחויבות לדרך השלום והשוויון.",
-      "image": "images/Aeid_b_03.webp",
-      "links": { "facebook": "https://www.facebook.com/aaed.bader", "instagram": "https://www.instagram.com/aaedbader/", "tiktok": "https://www.tiktok.com/@aaedbader1?_r=1&_t=ZS-952KFeiFwbk" }
+      "id": "c29297",
+      "name": "תומר אביטל",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "כאחד ממייסדי שקוף ולובי 99 צללתי לעומקי המערכת.",
+      "longBio": "כאחד ממייסדי שקוף ולובי 99 צללתי לעומקי המערכת. למדתי איך כח״כ אוכל לבער שחיתות עם שקיפות, להילחם בפייק ולהוזיל את יוקר המחיה. גם אגן על הטבע, אעביר לכן כוח אמיתי דרך דמוקרטיה ישירה וארדוף אחר השלום! החוק הראשון? תוכנית לאומית לחשיבה ביקורתית. זו חומת המגן האמיתית של הדמוקרטיה שלנו. בקיצור, עם 17 שנות ניסיון רץ לכנסת כדי לפרק מבפנים את המנגנון המקולקל ולהרכיבו מחדש בשביל כולנו. יש לי תוכנית מפורטת ומעשית, גם לבניית גשרים בתוכנו, ואשמח שתקראו >> באתר שלי ❤️‍🔥",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/61231346_תומר_אביטל_candidatePhoto_20260623_112130_תומר_ראש.jpg",
+      "links": {
+        "homepage": "https://knesset.tomeravital1.com",
+        "facebook": "https://www.facebook.com/tomer.avital1",
+        "instagram": "https://www.instagram.com/tomeravital100/",
+        "x": "https://x.com/TomerAvital1",
+        "tiktok": "https://www.tiktok.com/@tomeravital100",
+        "linkedin": "https://www.linkedin.com/in/tomer-avital-52795315/",
+        "whatsapp": "https://chat.whatsapp.com/KG40OSzU4UxGpOUZfjm9i8?s=cl&p=i&ilr=0",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/61231346_תומר_אביטל_cv_20260623_111200_קורות_חיים_תומר_אביטל_2026.docx.pdf"
+      }
     },
     {
-      "id": "moran_michel", "name": "מורן מישל", "tags": ["אישה"],
-      "bio": "אקטיביסטית חברתית, ממובילות מחאת קפלן ולשעבר מנכ\"ל הסתדרות העצמאים.",
-      "longBio": "אני עוסקת באקטיביזם כבר שלושה עשורים. הקמתי ומינכ״לתי את הסתדרות העצמאים במאבק על זכויות עצמאים ועצמאיות. במקביל הקמתי את תנועת 'עוגן לעתיד', המהווה תשתית של המחנה הליברלי. באפריל 25 החלטתי לקחת את הניסיון לזירה שבה אנחנו חייבות וחייבים לנצח - הכנסת.",
-      "image": "images/Moran_M_03.webp",
-      "links": { "facebook": "https://www.facebook.com/moran.michel", "instagram": "https://www.instagram.com/moranmichel", "x": "https://x.com/moranmichel3", "tiktok": "https://www.tiktok.com/@moran_michel", "homepage": "https://www.moranmichel.org/" }
+      "id": "c29303",
+      "name": "דני אלגרט",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "אני דני אלגרט, נשוי לליזי, אב לארבעה וסב לארבעה.",
+      "longBio": "אני דני אלגרט, נשוי לליזי, אב לארבעה וסב לארבעה. סגן ניצב בדימוס, מורה ומחנך, משפטן ומזרחן. במשך כ־30 שנה שירתי במשטרת ישראל, פיקדתי על תחנת אשדוד, ובמסגרת שירותי הוענק לי עיטור המופת של משטרת ישראל. ב־7 באוקטובר נחטפו אחי, איציק אלגרט ז״ל, וגיסי, אלכס דנציג ז״ל, מבתיהם בניר עוז. איציק נרצח בשבי ואלכס נהרג בשבי. אני אב גאה לרעות, יועצת חינוכית; עמית, עורך דין; נעם, סטודנט בבצלאל; ומור, סטודנט למשחק. הכאב האישי הפך עבורי לשליחות ציבורית ולמחויבות עמוקה לחברה הישראלית.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/55744395_דניאל__אלגרט_candidatePhoto_20260622_114731_e72eefaa-f3d4-4d84-8069-d14ab9371c7a.jpeg",
+      "links": {
+        "homepage": "https://www.elgarat.com/",
+        "facebook": "https://www.facebook.com/share/1EQUSba2cB/",
+        "instagram": "https://www.instagram.com/dany_elgarat",
+        "x": "https://x.com/elgarat_dani%20%20%20%20%20%20%20%20%20",
+        "tiktok": "https://www.tiktok.com/@user6830107222467?_r=1&_t=ZS-97Q1Ae0sCyD",
+        "whatsapp": "https://chat.whatsapp.com/Kb8o2jh8eRv6QC0QqFap2n?mode=gi_t",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/55744395_דניאל__אלגרט_cv_20260622_113456_‎⁨קורות_חיים_דני⁩.pdf"
+      }
     },
     {
-      "id": "amir_khnifess", "name": "אמיר ח'ניפס", "tags": ["מיעוטים", "גבר"],
-      "bio": "ד\"ר, יו\"ר המרכז הישראלי הדרוזי.",
-      "longBio": "בן העיר שפרעם, דוקטור למדעי המדינה ולוחם למען שוויון ודמוקרטיה. נקודת המפנה שלי הייתה חקיקת חוק הלאום. לא יכולתי לעמוד מנגד, וחזרתי לארץ כדי להוביל את המרכז הישראלי הדרוזי ואת התנועה הדרוזית לדמוקרטיה ושוויון. פועל להעמקת השותפות האמתית והאחווה בין העם היהודי לעדה הדרוזית.",
-      "image": "images/amirh-03.webp",
-      "links": { "facebook": "https://www.facebook.com/AmirKhnifess/", "linkedin": "https://www.linkedin.com/in/amir-khnifess-38568123/", "homepage": "https://www.amirkhnifess.co.il/", "instagram": "https://www.instagram.com/amir_khnifess/", "x": "https://x.com/akhnifess" }
+      "id": "c29486",
+      "name": "אמילי מואטי",
+      "tags": [
+        "אישה"
+      ],
+      "bio": "סגנית יו\"ר הכנסת ויו\"ר ועדת חוץ לשעבר.",
+      "longBio": "סגנית יו\"ר הכנסת ויו\"ר ועדת חוץ לשעבר. ילידת 1980, נשואה לדניאל שק, דיפלומט בדימוס, אמא לשתי בנות חיילות. חברת כנסת ה-24, פמיניסטית ואשת שלום. חברה בקבוצת היוזמה המדינית האירופית ופעילה בארגונים לקידום נשים. זוכת פרס משרד התרבות 2018 על ספרה הראשון \"סימנים כחולים\". ולא מזמן הוציאה לאור ספר נוסף בשם \"קוראים לזה חיים\". עסקה בייעוץ, בהוראה ובקידום הסדרים מדיניים. דוברת שלוש שפות – עברית, צרפתית ואנגלית. אחרי ה-7 באוקטובר פעלה במחלקה הדיפלומטית במטה משפחות החטופים עד החטוף האחרון.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/40285132_אמילי_מואטי_candidatePhoto_20260624_092237_1001073062.jpg",
+      "links": {
+        "homepage": "https://emiliemoatti.co.il/#join",
+        "facebook": "https://www.facebook.com/share/18hYap6P3u/",
+        "instagram": "https://www.instagram.com/emiliemoatti?igsh=NDZhMDVzNW83MmM5",
+        "x": "https://x.com/EmilieMoatti",
+        "whatsapp": "https://chat.whatsapp.com/KEjtndS5tDCJCceFdYn60B?s=cl&p=a&mlu=0&amv=1"
+      }
     },
     {
-      "id": "ali_salalha", "name": "עלי סלאלחה", "tags": ["מרצ", "מיעוטים", "גבר"],
-      "bio": "חבר כנסת לשעבר מטעם מרצ, איש חינוך תיק.",
-      "longBio": "איש חינוך ומנהל בי״ס לשעבר, זוכה פרס החינוך על הובלת תיכון בית ג׳ן למקום ראשון בישראל בזכאות לבגרות. חבר כנסת לשעבר מטעם מרצ בממשלת השינוי וחבר ועדת הבריאות בכנסת, ראש השדולה הראשונה בכנסת למתן שוויון זכויות לעדה הדרוזית בישראל.",
-      "image": "images/Eli_s_03.webp",
-      "links": { "facebook": "https://www.facebook.com/ali4meretz/", "x": "https://x.com/alisalalha" }
+      "id": "c29456",
+      "name": "מורן מישל",
+      "tags": [
+        "אישה"
+      ],
+      "bio": "אני יזמת ואקטיביסטית, אמא לחמש בנות ורצה למרחקים ארוכים.",
+      "longBio": "אני יזמת ואקטיביסטית, אמא לחמש בנות ורצה למרחקים ארוכים. בעלת רקע עשיר בניהול והקמת תשתיות למחנה הליברלי; הייתי מיוזמי ומארגני הצעדה לירושלים, נאבקתי להרשעת תוקף מינית סדרתי, הקמתי את הסתדרות העצמאים ואת עוגן לעתיד. אני מביאה ניסיון ביצועי מוכח וידע בבניית קהילות מובילות שינוי. אני רצה לכנסת כדי להוביל תהליכים בוני אמון, לייסד תשתיות לאומיות, לקדם חקיקה ערכית ולהיות הקול האמיץ והנחוש במאבק על דמותה של ישראל. וכדי לעבוד עבורכם ועבורכן. 24/7. 365 ימים בשנה. ואני אופטימית. תמיד.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/31414667_מורן_מישל_candidatePhoto_20260624_155454_profile_pic_new_copy.png",
+      "links": {
+        "homepage": "https://moranmichel.org/",
+        "facebook": "https://www.facebook.com/moran.michel",
+        "instagram": "https://www.instagram.com/moranmichel/",
+        "x": "https://x.com/moranmichel3",
+        "tiktok": "https://www.tiktok.com/@moran_michel",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/31414667_מורן_מישל_cv_20260624_155420_קורות_חיים_-_מורן__מישל_1.pdf"
+      }
     },
     {
-      "id": "yael_cohen_paran", "name": "יעל כהן פארן", "tags": ["אישה"],
-      "bio": "חברת כנסת לשעבר, ממובילות התנועה הירוקה בישראל.",
-      "longBio": "הייתי חברת כנסת בכנסת ה-20, ואני עוסקת כל חיי בקידום נושאי הסביבה. הייתי בין המייסדים והמנכ\"לית הראשונה של ארגון 'מגמה ירוקה' והקמתי וניהלתי את 'הפורום הישראלי לאנרגיה'. כשכיהנתי כחברת כנסת הובלתי מהכנסת החלטות אסטרטגיות כמו סגירת מיכל האמוניה במפרץ חיפה.",
-      "image": "images/Yael_c_03.webp",
-      "links": { "facebook": "https://www.facebook.com/YaelCohenParan/", "instagram": "https://www.instagram.com/yael_cohen_paran/", "x": "https://x.com/YaelCohenParan", "linkedin": "https://www.linkedin.com/in/yael-cohen-paran/", "homepage": "https://www.yaelparan.co.il" }
+      "id": "c29336",
+      "name": "איהאב שליאן",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "סא״ל (מיל׳) איהאב שליאן, יליד 1981 מנוף הגליל.",
+      "longBio": "סא״ל (מיל׳) איהאב שליאן, יליד 1981 מנוף הגליל. התנדבתי לצה״ל בשנת 2000 ושירתי 24 שנים בתפקידי לחימה, תקשוב וסייבר, כולל שני תפקידי מג״ד. זכיתי בצל״ש אלוף פיקוד הצפון ובתעודות הערכה מהרמטכ״ל. במקביל הובלתי את פורום גיוס העדה הנוצרית ופעלתי לחיזוק שילוב המיעוטים בחברה הישראלית. כיום אני פעיל חברתי, יו״ר עמותת The Christian Voice, וסמנכ״ל בחברת CyberForce. הצטרפתי לדמוקרטים מתוך אמונה בישראל חזקה, בטוחה, שוויונית ומאוחדת לכל אזרחיה.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/40525834_איהאב_שליאן_candidatePhoto_20260622_095948_969929C9-003F-4F9D-8CE2-19E31150E03A.png",
+      "links": {
+        "homepage": "https://thebcards.com/ihab-shlayan/",
+        "facebook": "https://www.facebook.com/share/18mr4jNQj2",
+        "instagram": "https://www.instagram.com/israeli_christians",
+        "x": "https://x.com/ihab_shlayan",
+        "tiktok": "https://www.tiktok.com/@israel_christians_page",
+        "linkedin": "https://www.linkedin.com/in/ihab-shlayan-a862654b",
+        "whatsapp": "https://chat.whatsapp.com/CCgjwdUAMV07TjVFcEkcdU?mode=gi_t%20",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/40525834_איהאב_שליאן_cv_20260622_095402_LTCRes_Ihab_Shlayan_CV_2025.pdf"
+      }
     },
     {
-      "id": "chen_arieli", "name": "חן אריאלי", "tags": ["מרצ", "אישה"],
-      "bio": "סגנית ראש עיריית תל אביב-יפו, יו\"ר אגודת הלהט\"ב לשעבר.",
-      "longBio": "סגנית ראש עיריית תל אביב-יפו ומחזיקה בתיקי התרבות. מכהנת כיושבת ראש איגי - ארגון הנוער הגאה בישראל, ומייסדת מכון שיטה למדיניות מקומית. כיו\"ר האגודה למען הלהט\"ב הובלתי את המחאה הגדולה בתולדות הקהילה הגאה בישראל. פועלת לקידום מדיניות חברתית חדשנית עבור אוכלוסיות מוחלשות.",
-      "image": "images/Chen_03.webp",
-      "links": { "facebook": "https://www.facebook.com/share/1RRB4pAni8/?mibextid=wwXIfr", "instagram": "https://www.instagram.com/chenarieli?igsh=MWNhMGZyY3plc2Zkbg%3D%3D", "x": "https://x.com/ArieliChen", "tiktok": "https://www.tiktok.com/@chenarieli?_r=1&_t=ZS-972KbQyRgdI", "homepage": "https://www.chenarieli.co.il" }
+      "id": "c29300",
+      "name": "קטי פיאסצקי",
+      "tags": [
+        "אישה"
+      ],
+      "bio": "ילידת העיר בת ים.",
+      "longBio": "ילידת העיר בת ים. בת 42, נשואה, אמא ל- 2 בנות ו- 2 חתולות. סגנית ראש עיריית בת ים וחברת מועצת העיר כ-13 שנים. מחזיקה בתיקי הרווחה, התחבורה, איכות הסביבה, בעלי החיים, קידום מעמד האישה, הקהילה הגאה והספורט. חברה בוועד המנהל של תנועת ישראל חופשית, חברת הנהלת איגוד הכדורעף הישראלי ומגישת הפודקאסט \"החופש לבחור\" מובילת המחאה נגד ההפיכה המשטרית בעיר בת ים. ספורטאית לשעבר ואוהדת הפועל ת״א. חשה אי נוחות באזורי נוחות ויודעת ששינוי עושים איפה שקשה.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/65942849_קטי_פיאסצקי_candidatePhoto_20260623_123618_תמונה.jpeg",
+      "links": {
+        "linktree": "https://linktr.ee/Katipiasecki",
+        "facebook": "https://www.facebook.com/kati.piasecki",
+        "instagram": "https://www.instagram.com/kati_piasecki?igsh=MXY4OHY0a3JxcDhzZA==",
+        "x": "https://x.com/Kati_Piasecki",
+        "tiktok": "https://www.tiktok.com/@katipiasecki?_r=1&_t=ZS-97QDrWHQ0TF",
+        "linkedin": "https://www.linkedin.com/in/kati-piasecki-72b930119/",
+        "whatsapp": "https://chat.whatsapp.com/GoCkRKQBNsR99SxhngPnxE",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/65942849_קטי_פיאסצקי_cv_20260623_123202_קורות_חיים.pdf"
+      }
     },
     {
-      "id": "ihab_shlayan", "name": "איהאב שליאן", "tags": ["מיעוטים", "גבר"],
-      "bio": "סגן אלוף במילואים מנצרת, פעיל חברתי לקידום אחדות.",
-      "longBio": "שירתתי 25 שנים בצה״ל במסלול המבצעי וכיום מכהן כסמנכ״ל בחברת סייבר. יו״ר עמותת 'הקול הנוצרי' במדינת ישראל, מאז 2012 אני פעיל ציבורית לקידום שילוב מיעוטים בצה״ל ובכוחות הביטחון, ולפעילות בזירה הבינלאומית לחיזוק התמיכה של העולם המערבי והנוצרי בישראל.",
-      "image": "images/ihab_s_03.webp",
-      "links": { "facebook": "https://www.facebook.com/share/1cHEhjDgpL/?mibextid=wwXIfr", "instagram": "https://www.instagram.com/israeli_christians", "x": "https://x.com/ihab_shlayan?s=21&t=fNleOA_W3VCiVTmIa7Slpw", "linkedin": "https://www.linkedin.com/in/ihab-shlayan-a862654b", "tiktok": "https://www.tiktok.com/@israel_christians_page", "homepage": "https://thebcards.com/ihab-shlayan/" }
+      "id": "c29465",
+      "name": "אבי דבוש",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "נולדתי וגדלתי באשקלון במשפחה דתית, מזרחית וימנית.",
+      "longBio": "נולדתי וגדלתי באשקלון במשפחה דתית, מזרחית וימנית. לאורך השנים ייסדתי והובלתי שורה של ארגונים ותנועות, בהם התנועה לעתיד הנגב המערבי, מועצת הנגב ותנועת הפריפריות, כתבתי את הספר \"מרד הפריפריות\" ויזמתי והובלתי את מחאת הדמוקרטיה בבאר שבע. כיום אני מנכ\"ל קול רבני לזכויות אדם ומוביל, יחד עם ח\"כ נעמה לזימי, את מטה הפריפריות של מפלגת הדמוקרטים. ב-7 באוקטובר שרדתי עם משפחתי את הטבח בנירים, ולאחריו נאבקתי להשבת החטופים, ואני ממשיך לפעול למען הקמת ועדת חקירה ממלכתית לשבעה באוקטובר ולשיקום הנגב המערבי.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/38377008_אבי_דבוש_candidatePhoto_20260624_123813_אבי_מכווץ.jpg",
+      "links": {
+        "homepage": "https://www.avidabush.com/",
+        "facebook": "https://www.facebook.com/DabushMeretz/?locale=he_IL",
+        "instagram": "https://www.instagram.com/dabushavi?igsh=N3d4eXNxY3J4aHBw&utm_source=qr",
+        "x": "https://x.com/avidabush",
+        "whatsapp": "https://chat.whatsapp.com/HOFF8xWD3ap4iCWd8tgGgr?mode=ac_t",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/38377008_אבי_דבוש_cv_20260624_122728_קורות_חיים_אבי_דבוש_2026.pdf"
+      }
     },
     {
-      "id": "inbar_bezek", "name": "ענבר בזק", "tags": ["אישה"],
-      "bio": "חברת כנסת לשעבר, מנכ\"לית החברה הכלכלית לפיתוח הגליל העליון.",
-      "longBio": "לאחר שהובלתי 5 שנים את מחאת העצמאים, ב-2021 נכנסתי לכנסת והובלתי את שדולת העסקים הקטנים והגליל. בין 2023-2026 כיהנתי כמנכ\"לית של החברה לפיתוח הגליל העליון שם ניהלתי תקציבים בהיקף של מעל 100 מיליון שקלים. במאי 2025 הצטרפתי לדמוקרטים לקחת על עצמי להקים את השטח במחוז הצפון.",
-      "image": "images/inbar_b_03.webp",
-      "links": { "facebook": "https://www.facebook.com/share/17zDZwJZsy/", "instagram": "https://www.instagram.com/inbar.bezek/", "x": "https://x.com/InbarBezek", "linkedin": "https://www.linkedin.com/in/inbarbezek", "tiktok": "https://www.tiktok.com/@inbarbezek?_r=1&_t=ZS-94bkgo5QlAW", "homepage": "https://inbarbezek.com" }
-    },
-    {
-      "id": "malek_bader", "name": "מאלק בדר", "tags": ["מיעוטים", "גבר"],
-      "bio": "עורך דין מחורפיש, פעיל ציבורי במגזר הדרוזי והערבי.",
-      "longBio": "שימשתי ראש מועצת חורפיש ויו\"ר פורום הרשויות הדרוזיות בארץ.",
-      "image": "images/Malek_b_03.webp",
-      "links": { "facebook": "https://www.facebook.com/share/v/18PzcZ6g4B/", "tiktok": "https://www.tiktok.com/@malekbader31", "homepage": "https://www.malek-bader.com" }
-    },
-    {
-      "id": "ram_shefa", "name": "רם שפע", "tags": ["מרחב כפרי", "גבר"],
-      "bio": "חבר כנסת לשעבר ותושב קיבוץ גבעת חיים איחוד.",
-      "longBio": "לשעבר יו\"ר ועדת החינוך, התרבות והספורט ויו\"ר סיעת העבודה בממשלת השינוי. כיום ראש צוות התנועה הקיבוצית לשיקום הנגב המערבי וקיבוצי העוטף לאחר טבח ה-7/10. בעברו היה יושב הראש של התאחדות הסטודנטים והסטודנטיות בישראל.",
-      "image": "images/Ram_s_03.webp",
-      "links": { "facebook": "https://www.facebook.com/RamShefaMK", "instagram": "https://www.instagram.com/ramshefa?igsh=MTdjN3lkY3RxbHdzcQ%3D%3D", "x": "https://x.com/ramshefa?s=21&t=73dG_DRGAQjSgvv0P3R6sA" }
-    },
-    {
-      "id": "binyamin_minich", "name": "בנימין מיניץ'", "tags": ["גבר"],
-      "bio": "רב קהילה ליברלית בכפר סבא.",
-      "longBio": "פעיל חברתי, רב רפורמי, יו״ר מועצת הרבנות הרפורמית בישראל.",
-      "image": "images/Binyamin_m_03.webp",
-      "links": { "facebook": "https://www.facebook.com/rabbibenny", "instagram": "https://Instagram.com/bennyminich/", "x": "https://X.com/bennyminich/" }
-    },
-    {
-      "id": "hanan_zisu", "name": "חנן זיסו", "tags": ["גבר"],
-      "bio": "יועץ אסטרטגיה ותקשורת, איש חינוך ופעיל חברתי.",
-      "longBio": "פעלתי במספר חזיתות ציבוריות: כחבר מועצה מקומית בקריית טבעון, כפעיל מרכזי במטה החטופים, וכחלק מהמאבק נגד הרפורמה המשפטית. אני יוזם ומעורב בפעילות תקשורתיות למען עמותות ומיזמים חברתיים. אחרי שנים רבות שואף להביא קול חדש ואמיץ גם לכנסת.",
-      "image": "images/hanan_03.webp",
-      "links": { "facebook": "https://www.facebook.com/hanan.ziso" }
-    },
-    {
-      "id": "ahsan_halaila", "name": "אחסן חלאילה", "tags": ["מיעוטים", "גבר"],
-      "bio": "ד\"ר מסחנין, מנהל פרויקטים בחברה הערבית.",
-      "longBio": "פעיל חברתי ואיש חינוך, צברתי ידע וניסיון בניהול פרויקטים מורכבים עתירי תקציב שנועדו לקדם את הדו-קיום בין יהודים לערבים. יוזם ומקים מכללת משגב לחינוך וספורט במטרה להנגיש חינוך מקצועי לספורט ויצירת מפגשים מתמשכים בין סטודנטים ומורים יהודים וערבים.",
-      "image": "images/Achsan_H_03.webp",
-      "links": { "facebook": "https://www.facebook.com/ehsan.khlaily", "instagram": "https://www.instagram.com/ehsankhlaily/", "x": "https://x.com/EhsanKhlaily" }
-    },
-    {
-      "id": "yair_rubinstein", "name": "יאיר רובינשטיין", "tags": ["גבר"],
-      "bio": "מנהל ופעיל אזרחי מבנימינה-גבעת עדה.",
-      "longBio": "ירושלמי במקור, מהנדס ומנהל בכיר בתחום האנרגיה. אסטרטג, מנוסה בהובלת שינויים. מנהל מטה דת ומדינה בדמוקרטים, שונא כל ביטוי של כפיה, הדרה, אפליה וגזענות.",
-      "image": "images/Yair_r_03.webp",
-      "links": { "facebook": "https://www.facebook.com/YairRubinstein26/", "instagram": "https://www.instagram.com/yair.rubinstein/", "x": "https://x.com/yairrubinstein", "homepage": "https://www.yairrubinstein.org" }
-    },
-    {
-      "id": "hadas_regolsky", "name": "הדס רגולסקי", "tags": ["אישה"],
-      "bio": "עיתונאית, חברת מועצת עיריית תל אביב-יפו וממובילות מאבקי שוויון.",
-      "longBio": "אחרי 30 שנים בתקשורת הישראלית, החלטתי שהגיע הזמן לשנות את המציאות. ממייסדות 'בונות אלטרנטיבה' ו-'עוגן לעתיד'. כמנכ\"לית 'חוזה חדש' הובלתי כניסה של 86 חברי מועצה. כיום, כראש מטה 'הדמוקרטיות', כתבתי יחד עם פעילות במטה את מצע המפלגה לקידום שוויון מגדרי.",
-      "image": "images/Hadas_r_03.webp",
-      "links": { "facebook": "https://www.facebook.com/share/1FJub5Diyv/?mibextid=wwXIfr", "instagram": "https://www.instagram.com/hadasragolsky?igsh=NDh3MDlmaXZ4OG82", "x": "https://x.com/hragolsky", "linkedin": "https://www.linkedin.com/in/hadas-ragolsky-0ab73491", "tiktok": "https://www.tiktok.com/@hragolsky?_r=1&_t=ZS-94YQhYxc3Sp", "homepage": "https://Hadasragolsky.com" }
-    },
-    {
-      "id": "meheret_baruch", "name": "מהרטה ברוך רון", "tags": ["מרצ", "אישה"],
-      "bio": "לשעבר סגנית ראש עיריית תל אביב-יפו מטעם מרצ, שחקנית ופעילה חברתית.",
-      "longBio": "פוליטיקאית, אשת תקשורת ומרצה. האישה הראשונה ממוצא אתיופי שנבחרה למועצת העיר תל אביב-יפו, והראשונה שכיהנה כסגנית ראש העיר. זוכת 'אות החלוצים' ונבחרה לאחת מ-100 המשפיעים של מגזין 'ליברל' המייצגת סיפור הצלחה אישי של השתלבות.",
-      "image": "images/meheretabr-03.webp",
-      "links": { "facebook": "https://www.facebook.com/mehereta1", "linkedin": "https://www.linkedin.com/in/mehereta-baruch-ron-71bb4525a/", "instagram": "https://www.instagram.com/mehereta.baruch.ron/", "x": "https://x.com/Meheretabr" }
-    },
-    {
-      "id": "inbal_wortman", "name": "ענבל וורטמן שהם", "tags": ["מרחב כפרי", "אישה"],
-      "bio": "מנכ\"לית עמותת 'אבני דרך לחיים', תושבת כחל.",
-      "longBio": "פועלת שנים בתחומי הרווחה והשירותים החברתיים. כמייסדת ומנכ\"לית שותפה של עמותת 'אבני דרך לחיים', הובלתי פיתוח שירותים חברתיים חדשניים בתחומי הרווחה והמוגבלות שפעלו בשגרה ובחירום. בכנסת אפעל לחיזוק השירותים בקהילה ולצמצום פערים בחברה.",
-      "image": "images/inbal_03.webp",
-      "links": { "facebook": "https://www.facebook.com/share/1ApEFH8uez/", "instagram": "https://www.instagram.com/inbal_shoham/", "homepage": "https://inbals.co.il/" }
-    },
-    {
-      "id": "eran_nissan", "name": "ערן ניסן", "tags": ["מרצ", "גבר"],
-      "bio": "מנכ\"ל 'מחזקים', אקטיביסט בולט לקידום ערכי השמאל, השוויון והדמוקרטיה.",
-      "longBio": "מנכ\"ל תנועת 'מחזקים', פעיל שטח בולט לקידום ערכי השמאל, השוויון והדמוקרטיה.",
-      "image": "images/eran_nissan.jpg",
+      "id": "c29493",
+      "name": "אבישי ליכטנשטיין —",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "מתמודד/ת ברשימת הדמוקרטים.",
+      "longBio": "מתמודד/ת ברשימת הדמוקרטים. פרטים נוספים בקרוב.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/34150342_אבישי_ליכטנשטיין_candidatePhoto_20260623_103413_img-20260623-wa0006.jpg",
       "links": {}
     },
     {
-      "id": "amit_mizrahi", "name": "עמית מזרחי", "tags": ["גבר"],
-      "bio": "פעיל חברתי ופוליטי בשטח.",
-      "longBio": "מעורב ביוזמות אזרחיות ופוליטיות שונות בקרב מחנה השמאל-מרכז.",
-      "image": "images/amit_mizrahi.jpg",
-      "links": {}
+      "id": "c29330",
+      "name": "עו״ד נדאל מסאלחה",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "נדאל מסאלחה הוא עו״ד וכלכלן מכפר קרע, בעל יותר מ-20 שנות ניסיון במערכת הבנקאית, בשלטון המקומי ובשירות הציבורי.",
+      "longBio": "נדאל מסאלחה הוא עו״ד וכלכלן מכפר קרע, בעל יותר מ-20 שנות ניסיון במערכת הבנקאית, בשלטון המקומי ובשירות הציבורי. הוא בעל תואר ראשון ושני בכלכלה ומנהל עסקים מאוניברסיטת פיליפס במרבורג, גרמניה, ותואר במשפטים. במשך 13 שנים כיהן כגזבר מועצת כפר קרע, זכה בפרס ניהול תקין, וכיום משמש פרויקטור ממשלתי לפיתוח היישובים הבדואיים בדרום. מסאלחה פועל לקידום שותפות יהודית-ערבית, חיזוק הדמוקרטיה, שלטון החוק והמאבק בפשיעה ובאלימות.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/27528884_נדאל_מסאלחה_candidatePhoto_20260623_072029_4661a1bf-71ee-47d2-a508-ca267a42ac51.jpeg",
+      "links": {
+        "facebook": "https://www.facebook.com/share/1Gj1oQXsL8/",
+        "instagram": "https://www.instagram.com/nedal_massalha",
+        "x": "https://x.com/nmassalha70106",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/27528884_נדאל_מסאלחה_cv_20260623_071705_‎⁨קובץ_קורות_חיים_משודרג⁩.pdf"
+      }
     },
     {
-      "id": "itay_leshem", "name": "איתי לשם", "tags": ["גבר"],
-      "bio": "פעיל מחאה, פובליציסט ויזם במאבקים משפטיים.",
-      "longBio": "פעיל מרכזי, פובליציסט ויזם המעורב במאבקים אזרחיים ומשפטיים למען הדמוקרטיה.",
-      "image": "images/itay_leshem.jpg",
+      "id": "c29333",
+      "name": "פרופ' ירון ניב",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "נולדתי בתל אביב להורים מורים בזרם העובדים, למדתי בבית החינוך בצפון ע\"ש א.ד.גורדון ובתיכון עירוני ד'.",
+      "longBio": "נולדתי בתל אביב להורים מורים בזרם העובדים, למדתי בבית החינוך בצפון ע\"ש א.ד.גורדון ובתיכון עירוני ד'. הייתי חבר בתנועת הנוער העובד והלומד ובגרעין פסגות ליפתח. כעתודאי למדתי רפואה באוניברסיטת תל אביב, שרתתי כרופא צבאי ביחידות מודיעין בסיני ובהמשך הקמתי את מערך הרפואה ב 8200. התמחיתי בגסטרואנטרולוגיה בשיבא וניהלתי מכוני גסטרו בזיו (הייתי 8 שנים גם רופא משפחה בכפר בלום), סורוקה ורבין. הייתי סמנכ\"ל רבין ובתפקידי האחרון שמשתי סמנכ\"ל בכיר במשרד הבריאות. קבלתי פרופסורה בגיל 40 בבאר שבע, תל אביב ובאריאל",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/10950665_ירון_ניב_candidatePhoto_20260622_171528_תמונה_ירון_ניב_edited.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/yaron.niv",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/10950665_ירון_ניב_cv_20260622_164941_קורות_חיים_פרופסור_ניב_מקוצר.pdf"
+      }
+    },
+    {
+      "id": "c26488",
+      "name": "גלעד קריב",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "חה\"כ גלעד קריב הוא מהקולות המרכזיים בשמאל הציוני ובמחנה הדמוקרטי, וממובילי המאבק נגד המהפכה המשטרית והפגיעה בשלטון החוק.",
+      "longBio": "חה\"כ גלעד קריב הוא מהקולות המרכזיים בשמאל הציוני ובמחנה הדמוקרטי, וממובילי המאבק נגד המהפכה המשטרית והפגיעה בשלטון החוק. משמש כיו\"ר ועדת העלייה, הקליטה והתפוצות בכנסת הנוכחית. בכנסת הקודמת שימש כיו\"ר ועדת חוקה, חוק ומשפט. קריב הוא משפטן ורב רפורמי. לפני כניסתו לכנסת שימש במשך עשור כמנכ\"ל התנועה הרפורמית והוא נחשב לאחד ממנהיגיה של היהדות הליברלית בישראל ובעולם היהודי. מחברי הכנסת הבולטים ברחובות במחאה נגד ההפיכה המשטרית ובמאבק להשבת החטופים, ומשיאני הפעילות הפרלמנטרית בכנסת הנוכחית.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/25514530_גלעד_קריב_candidatePhoto_20260623_141058_WhatsApp_Image_2026-06-23_at_14.09.46.jpeg",
+      "links": {
+        "homepage": "https://giladkariv.com/",
+        "facebook": "https://www.facebook.com/RabbiGiladKariv",
+        "instagram": "https://www.instagram.com/gilad.kariv/",
+        "x": "https://x.com/KarivGilad?s=20",
+        "tiktok": "https://www.tiktok.com/@gilad_kariv",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/25514530_גלעד_קריב_cv_20260623_135805_ביוגרפיה.pdf"
+      }
+    },
+    {
+      "id": "c29488",
+      "name": "הדס רגולסקי",
+      "tags": [
+        "אישה"
+      ],
+      "bio": "גדלתי בנתיב העשרה, הייתי עיתונאית ואשת תקשורת כמעט 30 שנה, משפטנית וזוכת EMMY אבל אחרי 7 באוקטובר הבנתי שאני חייבת להיות חלק מה…",
+      "longBio": "גדלתי בנתיב העשרה, הייתי עיתונאית ואשת תקשורת כמעט 30 שנה, משפטנית וזוכת EMMY אבל אחרי 7 באוקטובר הבנתי שאני חייבת להיות חלק מהתיקון. וכך עשיתי: כמובילת מחאה, ממייסדות בונות אלטרנטיבה, מנכ״לית חוזה חדש, חברת מועצת העיר ת״א-יפו ומובילת מטה הדמוקרטיות. היום ברור לי ששוויון לנשים יגיע רק בהפרדת דת ממדינה. בת״א הובלתי מאבקים נגד הדתה והשתלטות חב״ד והגרעינים התורניים על העיר. אני כאן להבטיח ישראל ליברלית, שוויונית וחופשיה, מדינה שחותרת לשלום ושותפו",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/הדס-רגולסקי.jpg",
+      "links": {
+        "homepage": "https://www.hadasragolsky.com/",
+        "facebook": "https://www.facebook.com/hadas.ragolsky",
+        "instagram": "https://www.instagram.com/hadasragolsky/",
+        "x": "https://x.com/hragolsky?s=21",
+        "tiktok": "https://www.tiktok.com/@hragolsky?_r=1&_t=ZS-97QhzT8JNF1",
+        "linkedin": "https://www.linkedin.com/in/hadas-ragolsky-0ab73491/",
+        "whatsapp": "https://chat.whatsapp.com/D1bk38WgOPsAzt3CATwVPw",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/קורות-חיים-הדס-רגולסקי.pdf"
+      }
+    },
+    {
+      "id": "c29712",
+      "name": "אביתר באר",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "איש מדבר ועבודה: צעיר מהנגב, לוחם ביהל״ם במילואים, אחד שמבין עשייה בשטח.",
+      "longBio": "איש מדבר ועבודה: צעיר מהנגב, לוחם ביהל״ם במילואים, אחד שמבין עשייה בשטח. תמיד לובש מכנס עובדה, תמיד מוכן להכניס את הידים לבוץ. בעבר הובלתי את בית‑ספר השדה בעין גדי מסף סגירה לשנתו הטובה ביותר. היום מנהל משק חקלאי-תיירותי ליד ביתי במדרשת בן גוריון ומגדל שתי בנות. משלב רצון לשמור על הטבע עם שאיפה להנגיש אותו. מונע מאהבה למדינה וצורך לשמור עליה, מאיומים מבחוץ, ומבפנים אני חדש בזה, מה שאומר שנקי מקשרים ואינטרסים או השפעות זרות. אני ממוקד בביצוע ובאחריות על ערכי המפלגה אני בא לעבוד, לשרת, לבנות",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/302831243_אביתר_באר_candidatePhoto_20260625_003850_אביתר_באר_לפריימריז.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/evyatar.najimov/",
+        "instagram": "https://www.instagram.com/evyatarbeer",
+        "tiktok": "https://www.tiktok.com/@user9370681271758"
+      }
+    },
+    {
+      "id": "c29722",
+      "name": "משה רדמן",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "משה רדמן אבוטבול (41) אב לשלושה נולד וגדל בלוד, יזם היי-טק, מנהיג חברתי ומרצה.",
+      "longBio": "משה רדמן אבוטבול (41) אב לשלושה נולד וגדל בלוד, יזם היי-טק, מנהיג חברתי ומרצה. קצין מחקר באמ\"ן, עם ניסיון נרחב בניהול ובהוראה, מחזיק בתואר ראשון דו חוגי בכלכלה וחשבונאות מאונ' ת\"א. ב-2014 הקים וניהל את חברת הטק iGroup ובהמשך ייעץ לחברות בינ״ל בתחום ה-AI וכיהן כדירקטור בחברת הנדל״ן הבינ״ל \"ג'י סיטי\". עם ההכרזה על ההפיכה המשפטית הקדיש עצמו למאבק והפך לאחד ממנהיגיה הבולטים של תנועת המחאה בהקמת תשתיות, ברחובות ובבמות.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/66625690_משה_רדמן_candidatePhoto_20260624_223940_Screenshot_2026-05-31_at_11.07.51.png",
+      "links": {
+        "homepage": "https://radmandemocrats.com",
+        "facebook": "https://www.facebook.com/mosheradman/",
+        "instagram": "https://www.instagram.com/radmanmoshe/",
+        "x": "https://x.com/RadmanMoshe",
+        "tiktok": "https://www.tiktok.com/@moshe1112223",
+        "linkedin": "https://www.linkedin.com/in/moshe-radman-abutbul-משה-רדמן-אבוטבול-🇮🇱-8a628260/",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/66625690_משה_רדמן_cv_20260624_223217_קורות_חיים_–_משה_רדמן_אבוטבול.pdf"
+      }
+    },
+    {
+      "id": "c29274",
+      "name": "ד\"ר רתם סיון",
+      "tags": [
+        "אישה"
+      ],
+      "bio": "ממקימות ומובילות תנועת אמא ערה, מצנתרת מוח רופאה ומנהלת בכירה במערכת הבריאות, יזמית, יו\"ר פורום ישראל בריאה ואמא לשלושה.",
+      "longBio": "ממקימות ומובילות תנועת אמא ערה, מצנתרת מוח רופאה ומנהלת בכירה במערכת הבריאות, יזמית, יו\"ר פורום ישראל בריאה ואמא לשלושה. בת 50, תושבת כפר ביאליק. מובילה את תנועת אמא ערה הקוראת לאחריות ואסטרטגיה מדינית תוך שאיפה להסכמים שיביאו ביטחון. שותפה מייסדת בחברת הזנק העוסקת באבחון שבץ, ויועצת למשרד הבריאות בהטמעת מערכות AI. הצטרפתי למפלגה כדי להוביל שינוי מתוך מוקדי קבלת ההחלטות ואני חברה בחוג להנעה מדינית וצירה בועידה ואני מקווה להביא את כלל היכולות שלי אל הכנסת והעשייה הפרלמנטרית.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/37679602_רתם_סיון_candidatePhoto_20260622_234833_WhatsApp_Image_2026-06-22_at_23.47.45.jpeg",
+      "links": {
+        "homepage": "https://rotemsivan.co.il/",
+        "facebook": "https://www.facebook.com/profile.php?id=61565019155720&sk=about",
+        "instagram": "https://www.instagram.com/rotemsivanhoffmann",
+        "x": "https://x.com/DrRotemSivan",
+        "linkedin": "https://www.linkedin.com/in/rotem-sivan-hoffmann-43937639",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/37679602_רתם_סיון_cv_20260622_234438_one_pager_rotem_sivan.pdf"
+      }
+    },
+    {
+      "id": "c29468",
+      "name": "גיל ביילין",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "גיל ביילין, ממשיך דרך של ערכים.",
+      "longBio": "גיל ביילין, ממשיך דרך של ערכים. אני מכיר את המפלגה מימיה הגדולים כשהתקשורת חיכתה במתח להחלטות מנהיגיה. בראשות יאיר גולן נחזיר את הרלוונטיות הזו. פוליטיקה היא מקצוע הדורש ידע וניסיון: מיו\"ר נוער העבודה, אגודת הסטודנטים, דרך תזה לדוקטורט במדעי המדינה, שהפכה לספר \"המנהיג הבא\" ועד עריכה בכירה בחדשות ותפקידי ניהול בכירים. בממשלת השינוי הגעתי למקום ה-9 ברשימה לכנסת. המדינה צמאה למנהיגות א.מ.ת. תנו לי את האמון ויחד נחזיר את המקצועיות והכבוד לכנסת",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/29647039_גיל_ביילין_candidatePhoto_20260624_115810_תמונה_פריימריז_26.jpg",
+      "links": {
+        "homepage": "https://www.gilbeilin.co.il/",
+        "facebook": "https://www.facebook.com/GilBeilin?locale=he_IL",
+        "instagram": "https://www.instagram.com/gil_beilin?igsh=Nndld2E3dXN3YzJq",
+        "tiktok": "https://www.tiktok.com/@gil_beilin?_r=1&_t=ZS-97QgBL08v5D",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/29647039_גיל_ביילין_cv_20260622_211457_גיל_ביילין_-_מקצועי.pdf"
+      }
+    },
+    {
+      "id": "c29288",
+      "name": "עו\"ד אפרת רייטן",
+      "tags": [
+        "אישה"
+      ],
+      "bio": "בכנסת ה-25 אני מכהנת כיו\"ר סיעת 'הדמוקרטים' וכחברה קבועה בוועדות הכלכלה, העבודה והרווחה והתקשורת, וכן בוועדה המיוחדת לתיקונים ל…",
+      "longBio": "בכנסת ה-25 אני מכהנת כיו\"ר סיעת 'הדמוקרטים' וכחברה קבועה בוועדות הכלכלה, העבודה והרווחה והתקשורת, וכן בוועדה המיוחדת לתיקונים לחוק יסוד הממשלה. במקביל, אני משמשת ממלאת מקום קבועה בוועדת חוקה ומשפט ובוועדת החוץ והביטחון. במשך הקדנציה אני מובילה ושותפה למאבקי בלימה נחושים של קואליציית השבעה באוקטובר. במקביל לעבודה האינטנסיבית בכנסת, אני מובילה מאבקים בבתי המשפט, בכיכרות ובתקשורת.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/29258753_אפרת_רייטן_candidatePhoto_20260623_085308_פרופיל_-_אפרת.jpeg",
+      "links": {
+        "homepage": "https://www.efratrayten.com/",
+        "facebook": "https://www.facebook.com/share/1TtRRTHaQG/?mibextid=wwXIfr",
+        "instagram": "https://www.instagram.com/efratrayten?utm_source=qr",
+        "x": "https://x.com/efratrayten1?s=11",
+        "tiktok": "https://www.tiktok.com/@efrat_rayten?_r=1&_t=ZS-97QKGITdU0n",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/29258753_אפרת_רייטן_cv_20260623_084900_קורות_חיים_-_אנגלית.pdf"
+      }
+    },
+    {
+      "id": "c29268",
+      "name": "נאור נרקיס",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "מתגורר בתל אביב עם בן זוגי דניאל.",
+      "longBio": "מתגורר בתל אביב עם בן זוגי דניאל. יזם חברתי להפרדת כת ממדינה ודת ממזומן. הקמתי את ארגון חוזרים בתבונה, שסייע לאלפי חרדים לעזוב את החברה החרדית ולהצטרף לציבור החופשי. שותף במאות מאבקים חילוניים ברחבי ישראל ומאמין שהכל בישראל זה ענייני דת מדינה: מהכלכלה דרך השלום, מיוקר המחייה דרך זכויות האזרח, מהחינוך ועד לביטחון ולתחבורה. אין סוגיה בישראל שלא מושפעת מהממסד הדתי ואבקש את קולכם כדי לשלוח אותי לכנסת ובהמשך גם לממשלה כדי להפריד בין כת למדינה ובין דת למזומן.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/301495917_נאור_נרקיס_candidatePhoto_20260623_100930_נאורנרקיס1.png",
+      "links": {
+        "homepage": "https://www.naornarkis.org/",
+        "facebook": "https://www.facebook.com/naornarkis/",
+        "instagram": "https://www.instagram.com/naornarkis/",
+        "x": "https://x.com/NaorNarkis",
+        "tiktok": "https://www.tiktok.com/@naor.narkis",
+        "linkedin": "https://www.linkedin.com/in/naornarkis/",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/301495917_נאור_נרקיס_cv_20260623_100218_קורות_חיים_נאור_נרקיס.pdf"
+      }
+    },
+    {
+      "id": "c29321",
+      "name": "עאיד בדיר",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "שמי עאיד בדיר תושב כפר קאסם נשוי ואב ל3 ילדים בעל תואר שני במדעי המדינה .",
+      "longBio": "שמי עאיד בדיר תושב כפר קאסם נשוי ואב ל3 ילדים בעל תואר שני במדעי המדינה . אני פעיל ציבורי הפועל למען שוויון שותפות ערבית יהודית אמתית ודמוקרטיה ושלום . אני מתמודד כדי לחזק את הקול הערבי במפלגה ולקדם חברה צודקת שוויונית ומשותפת לכל אזרחי המדינה",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/37147303_עאיד__בדיר__candidatePhoto_20260623_002522_PHOTO-2026-06-22-10-52-31_1.jpg",
+      "links": {
+        "linktree": "https://linktr.ee/AaedBader",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/37147303_עאיד__בדיר__cv_20260622_235310_קורות_חיים_עאיד_בדיר__3.pdf"
+      }
+    },
+    {
+      "id": "c29339",
+      "name": "עמרי רונן",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "בן 34 נשוי לתמר ואבא לעברי ואורי נלחמתי בשירות הציבורי כשהייתי בפרקליטות, נלחמתי ברחובות כשהייתי ממובילי אחים לנשק, ועשיתי זאת…",
+      "longBio": "בן 34 נשוי לתמר ואבא לעברי ואורי נלחמתי בשירות הציבורי כשהייתי בפרקליטות, נלחמתי ברחובות כשהייתי ממובילי אחים לנשק, ועשיתי זאת שוב, בכל חזיתות המלחמה הארוכה ביותר שידענו. הצעד הבא הוא להלחם על אופיה ודמותה של מדינת ישראל בכנסת ישראל. לייצג את הציבור הצעיר, המשרת, הציוני והליברלי. לשרת את הציבור ולעשות הכל למען עתיד ילדיי. מאמין בלב שלב שנצליח.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/203166731_עמרי_רונן_candidatePhoto_20260623_155144_WhatsApp_Image_2026-06-23_at_09.57.15.jpeg",
+      "links": {
+        "homepage": "http://omri-ronen.com/",
+        "facebook": "https://www.facebook.com/share/1TKMHd3f57",
+        "instagram": "https://www.instagram.com/omrironenn",
+        "x": "https://x.com/omrironen24",
+        "tiktok": "https://www.tiktok.com/@omri.ronen",
+        "whatsapp": "https://chat.whatsapp.com/J2Okv9csj9tGB0HGP5tT4M?mode=gi_t"
+      }
+    },
+    {
+      "id": "c29277",
+      "name": "יאיא פינק",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "נשוי לאוריה ואבא לבארי, נגב ועברי.",
+      "longBio": "נשוי לאוריה ואבא לבארי, נגב ועברי. רס״ן במיל׳, דתי וממובילי המאבק נגד ההפיכה המשטרית וחוקי ההשתמטות. מונה על ידי יאיר גולן לראש המטה לפירוק הטרור היהודי. מייסד לובי 99, דמוקרטTV ועלון השבת הליברלי. נבחר ל-100 המשפיעים של דה-מרקר. בעבר היה מנכ\"ל תנועת ׳דרכנו׳ וראש המטה של יו״ר האופוזיציה, שלי יחימוביץ׳. יזם עשרות מימוני המונים, ביניהם שיקום קיבוץ בארי, אביגיל עידן, 12 המשפחות במג'דל שמס, ולנפגעי טרור יהודי. פועל להחזרת היהדות והציונות הדתית למקורות שלהן – קדושת חיים, שלום וצדק.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/37814399_יאיר_פינק_candidatePhoto_20260622_220331_72cf547d-896d-42a1-a04c-15d9ab946b29.jpg",
+      "links": {
+        "homepage": "https://yayafink.co.il",
+        "facebook": "https://www.facebook.com/share/17mrvqG6BT/?mibextid=wwXIfr",
+        "instagram": "https://www.instagram.com/yayafink/?hl=en",
+        "x": "https://x.com/yayafink",
+        "tiktok": "https://www.tiktok.com/@yayafink?_r=1&_t=ZS-97QQc6AHmZ0",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/37814399_יאיר_פינק_cv_20260622_220147_קורות_חיים_-_יאיא_פינק_2026.pdf"
+      }
+    },
+    {
+      "id": "c29709",
+      "name": "בנימין דניאל מיניץ",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "הרב בנימין מיניץ' – נולד באוקראינה, עלה לארץ ב2002.",
+      "longBio": "הרב בנימין מיניץ' – נולד באוקראינה, עלה לארץ ב2002. בוגר נעל\"ה, שירת בגדוד הקרקל. לאחר שחרורו, החל בלימודיו לתואר במחשבת ישראל ובפסיכולוגיה באוניברסיטת חיפה. במהלך לימודיו פגש את אשתו לעתיד אלנה. בשנת 2014 עברו יחד לירושלים ובני למד בבית המדרש הישראלי לרבנות בהיברו יוניון קולג', שם הוסמך לרבנות ב2019. מ2020 מכהן כרב קהילת דניאל ביפו. מקיץ 2025 עומד בראש מועצת הרבנות הרפורמית בישראל. אבא להדר יוסף, לוי משה והללי ירושלים",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/326898202_בנימין_דניאל_מיניץ_candidatePhoto_20260625_143623_BENNY.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/binyamin.minich",
+        "instagram": "https://www.instagram.com/bennyminich/",
+        "x": "https://x.com/bennyminich/",
+        "whatsapp": "https://chat.whatsapp.com/JwUWfTb82OK8pOr8nC9YWT"
+      }
+    },
+    {
+      "id": "c29719",
+      "name": "נמרוד שפר",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "נשוי לחיה, אב לארבעה וסב לשניים.",
+      "longBio": "נשוי לחיה, אב לארבעה וסב לשניים. נולדתי וגדלתי בקיבוץ אלונים שבעמק יזרעאל ובשני העשורים האחרונים אני מתגורר בנטף שבהרי ירושלים. אחרי 40 שנים במערכת הבטחון וניהול התעשייה האווירית, המשכתי לעשייה אזרחית בין היתר בטיפוח מנהיגות ציבורית, ובחברה הבדואית. בינואר 2023 התגייסתי שוב, הפעם למחאה האזרחית הגדולה והחשובה מקום המדינה, והבנתי שזה עלינו להחליף את הממשלה הקיצונית והגרועה ביותר בתולדות ישראל. מאמין שיחד, במפלגת הדמוקרטים נוביל הנהגה אמיצה ערכית ואחראית.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/56539208_נמרוד_שפר_candidatePhoto_20260624_210933_Nimrod_Sheffer_-_credit_Noy_Einav_222.jpg",
+      "links": {
+        "homepage": "https://nimrodsheffer.com/",
+        "facebook": "https://www.facebook.com/share/1FsDXBcCPk/?mibextid=wwXIfr",
+        "instagram": "https://www.instagram.com/nimrodsheffer_?igsh=MTdqMjg5eDQ1N29sOQ==",
+        "x": "https://x.com/nimrodsheffer?s=21",
+        "whatsapp": "https://chat.whatsapp.com/FEMfyGvsGhD3zpQ72Pj4Md",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/56539208_נמרוד_שפר_cv_20260624_210118_Nimrod_CV_2021.pdf"
+      }
+    },
+    {
+      "id": "c29306",
+      "name": "ענבר בזק",
+      "tags": [
+        "אישה"
+      ],
+      "bio": "ח\"כ לשעבר ואקטיביסטית חברתית משנת 2015.",
+      "longBio": "ח\"כ לשעבר ואקטיביסטית חברתית משנת 2015. מובילת מחאת העצמאים. בשלוש השנים האחרונות, כיהנתי כמנכ\"לית החברה הכלכלית גליל עליון, נלחמתי בוועדות הכנסת ובבירוקרטיה הממשלתית והבאתי להישגים היסטוריים – הרחבת תוכנית מיגון הצפון לכלל יישובי קו העימות והרחבת הפיצויים לעסקים בזמן המלחמה. אני מביאה להנהגת \"הדמוקרטים\" קול ביצועי ומנוסה הגעתי כדי להבטיח ייצוג אמיתי, חריף ומנוסה לתושבי הפריפריה, לעצמאים ולאזרחי ישראל כולם. לא באתי למכור פחד; באתי לבנות ביטחון, להגן על העתיד של הילדים של כולנו.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/27330455_ענבר_בזק_candidatePhoto_20260622_223729_ענבר_בזק_צילום_רני_לוריא.jpg",
+      "links": {
+        "homepage": "https://inbarbezek.com/",
+        "facebook": "https://www.facebook.com/inbar.bezek100",
+        "instagram": "https://www.instagram.com/inbar.bezek/",
+        "x": "https://x.com/InbarBezek",
+        "tiktok": "https://www.tiktok.com/@inbarbezek",
+        "linkedin": "https://il.linkedin.com/in/inbarbezek",
+        "whatsapp": "https://chat.whatsapp.com/CeQowRStRrs9Vyw2U3JExd",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/27330455_ענבר_בזק_cv_20260622_223507_קורות_חיים_ענבר_בזק_2026.pdf"
+      }
+    },
+    {
+      "id": "c25372",
+      "name": "ד\"ר אחסאן חלאילה",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "נשוי למונא אבא גאה של אחמד, מוחמד ,אבראהים ונור.",
+      "longBio": "נשוי למונא אבא גאה של אחמד, מוחמד ,אבראהים ונור. יליד סחנין גר בעיר כרמיאל , מנהל מכללת משגב לחינוך וספורט. השכלה: *תואר ראשון: מנהל חינוכי- המכללה האקדמית הערבית בחיפה. *תואר שני: מדעי המדינה ומנהל ציבורי-אוניברסיטת חיפה. *תואר שלישי: מינהל חינוכי-אוניברסיטת ירמוכ, ירדן. ניסיון מקצועי: משנת 2008 עד היום מנהל מכללת משגב",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/33618976_אחסאן_חלאילה_candidatePhoto_20260623_103608_תמונה_דר_אחסן_חלאילה.jpeg",
+      "links": {
+        "facebook": "https://www.facebook.com/share/1BNKHQoKyr/",
+        "instagram": "https://www.instagram.com/ehsankhlaily?igsh=aGxnbGt6dXI1aHRk",
+        "tiktok": "https://www.tiktok.com/@user4910145910526?_r=1&_t=ZS-97QCkTRQSzI",
+        "cv": "https://democrats.org.il/wp-content/uploads/2026/06/33618976_אחסאן_חלאילה_cv_20260623_103154_קורות1_חיים_דר_אחסאן_1.pdf"
+      }
+    },
+    {
+      "id": "c29491",
+      "name": "איתי לשם —",
+      "tags": [
+        "גבר"
+      ],
+      "bio": "מתמודד/ת ברשימת הדמוקרטים.",
+      "longBio": "מתמודד/ת ברשימת הדמוקרטים. פרטים נוספים בקרוב.",
+      "image": "https://democrats.org.il/wp-content/uploads/2026/06/29295490_איתי_לשם_candidatePhoto_20260623_232041_QJuPa3dz_400x400.jpg",
       "links": {}
     }
   ],

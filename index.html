@@ -42,6 +42,7 @@
         .card-name { font-size: 1.4rem; font-weight: bold; margin-bottom: 8px; color: #333; }
         .card-tags { display: flex; gap: 5px; flex-wrap: wrap; justify-content: center; margin-bottom: 10px; }
         .tag { background: #f1f3f5; border: 1px solid #dee2e6; color: #495057; padding: 3px 8px; border-radius: 20px; font-size: 0.75rem; }
+        .tag-group { background: #e7f0ff; border-color: #b6d4fe; color: var(--primary); font-weight: bold; }
         .card-bio { font-size: 0.9rem; color: #555; line-height: 1.3; overflow-y: auto; margin-bottom: 10px;}
         .btn-expand { background: #e9ecef; color: #333; border: none; padding: 6px 15px; border-radius: 20px; font-size: 0.85rem; cursor: pointer; align-self: center; }
 
@@ -165,12 +166,15 @@
 <!-- Info Modal -->
 <div class="modal-overlay" id="info-modal">
     <div class="modal">
-        <h2>מורה נבוכים</h2>
-        <p><strong>ריצ'רץ':</strong> הבטחת ייצוג מגדרי. הרשימה הסופית תיבנה בשיטת "זכר-נקבה" לסירוגין.</p>
-        <p><strong>שריוני מרצ:</strong> נציגי מרצ מקבלים הבטחת ייצוג באזורים ריאליים.</p>
-        <p><strong>מרחב כפרי ומיעוטים:</strong> קיימת הבטחת ייצוג לקיבוצים/מושבים ולחברה הערבית/דרוזית.</p>
+        <h2>איך נבנית הרשימה?</h2>
+        <p style="margin-top:0;">הרשימה של "הדמוקרטים" לכנסת נבנית לפי תקנון הבחירות, שמבטיח ייצוג למספר קבוצות:</p>
+        <p><strong>⚖️ איזון מגדרי (ריצ'רץ'):</strong> הרשימה נבנית לסירוגין — אחרי כל שיבוץ מובטח בא מועמד/ת מהמגדר השני, לשמירה על ייצוג שווה לנשים וגברים.</p>
+        <p><strong><span class="tag tag-group">מרצ</span> מצטרפי מרצ:</strong> עד <strong>6</strong> מקומות ברשימה מובטחים למצטרפים מקרב מרצ (לפי הסכם האיחוד בין העבודה למרצ).</p>
+        <p><strong><span class="tag tag-group">מרחב כפרי</span> מרחב כפרי:</strong> מקום <strong>אחד</strong> מובטח למועמד/ת הרשום/ה כתושב/ת קיבוץ או מושב.</p>
+        <p><strong><span class="tag tag-group">מיעוטים</span> מגזר המיעוטים:</strong> <strong>4</strong> מקומות מובטחים למועמדים/ות מהחברה הערבית, הדרוזית והנוצרית.</p>
+        <p style="font-size: 0.85rem; color: #666;">* מועמד/ת יכול/ה לענות על כמה הבטחות יחד (למשל, אישה שהיא גם מצטרפת מרצ).</p>
         <hr style="border: 0; border-top: 1px solid #dee2e6; margin: 15px 0;">
-        <p style="font-size: 0.85rem; color: #666; line-height: 1.4; margin-top: 0;">פרויקט זה הינו התנדבותי ואינו קשור למפלגה. המידע באדיבות HAGUSH.</p>
+        <p style="font-size: 0.85rem; color: #666; line-height: 1.4; margin-top: 0;">פרויקט התנדבותי ובלתי־תלוי. הנתונים נאספו מהאתר הרשמי של מפלגת הדמוקרטים ואינם מהווים מסר רשמי מטעמה.</p>
         <button class="btn-close-modal" onclick="closeModal('info-modal')">הבנתי</button>
     </div>
 </div>
@@ -230,14 +234,14 @@
 
     async function init() {
         try {
-            const response = await fetch('data.json?v=2');
+            const response = await fetch('data.json?v=3');
             const data = await response.json();
             candidatesData = data.candidates;
             loadState();
 
-            if (!localStorage.getItem('democrats_onboarding_v3_2')) {
+            if (!localStorage.getItem('democrats_onboarding_v4')) {
                 document.getElementById('onboarding-modal').style.display = 'flex';
-                localStorage.setItem('democrats_onboarding_v3_2', 'true');
+                localStorage.setItem('democrats_onboarding_v4', 'true');
             }
 
             renderNextCard();
@@ -249,7 +253,7 @@
     }
 
     function loadState() {
-        const saved = localStorage.getItem('democrats_primary_v3');
+        const saved = localStorage.getItem('democrats_primary_v4');
         if (saved) {
             state = JSON.parse(saved);
             if (!state.finalSelection) state.finalSelection = [];
@@ -274,7 +278,7 @@
     }
 
     function saveState() {
-        localStorage.setItem('democrats_primary_v3', JSON.stringify(state));
+        localStorage.setItem('democrats_primary_v4', JSON.stringify(state));
         updateSelectionStatus();
         renderLists();
     }
